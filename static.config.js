@@ -35,6 +35,7 @@ export default {
       },
       { path: 'check-email', component: 'src/pages/CheckEmailPage' },
       { path: 'email-confirmed', component: 'src/pages/EmailConfirmedPage' },
+      { path: 'existing-contact', component: 'src/pages/ExistingContactPage' },
       {
         is404: true,
         component: 'src/containers/404'
