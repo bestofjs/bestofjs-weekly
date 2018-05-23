@@ -23,8 +23,7 @@ const readWeeklyReportFile = folderPath => async filename => {
   const json = await fs.readJson(filepath)
   return {
     number,
-    ...json,
-    date: new Date(json.date)
+    ...json
   }
 }
 
