@@ -55,11 +55,19 @@ const Subscribe = () => {
         </a>'s newsletter, and you'll receive exclusive stats about the most
         popular JavaScript projects each week.
       </Text>
-      <form action={action}>
+      <form action={action} method="post">
         <Row>
           <Input name={name} type="email" required />
           <Button type="submit">Sign Up</Button>
         </Row>
+        <input
+          name="publiclistid"
+          id="CwyOqTgB"
+          value="72c3249d-ed56-484d-b586-71c80b84d469"
+          checked="checked"
+          readOnly
+          type="checkbox"
+        />
         <input
           name="publicaccountid"
           value="0941e3f0-7b53-413c-a17f-06bff65f0a13"
@@ -70,8 +78,16 @@ const Subscribe = () => {
           value="e362aac5-777d-4d8b-a537-c807041f37cb"
           type="hidden"
         />
-        <input name="returnUrl" value="" type="hidden" />
-        <input name="activationReturnUrl" value="" type="hidden" />
+        <input
+          name="returnUrl"
+          value="https://weekly.bestofjs.org/check-email/"
+          type="hidden"
+        />
+        <input
+          name="activationReturnUrl"
+          value="https://weekly.bestofjs.org/email-confirmed/"
+          type="hidden"
+        />
         <input name="alreadyactiveurl" value="" type="hidden" />
         <input name="activationTemplate" value="" type="hidden" />
         <input name="source" value="WebForm" type="hidden" />
