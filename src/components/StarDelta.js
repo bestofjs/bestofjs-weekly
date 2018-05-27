@@ -1,4 +1,5 @@
 import React from 'react'
+import numeral from 'numeral'
 
 import StarIcon from './StarIcon'
 
@@ -12,10 +13,11 @@ const StarDelta = ({ average, ...props }) =>
 
 const StarDeltaNormal = ({ value }) => {
   const sign = getSign(value)
+  const digits = value > 1000 && value < 10000 ? '0.0' : '0'
   return (
     <div className="star-delta">
       <span style={{ marginRight: 2 }}>{sign}</span>
-      <span>{Math.abs(value)}</span>
+      <span>{numeral(Math.abs(value)).format(`${digits} a`)}</span>
       <StarIcon />
     </div>
   )

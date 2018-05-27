@@ -8,8 +8,13 @@ const Issue = ({ issue, isLatest }) => {
   return (
     <Fragment>
       <h3>
-        <IssueDate date={issue.date} />{' '}
-        {isLatest && <span>(latest issue)</span>}
+        {isLatest ? (
+          <span>
+            Latest issue (<IssueDate date={issue.date} />)
+          </span>
+        ) : (
+          <IssueDate date={issue.date} />
+        )}
       </h3>
       <ProjectList projects={issue.projects} />
     </Fragment>

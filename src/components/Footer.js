@@ -10,7 +10,7 @@ const Div = styled.div`
 const Footer = () => {
   return (
     <Div>
-      <a className="link" href="https://bestof.js.org">
+      <a className="link" href="https://bestofjs.org">
         Best of JavaScript
       </a>{' '}
       is a project created by Michael Rambeau, in Osaka, Japan.

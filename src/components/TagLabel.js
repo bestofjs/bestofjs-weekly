@@ -15,7 +15,7 @@ const StyledLink = styled.a`
 
 const TagLabel = ({ tag }) => {
   return (
-    <StyledLink href={'https://bestof.js.org/tags/' + tag.code}>
+    <StyledLink href={'https://bestof.jsorg/tags/' + tag.code}>
       {tag.name}
     </StyledLink>
   )

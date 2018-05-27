@@ -8,9 +8,10 @@ const Span = styled.span`
 `
 
 const StarIcon = () => (
-  <Span
-    dangerouslySetInnerHTML={{ __html: octicons.star.toSVG({ width: 16 }) }}
-  />
+  <Span>★</Span>
+  // return <Span
+  //   dangerouslySetInnerHTML={{ __html: octicons.star.toSVG({ width: 16 }) }}
+  // />
 )
 
 export default StarIcon

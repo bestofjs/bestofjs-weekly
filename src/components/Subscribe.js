@@ -50,7 +50,7 @@ const Subscribe = () => {
       <Title>Get the latest JS rankings in your inbox every week</Title>
       <Text>
         Sign up for{' '}
-        <a className="link" href="https://bestof.js.org">
+        <a className="link" href="https://bestofjs.org">
           Best of JavaScript
         </a>'s newsletter, and you'll receive exclusive stats about the most
         popular JavaScript projects each week.
