@@ -60,14 +60,12 @@ const Subscribe = () => {
           <Input name={name} type="email" required />
           <Button type="submit">Sign Up</Button>
         </Row>
-        {/* <input
+        <input
           name="publiclistid"
           id="CwyOqTgB"
           value="72c3249d-ed56-484d-b586-71c80b84d469"
-          checked="checked"
-          readOnly
-          type="checkbox"
-        /> */}
+          type="hidden"
+        />
         <input
           name="publicaccountid"
           value="0941e3f0-7b53-413c-a17f-06bff65f0a13"
@@ -89,7 +87,11 @@ const Subscribe = () => {
           type="hidden"
         />
         <input name="alreadyactiveurl" value="" type="hidden" />
-        <input name="activationTemplate" value="" type="hidden" />
+        <input
+          name="activationTemplate"
+          value="subscriber-activation"
+          type="hidden"
+        />
         <input name="source" value="WebForm" type="hidden" />
         <input id="ewf_captcha" name="captcha" value="false" type="hidden" />
         <input name="notifyEmail" value="" type="hidden" />

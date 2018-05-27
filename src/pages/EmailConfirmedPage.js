@@ -7,10 +7,13 @@ const EmailConfirmedPage = ({}) => {
       <h1>Email Confirmed!</h1>
       <p>Thank you, your email address has been successfully registerered.</p>
       <p>
-        You will soon receive in your mailbox a weekly newsletter from{' '}
-        <i>Best of JavaScript</i>.
+        Every week, you will receive in your mailbox the list of the 10
+        trendiest projects related to JavaScript and the web platform.
       </p>
-      <p>See you soon!</p>
+      <p>
+        You will be able to unsubscribe at any time, by clicking on the
+        "unsubscribe" link, at the end of the email.
+      </p>
     </div>
   )
 }

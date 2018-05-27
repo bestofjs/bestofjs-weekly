@@ -4,10 +4,10 @@ import { withRouteData } from 'react-static'
 const CheckEmailPage = ({}) => {
   return (
     <div>
-      <h1>Check your email</h1>
+      <h1>Confirmation email sent</h1>
       <p>
-        An email has been sent, please check your email and click on the link to
-        confirm the subscription.
+        Thank you, an email has been sent, please check your mailbox and click
+        on the button to confirm the subscription.
       </p>
     </div>
   )
