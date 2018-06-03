@@ -7,13 +7,29 @@ const Div = styled.div`
   border-top: 2px dashed #ffae63;
 `
 
+const P = styled.p`
+  margin-top: 0;
+  margin-bottom: 1rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+`
+
 const Footer = () => {
   return (
     <Div>
-      <a className="link" href="https://bestofjs.org">
-        Best of JavaScript
-      </a>{' '}
-      is a project created by Michael Rambeau, in Osaka, Japan.
+      <P>
+        Any question or feedback? Reach us on{' '}
+        <a className="link" href="https://github.com/bestofjs/bestofjs-weekly">
+          GitHub
+        </a>.
+      </P>
+      <P>
+        <a className="link" href="https://bestofjs.org">
+          Best of JavaScript
+        </a>{' '}
+        is a project created by Michael Rambeau, in Osaka, Japan.
+      </P>
     </Div>
   )
 }

@@ -51,7 +51,12 @@ export default {
   Document: class CustomHtml extends Component {
     render() {
       const { Html, Head, Body, children, renderMeta } = this.props
-
+      const ga = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-44563970-5');      
+      `
       return (
         <Html>
           <Head>
@@ -67,7 +72,14 @@ export default {
               rel="stylesheet"
             />
           </Head>
-          <Body>{children}</Body>
+          <Body>
+            {children}
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=UA-44563970-5"
+            />
+            <script dangerouslySetInnerHTML={{ __html: ga }} />
+          </Body>
         </Html>
       )
     }

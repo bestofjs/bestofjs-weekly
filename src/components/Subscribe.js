@@ -53,7 +53,7 @@ const Subscribe = () => {
         <a className="link" href="https://bestofjs.org">
           Best of JavaScript
         </a>'s newsletter, and you'll receive exclusive stats about the most
-        popular JavaScript projects each week.
+        popular JavaScript projects every week.
       </Text>
       <form action={action} method="post">
         <Row>
