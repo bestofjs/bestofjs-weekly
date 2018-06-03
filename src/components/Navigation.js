@@ -13,9 +13,9 @@ const Container = styled.div`
 Container.Main = styled.div`
   flex-grow: 1;
 `
-const Title = styled.h3`
+const Title = styled.h2`
   margin: 0;
-  text-align: center;
+  text-align: left;
 `
 
 const Navigation = ({ issue, currentNumber, isLatest }) => {

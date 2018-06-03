@@ -8,8 +8,6 @@ import Story from './Story'
 
 const IssueStory = styled.div`
   margin-bottom: 2rem;
-  border-top: 2px dashed #ffae63;
-  border-bottom: 2px dashed #ffae63;
   font-size: 18px;
   a {
     color: #e65100;
