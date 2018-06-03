@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Avatar from './Avatar'
 import StarDelta from './StarDelta'
 import TagLabel from './TagLabel'
+import Description from './Description'
 
 const cardBorderColor = '#cbcbcb'
 
@@ -14,7 +15,7 @@ const Card = styled.div`
   flex: 1;
 `
 
-const CardHeader = styled.a`
+Card.Header = styled.a`
   display: flex;
   align-items: center;
   :hover {
@@ -31,12 +32,12 @@ const Score = styled.div`
   padding-right: 1rem;
 `
 
-const Description = styled.div`
+Card.Description = styled.div`
   border-top: 1px dashed rgb(203, 203, 203);
   padding: 1rem;
 `
 
-const Tags = styled.div`
+Card.Tags = styled.div`
   border-top: 1px dashed rgb(203, 203, 203);
   padding: 1rem;
 `
@@ -49,17 +50,19 @@ const ProjectCard = ({ project }) => {
   const url = getUrl(project)
   return (
     <Card>
-      <CardHeader href={url}>
+      <Card.Header href={url}>
         <Avatar project={project} size={75} />
         <Title>{project.name}</Title>
         <Score>
           <StarDelta value={project.weekly} />
         </Score>
-      </CardHeader>
-      <Description>{project.description}</Description>
-      <Tags>
+      </Card.Header>
+      <Card.Description>
+        <Description text={project.description} />
+      </Card.Description>
+      <Card.Tags>
         {project.tags.map(tag => <TagLabel key={tag.code} tag={tag} />)}
-      </Tags>
+      </Card.Tags>
     </Card>
   )
 }

@@ -18,7 +18,7 @@ const populate = ({ tags }) => newsletter => {
 
 async function fetchAndPopulate(params) {
   const newsletters = await fetchNewsletters()
-  const { projects, tags } = await fetchAllProjectsAndTags()
+  const { tags } = await fetchAllProjectsAndTags()
   return newsletters.map(populate({ tags }))
 }
 

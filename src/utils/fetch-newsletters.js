@@ -33,7 +33,7 @@ async function fetchNewsletters() {
   const result = await Promise.all(
     filenames.map(readWeeklyReportFile(folderPath))
   )
-  const sorted = result.slice().sort((a, b) => (a.number > b.number ? 1 : -1))
+  const sorted = result.slice().sort((a, b) => (a.number > b.number ? -1 : 1))
   console.log(sorted)
   return sorted
 }

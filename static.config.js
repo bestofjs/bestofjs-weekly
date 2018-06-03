@@ -9,7 +9,7 @@ export default {
   }),
   getRoutes: async () => {
     const issues = await fetchIssues()
-    const latestIssueNumber = issues[issues.length - 1].number
+    const latestIssueNumber = issues[0].number
     return [
       {
         path: '/',

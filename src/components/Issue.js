@@ -3,19 +3,29 @@ import PropTypes from 'prop-types'
 
 import IssueDate from './IssueDate'
 import ProjectList from './ProjectList'
+import Navigation from './Navigation'
 
 const Issue = ({ issue, isLatest }) => {
   return (
     <Fragment>
-      <h3>
-        {isLatest ? (
-          <span>
-            Latest issue (<IssueDate date={issue.date} />)
-          </span>
-        ) : (
-          <IssueDate date={issue.date} />
-        )}
-      </h3>
+      <Navigation
+        currentNumber={issue.number}
+        isLatest={isLatest}
+        issue={issue}
+      />
+      {false && (
+        <h3>
+          {isLatest ? (
+            <span>
+              Latest issue (<IssueDate date={issue.date} />)
+            </span>
+          ) : (
+            <text>
+              Issue #{issue.number} (<IssueDate date={issue.date} />)
+            </text>
+          )}
+        </h3>
+      )}
       <ProjectList projects={issue.projects} />
     </Fragment>
   )
