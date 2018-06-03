@@ -1,9 +1,20 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-import IssueDate from './IssueDate'
 import ProjectList from './ProjectList'
 import Navigation from './Navigation'
+import Story from './Story'
+
+const IssueStory = styled.div`
+  margin-bottom: 2rem;
+  border-top: 2px dashed #ffae63;
+  border-bottom: 2px dashed #ffae63;
+  font-size: 18px;
+  a {
+    color: #e65100;
+  }
+`
 
 const Issue = ({ issue, isLatest }) => {
   return (
@@ -13,19 +24,9 @@ const Issue = ({ issue, isLatest }) => {
         isLatest={isLatest}
         issue={issue}
       />
-      {false && (
-        <h3>
-          {isLatest ? (
-            <span>
-              Latest issue (<IssueDate date={issue.date} />)
-            </span>
-          ) : (
-            <text>
-              Issue #{issue.number} (<IssueDate date={issue.date} />)
-            </text>
-          )}
-        </h3>
-      )}
+      <IssueStory>
+        <Story html={issue.story} />
+      </IssueStory>
       <ProjectList projects={issue.projects} />
     </Fragment>
   )

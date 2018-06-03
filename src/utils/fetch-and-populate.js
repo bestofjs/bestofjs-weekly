@@ -1,6 +1,6 @@
 const got = require('got')
 
-const fetchNewsletters = require('./fetch-newsletters')
+const fetchRankings = require('./fetch-rankings')
 
 function fetchAllProjectsAndTags() {
   const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
@@ -16,8 +16,8 @@ const populate = ({ tags }) => newsletter => {
   return { ...newsletter, projects }
 }
 
-async function fetchAndPopulate(params) {
-  const newsletters = await fetchNewsletters()
+async function fetchAndPopulate() {
+  const newsletters = await fetchRankings()
   const { tags } = await fetchAllProjectsAndTags()
   return newsletters.map(populate({ tags }))
 }

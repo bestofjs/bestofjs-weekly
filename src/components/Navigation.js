@@ -19,7 +19,7 @@ const Title = styled.h3`
 `
 
 const Navigation = ({ issue, currentNumber, isLatest }) => {
-  const firstIssueNumber = 0
+  const firstIssueNumber = 1
   const previousNumber = currentNumber - 1
   const nextNumber = currentNumber + 1
   return (

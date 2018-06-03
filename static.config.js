@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
-import fetchIssues from './src/utils/fetch-and-populate'
+import fetchContent from './src/utils/fetch-content'
 
 export default {
   getSiteData: () => ({
     title: 'Best of JavaScript Weekly'
   }),
   getRoutes: async () => {
-    const issues = await fetchIssues()
+    const issues = await fetchContent()
     const latestIssueNumber = issues[0].number
     return [
       {

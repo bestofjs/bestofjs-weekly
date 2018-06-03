@@ -25,9 +25,6 @@ injectGlobal`
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
     'Lucida Grande', sans-serif;
   }
-`
-
-const AppStyles = styled.div`
   a {
     color: inherit;
     text-decoration: none;
@@ -35,6 +32,9 @@ const AppStyles = styled.div`
   .link {
     color: #e65100;
   }
+`
+
+const AppStyles = styled.div`
   nav {
     width: 100%;
     background: #108db8;
