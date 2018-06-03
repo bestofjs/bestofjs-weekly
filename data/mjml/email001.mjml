@@ -1,0 +1,190 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      a { color: #e65100; text-decoration: none }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ececec">
+
+    <mj-section background-color="white" full-width="full-width" padding="10px 0">
+      <mj-column padding="0">
+        <mj-image width="155" height="30" src="https://weekly.bestofjs.org/bestofjs.png" alt="Best of JavaScript"></mj-image>
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="20px">Best of JavaScript Weekly #1 (June 03, 2018)</mj-text>
+        <mj-text>
+          This is the very first issue of <a href="https://weekly.bestofjs.org">Best of JavaScript Weekly</a>.<br /><br /> Every week, you will find here the 10 trendiest projects from <a href="https://weekly.bestofjs.org">Best of JavaScript</a>, a curated
+          list of projects related to the web platform and node.js.
+        </mj-text>
+        <mj-button href="https://weekly.bestofjs.org/issues/1" background-color="#e65100">Read on the web</mj-button>
+        <mj-text padding="0 25px">
+          <p>With almost 1,000 stars added on GitHub every day, the hottest project of the week is <a href="https://github.com/trekhleb/javascript-algorithms">JavaScript Algorithms and Data Structures</a>.</p>
+          <p>It’s a great resource to learn the basics of computer sciences algorithms (quicksort, binary search…) and data structures (tree, linked list, graph…).</p>
+          <p>For developers coming from other languages, who are already familiar with the concepts, it’s also nice to see modern JavaScript in action, including testing with Jest.</p>
+          <p>An other interesting project related to data structure implementation in JavaScript: <a href="https://github.com/jamiebuilds/itsy-bitsy-data-structures">Itsy Bitsy Data Structures</a> from James Kyle.</p>
+          <p>If you want to learn more about modern JavaScript (ES6, node.js, React…), you may find useful content under the <a href="http://bestofjs.org/tags/learning">Learning Resource</a> tag in <em>Best of JavaScript</em>.</p>
+
+
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+    <mj-wrapper padding="0 20px 20px 20px">
+
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/3000285?v=3&s=100" width="100" height="100" alt="JavaScript Algorithms and Data Structures"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://github.com/trekhleb/javascript-algorithms">JS Algorithms & Data Structures</a> +6.9 k ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">Algorithms and data structures implemented in JavaScript with explanations and links to further readings</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/29725493?v=3&s=100" width="100" height="100" alt="wired-elements"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://wiredjs.com">wired-elements</a> +2.4 k ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">Collection of elements that appear hand drawn. Great for wireframes.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/36986002?v=3&s=100" width="100" height="100" alt="Vuido"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://github.com/mimecorg/vuido">Vuido</a> +1.0 k ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">Native desktop applications using Vue.js.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/6128107?v=3&s=100" width="100" height="100" alt="Vue.js"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="http://vuejs.org">Vue.js</a> +836 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/8121621?v=3&s=100" width="100" height="100" alt="Vue Element Admin"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="http://panjiachen.github.io/vue-element-admin">Vue Element Admin</a> +725 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">:tada: A magical vue admin http://panjiachen.github.io/vue-element-admin</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/12670537?v=3&s=100" width="100" height="100" alt="Signale"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://github.com/klauscfhq/signale">Signale</a> +545 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">👋 Hackable console logger</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/69631?v=3&s=100" width="100" height="100" alt="React"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://reactjs.org">React</a> +543 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">A declarative, efficient, and flexible JavaScript library for building user interfaces.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/17680888?v=3&s=100" width="100" height="100" alt="Day.js"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://github.com/iamkun/dayjs">Day.js</a> +449 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">⏰ Day.js 2KB immutable date library alternative to Moment.js with the same modern API</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/170270?v=3&s=100" width="100" height="100" alt="Awesome"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://github.com/sindresorhus/awesome">Awesome</a> +438 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">:sunglasses: Curated list of awesome lists</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-spacer height="20px" />
+      <mj-section background-color="white">
+        <mj-column width="25%" background-color="#fff">
+          <mj-image src="https://avatars.githubusercontent.com/u/37601651?v=3&s=100" width="100" height="100" alt="ReLaXed"></mj-image>
+        </mj-column>
+        <mj-column width="75%" background-color="#fff">
+          <mj-text padding="0 20px 20px" font-size="18px">
+            <a href="https://github.com/RelaxedJS/ReLaXed">ReLaXed</a> +428 ★ this week
+          </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+          <mj-text padding="20px">Create PDF documents using web technologies</mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+    <mj-divider border-color="#e65100"></mj-divider>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Thank you for your attention, visit <a href="https://bestofjs.org">Best of JavaScript</a> to check out the most popular open-source projects and the latest trends about the web platform and node.js.
+        </mj-text>
+        <mj-text>You received this email because you subscribed from <a href="https://risingstars.js.org">JavaScript Rising Stars</a> site.</mj-text>
+        <mj-text>
+          If you no longer wish to receive email from Best of JavaScript,
+          <a href="{unsubscribe}">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
