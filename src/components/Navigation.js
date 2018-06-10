@@ -15,7 +15,7 @@ Container.Main = styled.div`
 `
 const Title = styled.h2`
   margin: 0;
-  text-align: left;
+  text-align: center;
 `
 
 const Navigation = ({ issue, currentNumber, isLatest }) => {
