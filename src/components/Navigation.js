@@ -25,14 +25,20 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
   return (
     <Container>
       {currentNumber > firstIssueNumber && (
-        <Link to={`/issues/${previousNumber}`}>&laquo; Previous</Link>
+        <Link to={`/issues/${previousNumber}`} className="link">
+          &laquo; Previous
+        </Link>
       )}
       <Container.Main>
         <Title>
           Issue #{issue.number} (<IssueDate date={issue.date} />)
         </Title>
       </Container.Main>
-      {!isLatest && <Link to={`/issues/${nextNumber}`}>Next &raquo;</Link>}
+      {!isLatest && (
+        <Link to={`/issues/${nextNumber}`} className="link">
+          Next &raquo;
+        </Link>
+      )}
     </Container>
   )
 }
