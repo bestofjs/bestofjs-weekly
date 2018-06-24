@@ -1,0 +1,189 @@
+
+    <mjml>
+      <mj-head>
+        <mj-style inline="inline">
+          a { color: #e65100; text-decoration: none }
+        </mj-style>
+      </mj-head>    
+      <mj-body background-color="#ececec">
+        
+<mj-section background-color="white" full-width="full-width" padding="10px 0">
+  <mj-column padding="0">
+    <mj-image width="155" height="30" src="https://weekly.bestofjs.org/bestofjs.png" alt="Best of JavaScript"></mj-image>
+  </mj-column>
+  
+</mj-section>
+  
+        
+<mj-section>
+  <mj-column>
+    <mj-text font-size="20px">
+      Best of JavaScript Weekly #4 (June 25, 2018)
+    </mj-text>
+    <mj-text>
+    Every week, you will find here the 10 trendiest projects from <a href="https://weekly.bestofjs.org">Best of JavaScript</a>, a curated
+    list of projects related to the web platform and node.js.
+    </mj-text>
+    <mj-button href="https://weekly.bestofjs.org/issues/4" background-color="#e65100">Read on the web</mj-button>
+    <mj-text padding="0 25px">
+      <p>No change at the first two spots this week, <em>Vue.js</em> and <em>React</em> keep leading the way after last week’s epic fight.</p>
+<p>React is still more popular according to <a href="https://zendev.com/2018/06/19/react-usage-beating-vue-angular.html">this article</a>, considering that the number of stars on GitHub and the real usage by developers are 2 different things.</p>
+<p>Among the new projects this week, <a href="https://docz.site/">Docz</a> lets developers create beautiful documentation for their React components, using a new syntax called <code>mdx</code>, a mix of markdown and jsx markup.</p>
+<p><a href="https://vue-native.io/">Vue Native</a> is a framework to build native mobile applications. It’s not the equivalent of <em>React Native</em> because actually it’s built on top of <em>React Native</em>.</p>
+<p>Speaking about <em>React Native</em>, the folks at Airbnb wrote <a href="https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c">a thorough feedback</a> about their 2-year experience.</p>
+
+    </mj-text>
+  </mj-column>
+</mj-section>
+  
+        <mj-wrapper padding="0 20px 20px 20px">
+          
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/6128107?v=3&s=100" width="100" height="100" alt="Vue.js"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="http://vuejs.org">Vue.js</a> +2.7 k ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/69631?v=3&s=100" width="100" height="100" alt="React"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://reactjs.org">React</a> +2.3 k ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">A declarative, efficient, and flexible JavaScript library for building user interfaces.</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/913567?v=3&s=100" width="100" height="100" alt="Polly.JS"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://netflix.github.io/pollyjs">Polly.JS</a> +1.7 k ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">Record, Replay, and Stub HTTP Interactions.</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/3000285?v=3&s=100" width="100" height="100" alt="JavaScript Algorithms and Data Structures"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://github.com/trekhleb/javascript-algorithms">JavaScript Algorithms and Data Structures</a> +1.5 k ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">Algorithms and data structures implemented in JavaScript with explanations and links to further readings</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/2029172?v=3&s=100" width="100" height="100" alt="Docz"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://docz.site">Docz</a> +1.4 k ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">✍🏻It has never been so easy to document your things!</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/80?v=3&s=100" width="100" height="100" alt="deno"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://github.com/ry/deno">deno</a> +1.3 k ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">A secure TypeScript runtime on V8</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/18482943?v=3&s=100" width="100" height="100" alt="Vue Native"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://vue-native.io">Vue Native</a> +804  ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">Vue Native is a framework to build cross platform native mobile apps using JavaScript</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/36965392?v=3&s=100" width="100" height="100" alt="ml5.js"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://ml5js.org">ml5.js</a> +717  ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">Friendly machine learning for the web! 🤖 </mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/833927?v=3&s=100" width="100" height="100" alt="Rough.js"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="http://roughjs.com">Rough.js</a> +688  ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">Create graphics with a hand-drawn, sketchy, appearance</mj-text>
+  </mj-column>
+</mj-section>
+  <mj-spacer height="20px" />
+<mj-section background-color="white">
+  <mj-column width="25%" background-color="#fff">
+    <mj-image src="https://avatars.githubusercontent.com/u/6154722?v=3&s=100" width="100" height="100" alt="VS Code"></mj-image>
+  </mj-column>
+  <mj-column width="75%" background-color="#fff">
+    <mj-text padding="0 20px 20px" font-size="18px">
+      <a href="https://code.visualstudio.com">VS Code</a> +515  ★ this week
+    </mj-text>
+    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
+    <mj-text padding="20px">Visual Studio Code</mj-text>
+  </mj-column>
+</mj-section>
+  
+        </mj-wrapper>
+        <mj-divider border-color="#e65100"></mj-divider>
+         
+<mj-section>
+  <mj-column>
+    <mj-text>
+      Thank you for your attention, visit <a href="https://bestofjs.org">Best of JavaScript</a> 
+      to check out the most popular open-source projects and the latest trends about the web platform and node.js.
+    </mj-text>
+    <mj-text>You received this email because you subscribed from <a href="https://risingstars.js.org">JavaScript Rising Stars</a> site.</mj-text>
+    <mj-text>
+      If you no longer wish to receive email from Best of JavaScript, 
+      <a href="{unsubscribe}">click here to unsubscribe</a>.
+    </mj-text>
+  </mj-column>
+</mj-section>
+  
+      </mj-body>
+    </mjml>
