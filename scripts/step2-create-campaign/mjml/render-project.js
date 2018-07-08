@@ -33,7 +33,9 @@ function renderProject(project) {
   return `
 <mj-section background-color="white">
   <mj-column width="25%" background-color="#fff">
-    <mj-image src="${iconUrl}" width="${size}" height="${size}" alt="${project.name}"></mj-image>
+    <mj-image src="${iconUrl}" width="${size}" height="${size}" alt="${
+    project.name
+  }"></mj-image>
   </mj-column>
   <mj-column width="75%" background-color="#fff">
     <mj-text padding="0 20px 20px" font-size="18px">

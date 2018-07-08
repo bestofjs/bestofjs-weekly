@@ -10,12 +10,13 @@
     "clean": "rm -rf ./dist",
     "serve": "serve dist -p 3000",
     "test": "node src/utils/fetch-newsletters.spec.js",
-    "build-rankings": "node scripts/step1-build-rankings",
-    "build-email": "node scripts/step2-build-email",
+    "weekly-step1": "node scripts/step1-build-rankings",
+    "weekly-step2": "node scripts/step2-create-campaign",
     "build-rss": "node -r esm scripts/rss"
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "dotenv": "^6.0.0",
     "esm": "^3.0.55",
     "fs-extra": "^6.0.1",
     "jdown": "^0.5.0",
