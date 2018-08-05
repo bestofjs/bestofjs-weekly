@@ -2,7 +2,7 @@
 number: 10
 ---
 
-Number 1 this week, _mdx-decks_ is a solution to create presentations that run in the browser using a syntax called "mdx".
+Number 1 this week, _mdx-deck_ is a solution to create presentations that run in the browser using a syntax called "mdx".
 
 With mdx, you can create presentation slides very simply, thanks to to the terseness of the Markdown syntax. You can import React component in any slide, which gives you access to the power of the whole React eco-system.
 
