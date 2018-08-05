@@ -5,6 +5,8 @@ import styled from 'styled-components'
 
 import IssueDate from './IssueDate'
 
+const breakPoint = 600
+
 const Container = styled.div`
   display: flex;
   align-items: center;
@@ -17,6 +19,20 @@ const Title = styled.h2`
   margin: 0;
   text-align: center;
 `
+const Button = styled(Link)`
+  display: flex;
+  align-items: center;
+`
+const Arrow = styled.div`
+  @media (max-width: ${breakPoint - 1}px) {
+    font-size: 3rem;
+  }
+`
+const Text = styled.div`
+  @media (max-width: ${breakPoint - 1}px) {
+    display: none;
+  }
+`
 
 const Navigation = ({ issue, currentNumber, isLatest }) => {
   const firstIssueNumber = 1
@@ -25,9 +41,10 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
   return (
     <Container>
       {currentNumber > firstIssueNumber && (
-        <Link to={`/issues/${previousNumber}`} className="link">
-          &laquo; Previous
-        </Link>
+        <Button to={`/issues/${previousNumber}`} className="link">
+          <Arrow>&laquo;&nbsp;</Arrow>
+          <Text>Previous</Text>
+        </Button>
       )}
       <Container.Main>
         <Title>
@@ -38,9 +55,10 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
         </Title>
       </Container.Main>
       {!isLatest && (
-        <Link to={`/issues/${nextNumber}`} className="link">
-          Next &raquo;
-        </Link>
+        <Button to={`/issues/${nextNumber}`} className="link">
+          <Text>Next </Text>
+          <Arrow>&nbsp;&raquo;</Arrow>
+        </Button>
       )}
     </Container>
   )

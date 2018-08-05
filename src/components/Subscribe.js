@@ -5,9 +5,14 @@ import styled from 'styled-components'
 const action = 'https://api.elasticemail.com/contact/add?version=2'
 const name = 'email'
 
+const breakPoint = 600
+
 const Div = styled.div`
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
+  @media (min-width: ${breakPoint}px) {
+    padding: 2rem;
+  }  
   margin-bottom: 2rem;
 `
 const Title = styled.div`
@@ -19,15 +24,21 @@ const Text = styled.p`
 
 const Row = styled.div`
   display: flex;
+  flex-direction: column;
+  @media (min-width: ${breakPoint}px) {
+    flex-direction: row;
+  }
 `
 const Input = styled.input`
-  margin-right: 1rem;
   font-size: 1rem;
   font-family: Roboto Slab, sans-serif;
   border-radius: 3px;
   padding: 10px;
   border: 1px solid #cc4700;
   flex-grow: 1;
+  @media (min-width: ${breakPoint}px) {
+    margin-right: 1rem;
+  }
 `
 
 const Button = styled.button`
@@ -42,64 +53,47 @@ const Button = styled.button`
   font-weight: 400;
   white-space: nowrap;
   font-size: 1rem;
+  @media (max-width: ${breakPoint - 1}px) {
+    margin-top: 0.5rem;
+  }
 `
 
-const Subscribe = () => {
-  return (
-    <Div>
-      <Title>Get the latest JS rankings in your inbox every week</Title>
-      <Text>
-        Sign up for{' '}
-        <a className="link" href="https://bestofjs.org">
-          Best of JavaScript
-        </a>'s newsletter, and you'll receive exclusive stats about the most
-        popular JavaScript projects every week.
-      </Text>
-      <form action={action} method="post">
-        <Row>
-          <Input name={name} type="email" required />
-          <Button type="submit">Sign Up</Button>
-        </Row>
-        <input
-          name="publiclistid"
-          id="CwyOqTgB"
-          value="72c3249d-ed56-484d-b586-71c80b84d469"
-          type="hidden"
-        />
-        <input
-          name="publicaccountid"
-          value="0941e3f0-7b53-413c-a17f-06bff65f0a13"
-          type="hidden"
-        />
-        <input
-          name="publicformid"
-          value="e362aac5-777d-4d8b-a537-c807041f37cb"
-          type="hidden"
-        />
-        <input
-          name="returnUrl"
-          value="https://weekly.bestofjs.org/check-email/"
-          type="hidden"
-        />
-        <input
-          name="activationReturnUrl"
-          value="https://weekly.bestofjs.org/email-confirmed/"
-          type="hidden"
-        />
-        <input name="alreadyactiveurl" value="" type="hidden" />
-        <input
-          name="activationTemplate"
-          value="subscriber-activation"
-          type="hidden"
-        />
-        <input name="source" value="WebForm" type="hidden" />
-        <input id="ewf_captcha" name="captcha" value="false" type="hidden" />
-        <input name="notifyEmail" value="" type="hidden" />
-      </form>
-    </Div>
-  )
-}
-
-// Subscribe.propTypes = {}
+const Subscribe = () => (
+  <Div>
+    <Title>Get the latest JS rankings in your inbox every week</Title>
+    <Text>
+      Sign up for{' '}
+      <a className="link" href="https://bestofjs.org">
+        Best of JavaScript
+      </a>'s newsletter, and you'll receive exclusive stats about the most popular JavaScript
+      projects every week.
+    </Text>
+    <form action={action} method="post">
+      <Row>
+        <Input name={name} type="email" required />
+        <Button type="submit">Sign Up</Button>
+      </Row>
+      <input
+        name="publiclistid"
+        id="CwyOqTgB"
+        value="72c3249d-ed56-484d-b586-71c80b84d469"
+        type="hidden"
+      />
+      <input name="publicaccountid" value="0941e3f0-7b53-413c-a17f-06bff65f0a13" type="hidden" />
+      <input name="publicformid" value="e362aac5-777d-4d8b-a537-c807041f37cb" type="hidden" />
+      <input name="returnUrl" value="https://weekly.bestofjs.org/check-email/" type="hidden" />
+      <input
+        name="activationReturnUrl"
+        value="https://weekly.bestofjs.org/email-confirmed/"
+        type="hidden"
+      />
+      <input name="alreadyactiveurl" value="" type="hidden" />
+      <input name="activationTemplate" value="subscriber-activation" type="hidden" />
+      <input name="source" value="WebForm" type="hidden" />
+      <input id="ewf_captcha" name="captcha" value="false" type="hidden" />
+      <input name="notifyEmail" value="" type="hidden" />
+    </form>
+  </Div>
+)
 
 export default Subscribe
