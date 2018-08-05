@@ -31,7 +31,10 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
       )}
       <Container.Main>
         <Title>
-          Issue #{issue.number} (<IssueDate date={issue.date} />)
+          Issue #{issue.number}{' '}
+          <span className="hidden-sm">
+            (<IssueDate date={issue.date} />)
+          </span>
         </Title>
       </Container.Main>
       {!isLatest && (
@@ -45,7 +48,7 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
 
 Navigation.propTypes = {
   currentNumber: PropTypes.number.isRequired,
-  isLatest: PropTypes.bool.isRequired
+  isLatest: PropTypes.bool.isRequired,
 }
 
 export default Navigation

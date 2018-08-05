@@ -21,16 +21,17 @@ injectGlobal`
     background-color: #ececec;
     border-bottom: 5px solid #e65100;
   }
-  .xxx {
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
-  }
   a {
     color: inherit;
     text-decoration: none;
   }
   .link {
     color: #e65100;
+  }
+  .hidden-sm {
+    @media (max-width: 599px) {
+      display: none;
+    }
   }
 `
 
@@ -47,7 +48,7 @@ const AppStyles = styled.div`
   }
 
   .content {
-    padding: 1rem;
+    padding: 0 1rem;
     max-width: 900px;
     margin: 0 auto;
   }

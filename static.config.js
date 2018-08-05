@@ -3,13 +3,23 @@ import { ServerStyleSheet } from 'styled-components'
 
 import fetchContent from './src/utils/fetch-content'
 
+
 export default {
   getSiteData: () => ({
     title: 'Best of JavaScript Weekly'
   }),
   getRoutes: async () => {
     const issues = await fetchContent()
-    const latestIssueNumber = issues[0].number
+    const latestIssue = issues[0]
+    const getIssueRoute = issue => {
+      return {
+        component: 'src/pages/IssuePage',
+        getData: () => ({
+          issue,
+          isLatest: issue.number === latestIssue.number
+        })
+      }
+    }    
     return [
       {
         path: '/',
@@ -24,14 +34,7 @@ export default {
         getData: () => ({
           issues
         }),
-        children: issues.map(issue => ({
-          path: `/${issue.number}`,
-          component: 'src/pages/IssuePage',
-          getData: () => ({
-            issue,
-            isLatest: issue.number === latestIssueNumber
-          })
-        }))
+        children: issues.map(issue => ({ ...getIssueRoute(issue), path: `/${issue.number}` }))
       },
       { path: 'check-email', component: 'src/pages/CheckEmailPage' },
       { path: 'email-confirmed', component: 'src/pages/EmailConfirmedPage' },
@@ -39,7 +42,8 @@ export default {
       {
         is404: true,
         component: 'src/containers/404'
-      }
+      },
+      { path: '/latest', ...getIssueRoute(latestIssue) }
     ]
   },
   renderToHtml: (render, Comp, meta) => {
