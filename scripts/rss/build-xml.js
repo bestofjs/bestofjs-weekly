@@ -18,6 +18,7 @@ export default function buildXml(projects) {
 }
 
 function addItem(xmlParent, project) {
+  const repoUrl = `https://github.com/${project.full_name}` 
   const xmlItem = xmlParent.ele('item')
   xmlItem.ele(
     'title',
@@ -26,7 +27,7 @@ function addItem(xmlParent, project) {
   )
   xmlItem.ele('author', {}, project.full_name.split('/').slice(0, 1))
   xmlItem.ele('description', {}, project.description)
-  xmlItem.ele('link', {}, project.url || project.repository)
+  xmlItem.ele('link', {}, project.url || repoUrl)
   xmlItem.ele('pubDate', {}, project.pushed_at)
   xmlItem.ele('image', {}, getAvatarUrl(project, 200))
 }
