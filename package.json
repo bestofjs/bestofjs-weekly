@@ -19,7 +19,7 @@
     "dotenv": "^6.0.0",
     "esm": "^3.0.55",
     "fs-extra": "^6.0.1",
-    "jdown": "^0.5.0",
+    "jdown": "0.6.4",
     "numeral": "^2.0.6",
     "octicons": "^7.3.0",
     "pretty-bytes": "^5.1.0",
