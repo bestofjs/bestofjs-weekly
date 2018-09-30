@@ -45,6 +45,7 @@
       "branch": "dev",
       "npm": "vue",
       "icon": "vue.svg",
+      "owner_id": 6154722,
       "weekly": 575
     },
     {
@@ -75,6 +76,7 @@
       "url": "https://reactjs.org",
       "npm": "react",
       "icon": "react.svg",
+      "owner_id": 69631,
       "weekly": 510
     },
     {
@@ -132,6 +134,7 @@
       "contributor_count": 677,
       "url": "https://code.visualstudio.com",
       "icon": "vscode.svg",
+      "owner_id": 6154722,
       "weekly": 408
     },
     {
