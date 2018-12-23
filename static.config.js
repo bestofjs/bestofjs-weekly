@@ -1,44 +1,54 @@
+import axios from 'axios'
 import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 import fetchContent from './src/utils/fetch-content'
 
-
 export default {
   getSiteData: () => ({
-    title: 'Best of JavaScript Weekly'
+    title: 'React Static'
   }),
   getRoutes: async () => {
+    const { data: posts } = await axios.get(
+      'https://jsonplaceholder.typicode.com/posts'
+    )
     const issues = await fetchContent()
     const latestIssue = issues[0]
-    const getIssueRoute = issue => {
-      return {
-        component: 'src/pages/IssuePage',
-        getData: () => ({
-          issue,
-          isLatest: issue.number === latestIssue.number
-        })
-      }
-    }    
+    const getIssueRoute = issue => ({
+      component: 'src/containers/IssuePage',
+      getData: () => ({
+        issue,
+        isLatest: issue.number === latestIssue.number
+      })
+    })
     return [
       {
         path: '/',
-        component: 'src/pages/HomePage',
+        component: 'src/containers/HomePage',
         getData: () => ({
           issues
         })
       },
       {
         path: '/issues',
-        component: 'src/pages/IssueListPage',
+        component: 'src/containers/IssueListPage',
         getData: () => ({
           issues
         }),
-        children: issues.map(issue => ({ ...getIssueRoute(issue), path: `/${issue.number}` }))
+        children: issues.map(issue => ({
+          ...getIssueRoute(issue),
+          path: `/${issue.number}`
+        }))
       },
-      { path: 'check-email', component: 'src/pages/CheckEmailPage' },
-      { path: 'email-confirmed', component: 'src/pages/EmailConfirmedPage' },
-      { path: 'existing-contact', component: 'src/pages/ExistingContactPage' },
+      { path: 'check-email', component: 'src/containers/CheckEmailPage' },
+      {
+        path: 'email-confirmed',
+        component: 'src/containers/EmailConfirmedPage'
+      },
+      {
+        path: 'existing-contact',
+        component: 'src/containers/ExistingContactPage'
+      },
       {
         path: '404',
         component: 'src/containers/404'
@@ -48,7 +58,7 @@ export default {
   },
   renderToHtml: (render, Comp, meta) => {
     const sheet = new ServerStyleSheet()
-    const html = render(sheet.collectStyles(<Comp />))
+    const html = render(sheet.collectStyles(Comp))
     meta.styleTags = sheet.getStyleElement()
     return html
   },

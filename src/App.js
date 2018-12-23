@@ -1,12 +1,11 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
-import styled, { injectGlobal } from 'styled-components'
-import { hot } from 'react-hot-loader'
+import styled, { createGlobalStyle } from 'styled-components'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   *,:after,:before {
     box-sizing: border-box;
   }
@@ -67,6 +66,7 @@ const AppStyles = styled.div`
 
 const App = () => (
   <Root>
+    <GlobalStyle />
     <AppStyles>
       <Header />
       <div className="content">

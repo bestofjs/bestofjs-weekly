@@ -48,7 +48,7 @@ const isActive = ({ isCurrent }) => (isCurrent ? { className: 'active' } : null)
 
 const Menu = () => (
   <MenuContainer>
-    <Link getProps={isActive} exact to="/" className="hidden-sm">
+    <Link getProps={isActive} to="/" className="hidden-sm">
       HOME
     </Link>
     <Link getProps={isActive} to="/latest">
