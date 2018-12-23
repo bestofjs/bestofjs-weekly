@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-static'
+import { Link } from '@reach/router'
 
 import Logo from './Logo'
 
@@ -44,10 +44,16 @@ const MenuContainer = styled.div`
   }
 `
 
+const isActive = ({ isCurrent }) => (isCurrent ? { className: 'active' } : null)
+
 const Menu = () => (
   <MenuContainer>
-    <Link exact to="/" className="hidden-sm">HOME</Link>
-    <Link to="/latest">LATEST</Link>
+    <Link getProps={isActive} exact to="/" className="hidden-sm">
+      HOME
+    </Link>
+    <Link getProps={isActive} to="/latest">
+      LATEST
+    </Link>
   </MenuContainer>
 )
 

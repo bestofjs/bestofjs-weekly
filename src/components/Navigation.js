@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-static'
+import { Link } from '@reach/router'
 import styled from 'styled-components'
 
 import IssueDate from './IssueDate'
@@ -66,7 +66,7 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
 
 Navigation.propTypes = {
   currentNumber: PropTypes.number.isRequired,
-  isLatest: PropTypes.bool.isRequired,
+  isLatest: PropTypes.bool.isRequired
 }
 
 export default Navigation

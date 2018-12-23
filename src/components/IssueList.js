@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Link } from 'react-static'
+import { Link } from '@reach/router'
 import IssueDate from './IssueDate'
 
 const cardBorderColor = '#cbcbcb'
@@ -19,50 +19,46 @@ const Table = styled.table`
   }
 `
 
-const IssueList = ({ issues, latestIssueNumber }) => {
-  return (
-    <Table>
-      <thead>
-        <tr>
-          <td>#</td>
-          <td>Date</td>
-          <td>TOP 3 projects</td>
-        </tr>
-      </thead>
-      <tbody>
-        {issues.map(issue => (
-          <IssueListItem
-            key={issue.number}
-            issue={issue}
-            isLatest={latestIssueNumber === issue.number}
-          />
-        ))}
-      </tbody>
-    </Table>
-  )
-}
+const IssueList = ({ issues, latestIssueNumber }) => (
+  <Table>
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>Date</td>
+        <td>TOP 3 projects</td>
+      </tr>
+    </thead>
+    <tbody>
+      {issues.map(issue => (
+        <IssueListItem
+          key={issue.number}
+          issue={issue}
+          isLatest={latestIssueNumber === issue.number}
+        />
+      ))}
+    </tbody>
+  </Table>
+)
 
 IssueList.propTypes = {
   issues: PropTypes.array.isRequired
 }
 
-const IssueListItem = ({ issue }) => {
-  return (
-    <tr>
-      <td>{issue.number}</td>
-      <td>
-        <Link to={`/issues/${issue.number}`} className="link">
-          <IssueDate date={issue.date} />
-        </Link>
-      </td>
-      <td>
-        {issue.projects
-          .slice(0, 3)
-          .map(project => project.name)
-          .join(', ')}
-      </td>
-    </tr>
-  )
-}
+const IssueListItem = ({ issue }) => (
+  <tr>
+    <td>{issue.number}</td>
+    <td>
+      <Link to={`/issues/${issue.number}`} className="link">
+        <IssueDate date={issue.date} />
+      </Link>
+    </td>
+    <td>
+      {issue.projects
+        .slice(0, 3)
+        .map(project => project.name)
+        .join(', ')}
+    </td>
+  </tr>
+)
 
 export default IssueList

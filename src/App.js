@@ -1,9 +1,8 @@
 import React from 'react'
-import { Router } from 'react-static'
+import { Root, Routes } from 'react-static'
 import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
-//
-import Routes from 'react-static-routes'
+
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -67,7 +66,7 @@ const AppStyles = styled.div`
 `
 
 const App = () => (
-  <Router>
+  <Root>
     <AppStyles>
       <Header />
       <div className="content">
@@ -75,7 +74,7 @@ const App = () => (
         <Footer />
       </div>
     </AppStyles>
-  </Router>
+  </Root>
 )
 
-export default hot(module)(App)
+export default App
