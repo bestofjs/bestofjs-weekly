@@ -1,7 +1,7 @@
 const fs = require('fs-extra')
 const path = require('path')
 const prettyBytes = require('pretty-bytes')
-const debug = require('debug')('*')
+const debug = require('debug')('bestofjs')
 
 const fetchTrendingProjects = require('./fetch-trending-projects')
 const { dateToString } = require('../utils/utils')

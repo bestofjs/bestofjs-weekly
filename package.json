@@ -10,8 +10,8 @@
     "clean": "rm -rf ./dist",
     "serve": "serve dist -p 3000",
     "test": "node src/utils/fetch-newsletters.spec.js",
-    "weekly-step1": "node scripts/step1-build-rankings",
-    "weekly-step2": "node scripts/step2-create-campaign",
+    "weekly-step1": "DEBUG=bestofjs node scripts/step1-build-rankings",
+    "weekly-step2": "DEBUG=bestofjs node scripts/step2-create-campaign",
     "build-rss": "node -r esm scripts/rss"
   },
   "dependencies": {
