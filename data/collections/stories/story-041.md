@@ -2,7 +2,7 @@
 number: 41
 ---
 
-_Zero_, the Node.js server that requires no configuration to serve all kind of assets, is the project number one of the week, again.
+Number 2 last week, _Zero_, the Node.js server that requires no configuration to serve all kind of assets, is the project number one this week.
 
 Among the top 10 projects, it's worth to mention _Storybook_, a tool to help developer build components **in isolation**.
 
