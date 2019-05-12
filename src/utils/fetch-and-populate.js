@@ -2,9 +2,10 @@ import got from 'got'
 
 import fetchRankings from './fetch-rankings'
 
-function fetchAllProjectsAndTags() {
+async function fetchAllProjectsAndTags() {
   const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
-  return got(url, { json: true }).then(r => r.body)
+  const response = await got(url, { json: true })
+  return response.body
 }
 
 const populate = ({ tags }) => newsletter => {
@@ -19,7 +20,8 @@ const populate = ({ tags }) => newsletter => {
 export default async function fetchAndPopulate() {
   console.log('Fetch rankings')
   const newsletters = await fetchRankings()
-  console.log('Fetcg projects and tags')
+  console.log('Fetch projects and tags')
   const { tags } = await fetchAllProjectsAndTags()
+  console.log('Populate', tags.length)
   return newsletters.map(populate({ tags }))
 }
