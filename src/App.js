@@ -1,9 +1,11 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
 import styled, { createGlobalStyle } from 'styled-components'
+import { Router } from '@reach/router'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Spinner from './components/Spinner'
 
 const GlobalStyle = createGlobalStyle`
   *,:after,:before {
@@ -70,7 +72,11 @@ const App = () => (
     <AppStyles>
       <Header />
       <div className="content">
-        <Routes />
+        <React.Suspense fallback={<Spinner />}>
+          <Router>
+            <Routes path="*" />
+          </Router>
+        </React.Suspense>
         <Footer />
       </div>
     </AppStyles>
