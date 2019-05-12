@@ -27,7 +27,7 @@ const readWeeklyReportFile = folderPath => async filename => {
   }
 }
 
-async function fetchRankings() {
+export default async function fetchRankings() {
   const folderPath = ['data', 'rankings']
   const filenames = await readDataFolder(folderPath)
   const result = await Promise.all(
@@ -36,5 +36,3 @@ async function fetchRankings() {
   const sorted = result.slice().sort((a, b) => (a.number > b.number ? -1 : 1))
   return sorted
 }
-
-export default fetchRankings

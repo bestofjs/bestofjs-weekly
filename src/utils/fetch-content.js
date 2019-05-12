@@ -1,7 +1,7 @@
 import fetchAndPopulate from './fetch-and-populate'
 import fetchStories from './fetch-stories'
 
-async function fetchContent() {
+export default async function fetchContent() {
   const rankings = await fetchAndPopulate()
   const stories = await fetchStories()
   const findStory = number => {
@@ -14,5 +14,3 @@ async function fetchContent() {
     story: findStory(report.number)
   }))
 }
-
-export default fetchContent
