@@ -11,50 +11,56 @@ export default {
     title: 'Best of JavaScript Weekly'
   }),
   getRoutes: async () => {
-    console.log('Fetching content...')
-    const issues = await fetchContent()
-    const latestIssue = issues[0]
-    const getIssueRoute = issue => ({
-      template: 'src/containers/IssuePage',
-      getData: () => ({
-        issue,
-        isLatest: issue.number === latestIssue.number
-      })
-    })
-    return [
-      {
-        path: '/',
-        template: 'src/containers/HomePage',
+    try {
+      console.log('Fetching content...')
+      const issues = await fetchContent()
+      const latestIssue = issues[0]
+      const getIssueRoute = issue => ({
+        template: 'src/containers/IssuePage',
         getData: () => ({
-          issues
+          issue,
+          isLatest: issue.number === latestIssue.number
         })
-      },
-      {
-        path: '/issues',
-        template: 'src/containers/IssueListPage',
-        getData: () => ({
-          issues
-        }),
-        children: issues.map(issue => ({
-          ...getIssueRoute(issue),
-          path: `/${issue.number}`
-        }))
-      },
-      { path: 'check-email', template: 'src/containers/CheckEmailPage' },
-      {
-        path: 'email-confirmed',
-        template: 'src/containers/EmailConfirmedPage'
-      },
-      {
-        path: 'existing-contact',
-        template: 'src/containers/ExistingContactPage'
-      },
-      {
-        path: '404',
-        template: 'src/containers/404'
-      },
-      { path: '/latest', ...getIssueRoute(latestIssue) }
-    ]
+      })
+      return [
+        {
+          path: '/',
+          template: 'src/containers/HomePage',
+          getData: () => ({
+            issues
+          })
+        },
+        {
+          path: '/issues',
+          template: 'src/containers/IssueListPage',
+          getData: () => ({
+            issues
+          }),
+          children: issues.map(issue => ({
+            ...getIssueRoute(issue),
+            path: `/${issue.number}`
+          }))
+        },
+        { path: 'check-email', template: 'src/containers/CheckEmailPage' },
+        {
+          path: 'email-confirmed',
+          template: 'src/containers/EmailConfirmedPage'
+        },
+        {
+          path: 'existing-contact',
+          template: 'src/containers/ExistingContactPage'
+        },
+        {
+          path: '404',
+          template: 'src/containers/404'
+        },
+        { path: '/latest', ...getIssueRoute(latestIssue) }
+      ]
+    } catch (error) {
+      console.error('Error while building routes!')
+      console.error(error.stacktrace)
+      process.exit(1)
+    }
   },
   Document: ({ Html, Head, Body, children }) => {
     const ga = `
