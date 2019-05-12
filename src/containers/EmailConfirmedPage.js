@@ -5,7 +5,7 @@ const EmailConfirmedPage = ({}) => {
   return (
     <div>
       <h1>Email Confirmed!</h1>
-      <p>Thank you, your email address has been successfully registerered.</p>
+      <p>Thank you, your email address has been successfully registered.</p>
       <p>
         Every week, you will receive in your mailbox the list of the 10
         trendiest projects related to JavaScript and the web platform.
