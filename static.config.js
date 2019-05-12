@@ -11,6 +11,7 @@ export default {
     title: 'Best of JavaScript Weekly'
   }),
   getRoutes: async () => {
+    console.log('Fetching content...')
     const issues = await fetchContent()
     const latestIssue = issues[0]
     const getIssueRoute = issue => ({
