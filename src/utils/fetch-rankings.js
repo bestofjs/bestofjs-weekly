@@ -1,5 +1,5 @@
-const fs = require('fs-extra')
-const path = require('path')
+import fs from 'fs-extra'
+import path from 'path'
 
 async function readDataFolder(folderPath) {
   const filepath = path.join(process.cwd(), ...folderPath)
@@ -37,4 +37,4 @@ async function fetchRankings() {
   return sorted
 }
 
-module.exports = fetchRankings
+export default fetchRankings

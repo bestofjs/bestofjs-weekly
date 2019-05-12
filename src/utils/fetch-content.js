@@ -1,7 +1,7 @@
-const fetchAndPopulate = require('./fetch-and-populate')
-const fetchStories = require('./fetch-stories')
+import fetchAndPopulate from './fetch-and-populate'
+import fetchStories from './fetch-stories'
 
-async function fetchContent () {
+async function fetchContent() {
   const rankings = await fetchAndPopulate()
   const stories = await fetchStories()
   const findStory = number => {
@@ -11,8 +11,8 @@ async function fetchContent () {
   console.log(rankings.length, 'rankings found')
   return rankings.map(report => ({
     ...report,
-    story: findStory(report.number),
+    story: findStory(report.number)
   }))
 }
 
-module.exports = fetchContent
+export default fetchContent

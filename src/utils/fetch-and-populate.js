@@ -1,6 +1,6 @@
-const got = require('got')
+import got from 'got'
 
-const fetchRankings = require('./fetch-rankings')
+import fetchRankings from './fetch-rankings'
 
 function fetchAllProjectsAndTags() {
   const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
@@ -16,10 +16,8 @@ const populate = ({ tags }) => newsletter => {
   return { ...newsletter, projects }
 }
 
-async function fetchAndPopulate() {
+export default async function fetchAndPopulate() {
   const newsletters = await fetchRankings()
   const { tags } = await fetchAllProjectsAndTags()
   return newsletters.map(populate({ tags }))
 }
-
-module.exports = fetchAndPopulate
