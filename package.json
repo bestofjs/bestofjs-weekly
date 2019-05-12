@@ -21,7 +21,6 @@
     "fs-extra": "^6.0.1",
     "jdown": "0.6.4",
     "numeral": "^2.0.6",
-    "octicons": "^7.3.0",
     "pretty-bytes": "^5.1.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",

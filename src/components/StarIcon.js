@@ -1,5 +1,4 @@
 import React from 'react'
-import octicons from 'octicons'
 import styled from 'styled-components'
 
 const Span = styled.span`
@@ -7,11 +6,6 @@ const Span = styled.span`
   margin-left: 2px;
 `
 
-const StarIcon = () => (
-  <Span>★</Span>
-  // return <Span
-  //   dangerouslySetInnerHTML={{ __html: octicons.star.toSVG({ width: 16 }) }}
-  // />
-)
+const StarIcon = () => <Span>★</Span>
 
 export default StarIcon
