@@ -24,7 +24,6 @@
     "pretty-bytes": "5.1.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-hot-loader": "4.3.12",
     "react-static": "7.0.10",
     "react-static-plugin-reach-router": "7.0.10",
     "react-static-plugin-styled-components": "7.0.10",
