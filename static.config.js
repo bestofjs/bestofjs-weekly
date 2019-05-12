@@ -58,7 +58,7 @@ export default {
       ]
     } catch (error) {
       console.error('Error while building routes!')
-      console.error(error.stacktrace)
+      console.error(error.message)
       process.exit(1)
     }
   },

@@ -4,7 +4,9 @@ import fetchRankings from './fetch-rankings'
 
 async function fetchAllProjectsAndTags() {
   const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
+  console.log('Fetching...')
   const response = await got(url, { json: true })
+  console.log('We got a response')
   return response.body
 }
 
