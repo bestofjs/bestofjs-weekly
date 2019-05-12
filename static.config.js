@@ -2,6 +2,52 @@ import React from 'react'
 
 import fetchContent from './src/utils/fetch-content'
 
+async function getRoutes() {
+  const issues = await fetchContent()
+  const latestIssue = issues[0]
+  const getIssueRoute = issue => ({
+    template: 'src/containers/IssuePage',
+    getData: () => ({
+      issue,
+      isLatest: issue.number === latestIssue.number
+    })
+  })
+  return [
+    {
+      path: '/',
+      template: 'src/containers/HomePage',
+      getData: () => ({
+        issues
+      })
+    },
+    {
+      path: '/issues',
+      template: 'src/containers/IssueListPage',
+      getData: () => ({
+        issues
+      }),
+      children: issues.map(issue => ({
+        ...getIssueRoute(issue),
+        path: `/${issue.number}`
+      }))
+    },
+    { path: 'check-email', template: 'src/containers/CheckEmailPage' },
+    {
+      path: 'email-confirmed',
+      template: 'src/containers/EmailConfirmedPage'
+    },
+    {
+      path: 'existing-contact',
+      template: 'src/containers/ExistingContactPage'
+    },
+    {
+      path: '404',
+      template: 'src/containers/404'
+    },
+    { path: '/latest', ...getIssueRoute(latestIssue) }
+  ]
+}
+
 export default {
   plugins: [
     'react-static-plugin-styled-components',
@@ -11,49 +57,13 @@ export default {
     title: 'Best of JavaScript Weekly'
   }),
   getRoutes: async () => {
-    const issues = await fetchContent()
-    const latestIssue = issues[0]
-    const getIssueRoute = issue => ({
-      template: 'src/containers/IssuePage',
-      getData: () => ({
-        issue,
-        isLatest: issue.number === latestIssue.number
-      })
-    })
-    return [
-      {
-        path: '/',
-        template: 'src/containers/HomePage',
-        getData: () => ({
-          issues
-        })
-      },
-      {
-        path: '/issues',
-        template: 'src/containers/IssueListPage',
-        getData: () => ({
-          issues
-        }),
-        children: issues.map(issue => ({
-          ...getIssueRoute(issue),
-          path: `/${issue.number}`
-        }))
-      },
-      { path: 'check-email', template: 'src/containers/CheckEmailPage' },
-      {
-        path: 'email-confirmed',
-        template: 'src/containers/EmailConfirmedPage'
-      },
-      {
-        path: 'existing-contact',
-        template: 'src/containers/ExistingContactPage'
-      },
-      {
-        path: '404',
-        template: 'src/containers/404'
-      },
-      { path: '/latest', ...getIssueRoute(latestIssue) }
-    ]
+    try {
+      return await getRoutes()
+    } catch (error) {
+      console.error('Error while building the routes!', error.message)
+      // Don't try to display the stacktrace here, it will cause a strange error
+      process.exit(1) // throwing an error does not stop the building process
+    }
   },
   Document: ({ Html, Head, Body, children }) => {
     const ga = `
