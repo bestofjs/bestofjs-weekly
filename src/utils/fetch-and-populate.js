@@ -17,7 +17,9 @@ const populate = ({ tags }) => newsletter => {
 }
 
 export default async function fetchAndPopulate() {
+  console.log('Fetch rankings')
   const newsletters = await fetchRankings()
+  console.log('Fetcg projects and tags')
   const { tags } = await fetchAllProjectsAndTags()
   return newsletters.map(populate({ tags }))
 }
