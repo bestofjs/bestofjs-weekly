@@ -1,10 +1,8 @@
-const jdown = require('jdown')
-const path = require('path')
+import jdown from 'jdown'
+import path from 'path'
 
-async function fetchStories() {
+export default async function fetchStories() {
   const folderPath = path.resolve(process.cwd(), 'data')
   const json = await jdown(folderPath)
   return json.stories
 }
-
-module.exports = fetchStories
