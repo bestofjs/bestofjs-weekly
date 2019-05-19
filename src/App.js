@@ -83,4 +83,10 @@ const App = () => (
   </Root>
 )
 
+const App0 = () => (
+  <Root>
+    <div>Good!</div>
+  </Root>
+)
+
 export default App

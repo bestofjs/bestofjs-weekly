@@ -26,13 +26,17 @@ if (typeof document !== 'undefined') {
     )
   }
 
+  // const render = Comp => {
+  //   ReactDOM.render(<Comp />, target)
+  // }
+
   // Render!
   render(App)
 
   // Hot Module Replacement
-  if (module && module.hot) {
-    module.hot.accept('./App', () => {
-      render(App)
-    })
-  }
+  // if (module && module.hot) {
+  //   module.hot.accept('./App', () => {
+  //     render(App)
+  //   })
+  // }
 }
