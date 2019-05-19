@@ -1,4 +1,4 @@
-const fetchTrendingProjects = require('./fetch-trending-projects')
+import fetchTrendingProjects from './fetch-trending-projects'
 
 fetchTrendingProjects()
   .then(projects =>

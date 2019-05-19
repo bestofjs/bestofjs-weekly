@@ -1,17 +1,16 @@
 const fs = require('fs-extra')
 const path = require('path')
-// const prettyBytes = require('pretty-bytes')
 const debug = require('debug')('bestofjs')
 
-const fetchStories = require('../../src/utils/fetch-stories')
+import fetchStories from '../../src/utils/fetch-stories'
 
-async function isStoryAlreadyBuilt({ number }) {
+export async function isStoryAlreadyBuilt({ number }) {
   const stories = await fetchStories()
   const foundStory = stories.find(story => story.number === number)
   return !!foundStory
 }
 
-async function createStory({ number }) {
+export async function createStory({ number }) {
   const template = `---
 number: ${number}
 ---
@@ -29,17 +28,11 @@ Number one this week,
   return result
 }
 
-async function createStoryIfNeeded({ number }) {
+export async function createStoryIfNeeded({ number }) {
   debug('Start!')
   const storyExists = await isStoryAlreadyBuilt({ number })
   if (storyExists) {
     return debug(`Story number ${number} already exists!`)
   }
   return createStory({ number })
-}
-
-module.exports = {
-  isStoryAlreadyBuilt,
-  createStory,
-  createStoryIfNeeded
 }

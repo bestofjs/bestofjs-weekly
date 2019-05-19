@@ -1,6 +1,6 @@
 const got = require('got')
 
-const sortProjects = require('../utils/sort-projects')
+import sortProjects from '../utils/sort-projects'
 
 function fetchAllProjects() {
   const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
@@ -9,11 +9,8 @@ function fetchAllProjects() {
     .then(json => json.projects)
 }
 
-function fetchTrendingProjects({ count } = { count: 10 }) {
-  return fetchAllProjects().then(
-    projects => sortProjects(projects).slice(0, count)
-    // .map(project => ({ name: project.name, weekly: project.weekly }))
+export default function fetchTrendingProjects({ count } = { count: 10 }) {
+  return fetchAllProjects().then(projects =>
+    sortProjects(projects).slice(0, count)
   )
 }
-
-module.exports = fetchTrendingProjects

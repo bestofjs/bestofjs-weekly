@@ -3,11 +3,11 @@ const debug = require('debug')('*')
 const prettyBytes = require('pretty-bytes')
 
 const buildNewsletter = require('./build-email-html')
-const fetchRankings = require('../../src/utils/fetch-rankings')
 const createTemplate = require('./api/create-template')
 const createCampaign = require('./api/create-campaign')
-const getLastIssueNumber = require('../utils/get-last-issue-number')
-const fetchStories = require('../../src/utils/fetch-stories')
+import fetchRankings from '../../src/utils/fetch-rankings'
+import getLastIssueNumber from '../utils/get-last-issue-number'
+import fetchStories from '../../src/utils/fetch-stories'
 
 const listIds = {
   test: '528',

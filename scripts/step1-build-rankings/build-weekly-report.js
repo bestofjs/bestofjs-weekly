@@ -3,10 +3,9 @@ const path = require('path')
 const prettyBytes = require('pretty-bytes')
 const debug = require('debug')('bestofjs')
 
-const fetchTrendingProjects = require('./fetch-trending-projects')
-const { dateToString } = require('../utils/utils')
+import fetchTrendingProjects from './fetch-trending-projects'
 
-async function buildWeeklyReport({ number }) {
+export default async function buildWeeklyReport({ number }) {
   const today = new Date()
   debug('Fetching projects')
   const projects = await fetchTrendingProjects()
@@ -26,5 +25,3 @@ async function buildWeeklyReport({ number }) {
   await fs.outputJSON(filepath, report)
   debug('Weekly report created!')
 }
-
-module.exports = buildWeeklyReport

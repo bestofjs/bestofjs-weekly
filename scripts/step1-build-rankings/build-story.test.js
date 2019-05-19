@@ -1,4 +1,4 @@
-const { createStoryIfNeeded } = require('./build-weekly-story')
+import { createStoryIfNeeded } from './build-weekly-story'
 
 async function test() {
   const result = await createStoryIfNeeded({ number: 999 })

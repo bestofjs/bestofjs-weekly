@@ -1,6 +1,6 @@
-const build = require('./build-weekly-report')
-const { createStoryIfNeeded } = require('./build-weekly-story')
-const getLastIssueNumber = require('../utils/get-last-issue-number')
+import build from './build-weekly-report'
+import { createStoryIfNeeded } from './build-weekly-story'
+import getLastIssueNumber from '../utils/get-last-issue-number'
 
 async function buildData() {
   console.log('Build the weekly report...')
@@ -12,5 +12,3 @@ async function buildData() {
 }
 
 buildData()
-
-module.exports = buildData
