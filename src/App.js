@@ -1,5 +1,5 @@
 import React from 'react'
-import { Root, Routes } from 'react-static'
+import { Root, Routes /*addPrefetchExcludes*/ } from 'react-static'
 import styled, { createGlobalStyle } from 'styled-components'
 import { Router } from '@reach/router'
 
@@ -66,6 +66,9 @@ const AppStyles = styled.div`
   }
 `
 
+// Any routes that start with 'dynamic' will be treated as non-static routes
+// addPrefetchExcludes(["dynamic"]);
+
 const App = () => (
   <Root>
     <GlobalStyle />
@@ -80,12 +83,6 @@ const App = () => (
         <Footer />
       </div>
     </AppStyles>
-  </Root>
-)
-
-const App0 = () => (
-  <Root>
-    <div>Good!</div>
   </Root>
 )
 

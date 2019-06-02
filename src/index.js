@@ -4,7 +4,6 @@ import { AppContainer } from 'react-hot-loader'
 
 // Your top level component
 import App from './App'
-// const App = () => 'Good!'
 
 // Export your top level component as JSX (for static rendering)
 export default App
@@ -26,17 +25,13 @@ if (typeof document !== 'undefined') {
     )
   }
 
-  // const render = Comp => {
-  //   ReactDOM.render(<Comp />, target)
-  // }
-
   // Render!
   render(App)
 
   // Hot Module Replacement
-  // if (module && module.hot) {
-  //   module.hot.accept('./App', () => {
-  //     render(App)
-  //   })
-  // }
+  if (module && module.hot) {
+    module.hot.accept('./App', () => {
+      render(App)
+    })
+  }
 }
