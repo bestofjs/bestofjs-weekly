@@ -1,0 +1,200 @@
+{
+  "date": "2019-07-21T07:38:47.148Z",
+  "projects": [
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 24440,
+      "trends": { "daily": 113, "weekly": 581 },
+      "tags": ["learning"],
+      "owner_id": 5114666,
+      "contributor_count": 86,
+      "commit_count": 487,
+      "pushed_at": "2019-03-24T21:13:45.000Z",
+      "weekly": 581
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI...",
+      "stars": 144180,
+      "trends": {
+        "daily": 58,
+        "weekly": 563,
+        "monthly": 2423,
+        "quarterly": 7882,
+        "yearly": 36055
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "owner_id": 6128107,
+      "contributor_count": 277,
+      "commit_count": 3028,
+      "pushed_at": "2019-07-19T19:46:06.000Z",
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg",
+      "weekly": 563
+    },
+    {
+      "name": "Algorithm Visualizer",
+      "full_name": "algorithm-visualizer/algorithm-visualizer",
+      "description": "Interactive Online Platform that Visualizes Algorithms from Code",
+      "stars": 23040,
+      "trends": { "daily": 37, "weekly": 458, "monthly": 2971 },
+      "tags": ["learning"],
+      "owner_id": 38487505,
+      "contributor_count": 23,
+      "commit_count": 658,
+      "pushed_at": "2019-07-11T05:42:06.000Z",
+      "url": "https://algorithm-visualizer.org/",
+      "weekly": 458
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 105320,
+      "trends": {
+        "daily": 64,
+        "weekly": 442,
+        "monthly": 1684,
+        "quarterly": 4888,
+        "yearly": 20171
+      },
+      "tags": ["learning", "book"],
+      "owner_id": 150330,
+      "contributor_count": 160,
+      "commit_count": 1487,
+      "pushed_at": "2019-07-15T12:35:17.000Z",
+      "url": "http://www.kickstarter.com/projects/getify/you-dont-know-js-book-series",
+      "icon": "js.svg",
+      "weekly": 442
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 37375,
+      "trends": {
+        "daily": 29,
+        "weekly": 416,
+        "monthly": 1875,
+        "quarterly": 5932,
+        "yearly": 20881
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 8121621,
+      "contributor_count": 87,
+      "commit_count": 921,
+      "pushed_at": "2019-07-20T03:53:12.000Z",
+      "url": "http://panjiachen.github.io/vue-element-admin",
+      "icon": "vueelementadmin.png",
+      "weekly": 416
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 112388,
+      "trends": {
+        "daily": 40,
+        "weekly": 407,
+        "monthly": 1613,
+        "quarterly": 5445,
+        "yearly": 23175
+      },
+      "tags": ["meta"],
+      "owner_id": 170270,
+      "contributor_count": 398,
+      "commit_count": 842,
+      "pushed_at": "2019-07-18T07:59:14.000Z",
+      "icon": "awesome.svg",
+      "weekly": 407
+    },
+    {
+      "name": "Ant Design",
+      "full_name": "ant-design/ant-design",
+      "description": "A UI Design Language",
+      "stars": 49183,
+      "trends": {
+        "daily": 34,
+        "weekly": 401,
+        "monthly": 1350,
+        "quarterly": 3795,
+        "yearly": 18141
+      },
+      "tags": ["react", "component"],
+      "owner_id": 12101536,
+      "contributor_count": 862,
+      "commit_count": 15385,
+      "pushed_at": "2019-07-20T19:01:48.000Z",
+      "url": "https://ant.design",
+      "npm": "antd",
+      "weekly": 401
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building...",
+      "stars": 132973,
+      "trends": {
+        "daily": 39,
+        "weekly": 385,
+        "monthly": 1593,
+        "quarterly": 5506,
+        "yearly": 26130
+      },
+      "tags": ["framework", "vdom", "react"],
+      "owner_id": 69631,
+      "contributor_count": 1304,
+      "commit_count": 11130,
+      "pushed_at": "2019-07-20T20:54:46.000Z",
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg",
+      "weekly": 385
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 51383,
+      "trends": {
+        "daily": 32,
+        "weekly": 372,
+        "monthly": 1435,
+        "quarterly": 3439,
+        "yearly": 23402
+      },
+      "tags": ["learning", "data-structure"],
+      "owner_id": 3000285,
+      "contributor_count": 88,
+      "commit_count": 789,
+      "pushed_at": "2019-07-17T15:59:31.000Z",
+      "weekly": 372
+    },
+    {
+      "name": "Quasar",
+      "full_name": "quasarframework/quasar",
+      "description": "Responsive Single Page Apps, Server-side Render Apps, Progressive Web...",
+      "stars": 11139,
+      "trends": {
+        "daily": 15,
+        "weekly": 368,
+        "monthly": 817,
+        "quarterly": 1637,
+        "yearly": 4361
+      },
+      "tags": ["mobile", "vue"],
+      "owner_id": 23064371,
+      "contributor_count": 225,
+      "commit_count": 5691,
+      "pushed_at": "2019-07-20T18:16:02.000Z",
+      "url": "https://quasar.dev",
+      "branch": "dev",
+      "weekly": 368
+    }
+  ]
+}
