@@ -3,7 +3,7 @@ const got = require('got')
 import sortProjects from '../utils/sort-projects'
 
 function fetchAllProjects() {
-  const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
+  const url = 'https://bestofjs-api-v3.firebaseapp.com/projects.json'
   return got(url, { json: true })
     .then(r => r.body)
     .then(json => json.projects)
