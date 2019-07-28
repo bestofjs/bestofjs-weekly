@@ -1,0 +1,205 @@
+{
+  "date": "2019-07-28T11:36:34.511Z",
+  "projects": [
+    {
+      "name": "Cube.js",
+      "full_name": "cube-js/cube.js",
+      "description": "Open Source Analytics Framework",
+      "stars": 3998,
+      "trends": {
+        "daily": 74,
+        "weekly": 1064,
+        "monthly": 1187,
+        "quarterly": 1762
+      },
+      "tags": ["dashboard", "chart"],
+      "owner_id": 52467369,
+      "contributor_count": 30,
+      "commit_count": 745,
+      "pushed_at": "2019-07-27T19:28:07.000Z",
+      "url": "https://cube.dev",
+      "weekly": 1064
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 112945,
+      "trends": {
+        "daily": 42,
+        "weekly": 557,
+        "monthly": 1775,
+        "quarterly": 5542,
+        "yearly": 23326
+      },
+      "tags": ["meta"],
+      "owner_id": 170270,
+      "contributor_count": 398,
+      "commit_count": 842,
+      "pushed_at": "2019-07-27T17:21:40.000Z",
+      "icon": "awesome.svg",
+      "weekly": 557
+    },
+    {
+      "name": "Puppeteer",
+      "full_name": "GoogleChrome/puppeteer",
+      "description": "Headless Chrome Node API",
+      "stars": 52151,
+      "trends": {
+        "daily": 27,
+        "weekly": 532,
+        "monthly": 1348,
+        "quarterly": 3646,
+        "yearly": 16608
+      },
+      "tags": ["auto"],
+      "owner_id": 1778935,
+      "contributor_count": 225,
+      "commit_count": 1523,
+      "pushed_at": "2019-07-26T21:06:21.000Z",
+      "url": "https://pptr.dev",
+      "npm": "puppeteer",
+      "weekly": 532
+    },
+    {
+      "name": "Super Tiny Social Icons",
+      "full_name": "edent/SuperTinyIcons",
+      "description": "Miniscule SVG versions of your favourite website and app logos",
+      "stars": 7881,
+      "trends": {
+        "daily": 13,
+        "weekly": 507,
+        "monthly": 519,
+        "quarterly": 599,
+        "yearly": 941
+      },
+      "tags": ["icon"],
+      "owner_id": 837136,
+      "contributor_count": 41,
+      "commit_count": 546,
+      "pushed_at": "2019-07-25T15:45:55.000Z",
+      "weekly": 507
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 144684,
+      "trends": {
+        "daily": 48,
+        "weekly": 504,
+        "monthly": 2332,
+        "quarterly": 7669,
+        "yearly": 35760
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "owner_id": 6128107,
+      "contributor_count": 277,
+      "commit_count": 3028,
+      "pushed_at": "2019-07-26T17:46:44.000Z",
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg",
+      "weekly": 504
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 24922,
+      "trends": { "daily": 18, "weekly": 482, "monthly": 1269 },
+      "tags": ["learning"],
+      "owner_id": 5114666,
+      "contributor_count": 87,
+      "commit_count": 489,
+      "pushed_at": "2019-07-23T15:29:00.000Z",
+      "weekly": 482
+    },
+    {
+      "name": "Front-End Checklist",
+      "full_name": "thedaviddias/Front-End-Checklist",
+      "description": "The perfect Front-End Checklist for modern websites and meticulous developers",
+      "stars": 35505,
+      "trends": {
+        "daily": 25,
+        "weekly": 430,
+        "monthly": 688,
+        "quarterly": 1236,
+        "yearly": 6514
+      },
+      "tags": ["learning"],
+      "owner_id": 237229,
+      "contributor_count": 84,
+      "commit_count": 662,
+      "pushed_at": "2019-07-05T20:53:34.000Z",
+      "url": "https://frontendchecklist.io",
+      "icon": "frontendchecklist.jpg",
+      "weekly": 430
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 37779,
+      "trends": {
+        "daily": 28,
+        "weekly": 404,
+        "monthly": 1850,
+        "quarterly": 5758,
+        "yearly": 20941
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 8121621,
+      "contributor_count": 87,
+      "commit_count": 921,
+      "pushed_at": "2019-07-20T03:53:12.000Z",
+      "url": "http://panjiachen.github.io/vue-element-admin",
+      "icon": "vueelementadmin.png",
+      "weekly": 404
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "stars": 133366,
+      "trends": {
+        "daily": 41,
+        "weekly": 393,
+        "monthly": 1658,
+        "quarterly": 5394,
+        "yearly": 25957
+      },
+      "tags": ["framework", "vdom", "react"],
+      "owner_id": 69631,
+      "contributor_count": 1304,
+      "commit_count": 11158,
+      "pushed_at": "2019-07-27T20:23:31.000Z",
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg",
+      "weekly": 393
+    },
+    {
+      "name": "Vuetify",
+      "full_name": "vuetifyjs/vuetify",
+      "description": "Material Component Framework for Vue.js 2",
+      "stars": 20564,
+      "trends": {
+        "daily": 22,
+        "weekly": 351,
+        "monthly": 829,
+        "quarterly": 2086,
+        "yearly": 8302
+      },
+      "tags": ["vue", "material"],
+      "owner_id": 22138497,
+      "contributor_count": 310,
+      "commit_count": 8232,
+      "pushed_at": "2019-07-27T20:52:12.000Z",
+      "url": "https://vuetifyjs.com",
+      "npm": "vuetify",
+      "weekly": 351
+    }
+  ]
+}
