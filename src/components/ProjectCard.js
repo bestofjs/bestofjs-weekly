@@ -54,14 +54,16 @@ const ProjectCard = ({ project }) => {
         <Avatar project={project} size={75} />
         <Title>{project.name}</Title>
         <Score>
-          <StarDelta value={project.weekly} />
+          <StarDelta value={project.weekly || project.trends.weekly} />
         </Score>
       </Card.Header>
       <Card.Description>
         <Description text={project.description} />
       </Card.Description>
       <Card.Tags>
-        {project.tags.map(tag => <TagLabel key={tag.code} tag={tag} />)}
+        {project.tags.map(tag => (
+          <TagLabel key={tag.code} tag={tag} />
+        ))}
       </Card.Tags>
     </Card>
   )
