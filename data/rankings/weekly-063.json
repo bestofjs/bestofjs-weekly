@@ -1,0 +1,339 @@
+{
+  "date": "2019-08-11T08:12:35.525Z",
+  "projects": [
+    {
+      "name": "Data Structures and Algorithms",
+      "full_name": "amejiarosario/dsa.js-data-structures-algorithms-javascript",
+      "description": "Data Structures and Algorithms explained and implemented in JavaScript",
+      "stars": 4067,
+      "trends": {
+        "daily": 124,
+        "weekly": 1564,
+        "monthly": 1603,
+        "quarterly": 2614
+      },
+      "tags": ["data-structure", "learning"],
+      "owner_id": 418605,
+      "contributor_count": 6,
+      "commit_count": 570,
+      "pushed_at": "2019-08-03T14:06:57.000Z",
+      "url": "https://books.adrianmejia.com"
+    },
+    {
+      "name": "Outline",
+      "full_name": "outline/outline",
+      "description": "The fastest wiki and knowledge base for growing teams. Beautiful, feature r...",
+      "stars": 4026,
+      "trends": { "daily": 27, "weekly": 661 },
+      "tags": ["doc"],
+      "owner_id": 1765001,
+      "contributor_count": 21,
+      "commit_count": 2102,
+      "pushed_at": "2019-08-10T03:37:51.000Z",
+      "url": "https://www.getoutline.com"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 145744,
+      "trends": {
+        "daily": 48,
+        "weekly": 531,
+        "monthly": 2289,
+        "quarterly": 7472,
+        "yearly": 35222
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "owner_id": 6128107,
+      "contributor_count": 278,
+      "commit_count": 3033,
+      "pushed_at": "2019-08-07T07:09:00.000Z",
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vuestic Admin Dashboard",
+      "full_name": "epicmaxco/vuestic-admin",
+      "description": "Free and Beautiful Vue.js Admin Template",
+      "stars": 6082,
+      "trends": {
+        "daily": 58,
+        "weekly": 492,
+        "monthly": 548,
+        "quarterly": 672,
+        "yearly": 1536
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 30595047,
+      "contributor_count": 36,
+      "commit_count": 1344,
+      "pushed_at": "2019-08-07T18:55:21.000Z",
+      "url": "http://vuestic.epicmax.co"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 38723,
+      "trends": {
+        "daily": 36,
+        "weekly": 441,
+        "monthly": 1866,
+        "quarterly": 5812,
+        "yearly": 21146
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 8121621,
+      "contributor_count": 87,
+      "commit_count": 921,
+      "pushed_at": "2019-07-16T09:12:26.000Z",
+      "url": "http://panjiachen.github.io/vue-element-admin",
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Moveable",
+      "full_name": "daybrush/moveable",
+      "description": "Draggable! Resizable! Scalable! Rotatable! ",
+      "stars": 1591,
+      "trends": { "daily": 11, "weekly": 439 },
+      "tags": ["react", "dnd", "touch"],
+      "owner_id": 3433062,
+      "contributor_count": 2,
+      "commit_count": 168,
+      "pushed_at": "2019-08-08T18:26:07.000Z",
+      "url": "https://daybrush.com/moveable/",
+      "npm": "moveable"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user...",
+      "stars": 134169,
+      "trends": {
+        "daily": 23,
+        "weekly": 412,
+        "monthly": 1689,
+        "quarterly": 5297,
+        "yearly": 25663
+      },
+      "tags": ["framework", "vdom", "react"],
+      "owner_id": 69631,
+      "contributor_count": 1304,
+      "commit_count": 11204,
+      "pushed_at": "2019-08-10T20:44:23.000Z",
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 113761,
+      "trends": {
+        "daily": 29,
+        "weekly": 391,
+        "monthly": 1879,
+        "quarterly": 5519,
+        "yearly": 23333
+      },
+      "tags": ["meta"],
+      "owner_id": 170270,
+      "contributor_count": 400,
+      "commit_count": 846,
+      "pushed_at": "2019-08-03T14:14:02.000Z",
+      "icon": "awesome.svg"
+    },
+    {
+      "name": "Element",
+      "full_name": "ElemeFE/element",
+      "description": "A Vue.js 2.0 UI Toolkit for Web",
+      "stars": 40149,
+      "trends": {
+        "daily": 9,
+        "weekly": 379,
+        "monthly": 992,
+        "quarterly": 2625,
+        "yearly": 10473
+      },
+      "tags": ["vue", "component"],
+      "owner_id": 12810740,
+      "contributor_count": 492,
+      "commit_count": 4300,
+      "pushed_at": "2019-08-10T12:17:11.000Z",
+      "url": "https://element.eleme.io/",
+      "branch": "dev",
+      "npm": "element-ui"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 80983,
+      "trends": {
+        "daily": 47,
+        "weekly": 360,
+        "monthly": 1423,
+        "quarterly": 5202,
+        "yearly": 24003
+      },
+      "tags": ["ide"],
+      "owner_id": 6154722,
+      "contributor_count": 942,
+      "commit_count": 52873,
+      "pushed_at": "2019-08-10T14:48:03.000Z",
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Data Structures and Algorithms",
+      "full_name": "amejiarosario/dsa.js-data-structures-algorithms-javascript",
+      "description": "Data Structures and Algorithms explained and implemented in JavaScript",
+      "stars": 4067,
+      "trends": {
+        "daily": 124,
+        "weekly": 1564,
+        "monthly": 1603,
+        "quarterly": 2614
+      },
+      "tags": ["data-structure", "learning"],
+      "owner_id": 418605,
+      "contributor_count": 6,
+      "commit_count": 570,
+      "pushed_at": "2019-08-03T14:06:57.000Z",
+      "url": "https://books.adrianmejia.com"
+    },
+    {
+      "name": "Moveable",
+      "full_name": "daybrush/moveable",
+      "description": "Draggable! Resizable! Scalable! Rotatable! ",
+      "stars": 1591,
+      "trends": { "daily": 11, "weekly": 439 },
+      "tags": ["react", "dnd", "touch"],
+      "owner_id": 3433062,
+      "contributor_count": 2,
+      "commit_count": 168,
+      "pushed_at": "2019-08-08T18:26:07.000Z",
+      "url": "https://daybrush.com/moveable/",
+      "npm": "moveable"
+    },
+    {
+      "name": "Outline",
+      "full_name": "outline/outline",
+      "description": "The fastest wiki and knowledge base for growing teams. Beautiful, feature r...",
+      "stars": 4026,
+      "trends": { "daily": 27, "weekly": 661 },
+      "tags": ["doc"],
+      "owner_id": 1765001,
+      "contributor_count": 21,
+      "commit_count": 2102,
+      "pushed_at": "2019-08-10T03:37:51.000Z",
+      "url": "https://www.getoutline.com"
+    },
+    {
+      "name": "Hotkey",
+      "full_name": "github/hotkey",
+      "description": "Trigger an action on an element with a keyboard shortcut.",
+      "stars": 1786,
+      "trends": { "daily": 5, "weekly": 193, "monthly": 339, "quarterly": 351 },
+      "tags": ["keyboard"],
+      "owner_id": 9919,
+      "contributor_count": 5,
+      "commit_count": 80,
+      "pushed_at": "2019-08-07T17:03:15.000Z",
+      "npm": "@github/hotkey"
+    },
+    {
+      "name": "Vuestic Admin Dashboard",
+      "full_name": "epicmaxco/vuestic-admin",
+      "description": "Free and Beautiful Vue.js Admin Template",
+      "stars": 6082,
+      "trends": {
+        "daily": 58,
+        "weekly": 492,
+        "monthly": 548,
+        "quarterly": 672,
+        "yearly": 1536
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 30595047,
+      "contributor_count": 36,
+      "commit_count": 1344,
+      "pushed_at": "2019-08-07T18:55:21.000Z",
+      "url": "http://vuestic.epicmax.co"
+    },
+    {
+      "name": "Laconia",
+      "full_name": "laconiajs/laconia",
+      "description": "Create well-crafted serverless applications, effortlessly",
+      "stars": 180,
+      "trends": { "daily": 1, "weekly": 11, "monthly": 24, "quarterly": 64 },
+      "tags": ["serverless"],
+      "owner_id": 37687217,
+      "contributor_count": 7,
+      "commit_count": 949,
+      "pushed_at": "2019-08-09T06:49:29.000Z",
+      "url": "http://laconiajs.io",
+      "npm": "@laconia/core"
+    },
+    {
+      "name": "Motion",
+      "full_name": "framer/motion",
+      "description": "Production-ready animation and gesture library for React ",
+      "stars": 2173,
+      "trends": { "daily": 11, "weekly": 112 },
+      "tags": ["react", "animation", "touch"],
+      "owner_id": 42876,
+      "contributor_count": 13,
+      "commit_count": 1247,
+      "pushed_at": "2019-08-10T09:24:09.000Z",
+      "url": "https://framer.com/motion",
+      "npm": "framer-motion"
+    },
+    {
+      "name": "Theme UI",
+      "full_name": "system-ui/theme-ui",
+      "description": "Build consistent, themeable React UIs based on design system constraints an...",
+      "stars": 794,
+      "trends": { "daily": 4, "weekly": 40, "monthly": 181 },
+      "tags": ["css-in-js"],
+      "owner_id": 48816045,
+      "contributor_count": 22,
+      "commit_count": 900,
+      "pushed_at": "2019-08-09T18:22:30.000Z",
+      "url": "https://theme-ui.com",
+      "npm": "theme-ui"
+    },
+    {
+      "name": "React Chaos",
+      "full_name": "jchiatt/react-chaos",
+      "description": "Chaos Engineering for your React apps.",
+      "stars": 426,
+      "trends": { "daily": 0, "weekly": 20 },
+      "tags": ["test", "react"],
+      "owner_id": 2353845,
+      "contributor_count": 2,
+      "commit_count": 96,
+      "pushed_at": "2019-07-20T02:19:33.000Z"
+    },
+    {
+      "name": "Lightweight Charts",
+      "full_name": "tradingview/lightweight-charts",
+      "description": "Financial lightweight charts built with HTML5 canvas",
+      "stars": 862,
+      "trends": { "daily": 5, "weekly": 38, "monthly": 221 },
+      "tags": ["chart", "canvas"],
+      "owner_id": 7644688,
+      "contributor_count": 9,
+      "commit_count": 315,
+      "pushed_at": "2019-08-01T17:30:26.000Z",
+      "url": "https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/",
+      "npm": "lightweight-charts"
+    }
+  ]
+}

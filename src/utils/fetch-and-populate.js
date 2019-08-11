@@ -8,13 +8,22 @@ async function fetchAllProjectsAndTags() {
   return response.body
 }
 
-const populate = ({ tags }) => newsletter => {
+const populate = ({ tags }) => issue => {
+  const { projects, growing } = issue
+  return {
+    ...issue,
+    projects: projects.map(populateProject({ tags })),
+    growing: growing ? growing.map(populateProject({ tags })) : null
+  }
+}
+
+const populateProject = ({ tags }) => project => {
   const findByCode = code => tags.find(tag => tag.code === code)
-  const projects = newsletter.projects.map(project => ({
+
+  return {
     ...project,
     tags: project.tags.map(findByCode)
-  }))
-  return { ...newsletter, projects }
+  }
 }
 
 export default async function fetchAndPopulate() {

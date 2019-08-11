@@ -25,8 +25,35 @@ const Issue = ({ issue, isLatest }) => {
       <IssueStory>
         <Story html={issue.story} />
       </IssueStory>
-      <ProjectList projects={issue.projects} />
+      {issue.growing ? (
+        <RankingsV2 issue={issue} />
+      ) : (
+        <RankingsV1 issue={issue} />
+      )}
     </Fragment>
+  )
+}
+
+const RankingsV1 = ({ issue }) => {
+  return <ProjectList projects={issue.projects} />
+}
+
+const RankingsV2 = ({ issue }) => {
+  return (
+    <>
+      <h3>Growing Fast This Week</h3>
+      <ProjectList
+        projects={issue.growing}
+        showGrowth={true}
+        showDelta={false}
+      />
+      <h3>Trending This Week</h3>
+      <ProjectList
+        projects={issue.projects}
+        showGrowth={false}
+        showDelta={true}
+      />
+    </>
   )
 }
 

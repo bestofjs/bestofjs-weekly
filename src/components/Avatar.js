@@ -1,6 +1,6 @@
 import React from 'react'
 
-import getAvatarUrl from './get-avatar-url'
+import { getAvatarUrl } from '../utils/project-helpers'
 
 const Avatar = ({ project, size = 100 }) => {
   const { svg } = project

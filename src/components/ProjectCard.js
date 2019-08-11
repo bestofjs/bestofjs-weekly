@@ -6,6 +6,7 @@ import Avatar from './Avatar'
 import StarDelta from './StarDelta'
 import TagLabel from './TagLabel'
 import Description from './Description'
+import GrowthScore from './GrowthScore'
 
 const cardBorderColor = '#cbcbcb'
 
@@ -46,7 +47,7 @@ function getUrl(project) {
   return project.url ? project.url : `https://github.com/${project.full_name}`
 }
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, showDelta = true, showGrowth = false }) => {
   const url = getUrl(project)
   return (
     <Card>
@@ -54,7 +55,10 @@ const ProjectCard = ({ project }) => {
         <Avatar project={project} size={75} />
         <Title>{project.name}</Title>
         <Score>
-          <StarDelta value={project.weekly || project.trends.weekly} />
+          {showDelta && (
+            <StarDelta value={project.weekly || project.trends.weekly} />
+          )}
+          {showGrowth && <GrowthScore project={project} />}
         </Score>
       </Card.Header>
       <Card.Description>

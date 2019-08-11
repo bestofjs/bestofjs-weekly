@@ -20,12 +20,12 @@ const Grid = styled.div`
   }
 `
 
-const ProjectList = ({ projects }) => {
+const ProjectList = ({ projects, ...otherProps }) => {
   return (
     <Grid>
       {projects.map(project => (
         <div key={project.full_name}>
-          <ProjectCard project={project} />
+          <ProjectCard project={project} {...otherProps} />
         </div>
       ))}
     </Grid>

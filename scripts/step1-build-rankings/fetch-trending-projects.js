@@ -29,7 +29,7 @@ function getProjectsByStarAdded(projects) {
 }
 
 function getProjectsByRelativeGrowth(projects) {
-  return orderBy(projects, [getWeeklyRelativeGrowth], ['desc'])
+  return orderBy(projects.slice(0), getWeeklyRelativeGrowth, 'desc')
 }
 
 function getWeeklyRelativeGrowth(project) {

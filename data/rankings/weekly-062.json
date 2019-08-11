@@ -183,7 +183,7 @@
       "npm": "antd"
     }
   ],
-  "growing": [
+  "growing_test": [
     {
       "name": "Moveable",
       "full_name": "daybrush/moveable",
