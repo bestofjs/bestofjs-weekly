@@ -1,5 +1,5 @@
 import fetchAndPopulate from './fetch-and-populate'
-import fetchStories from './fetch-stories'
+import { fetchStories } from './stories'
 
 export default async function fetchContent() {
   const rankings = await fetchAndPopulate()

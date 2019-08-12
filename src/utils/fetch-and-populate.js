@@ -1,6 +1,6 @@
 import got from 'got'
 
-import fetchRankings from './fetch-rankings'
+import { fetchRankings } from './rankings'
 
 async function fetchAllProjectsAndTags() {
   const url = 'https://bestofjs-api-v3.firebaseapp.com/projects.json'
