@@ -9,10 +9,10 @@ function renderIntro({ number, story }) {
       Best of JavaScript Weekly #${number} (${template.render(new Date())})
     </mj-text>
     <mj-text>
-    Every week, you will find here the 10 trendiest projects from <a href="https://weekly.bestofjs.org">Best of JavaScript</a>, a curated
-    list of projects related to the web platform and node.js.
+    Every week, you will find here the trendiest projects from <a href="https://bestofjs.org">Best of JavaScript</a>, a curated
+    list of projects related to the web platform and Node.js.
     </mj-text>
-    <mj-button href="https://weekly.bestofjs.org/issues/${number}" background-color="#e65100">Read on the web</mj-button>
+    <mj-button href="https://weekly.bestofjs.org/issues/${number}" background-color="#e65100">View the full rankings on the web</mj-button>
     <mj-text padding="0 25px">
       ${story}
     </mj-text>

@@ -2,27 +2,16 @@ require('dotenv').load()
 const debug = require('debug')('*')
 const prettyBytes = require('pretty-bytes')
 
+import { getLastIssueNumber, getLatestRankings } from '../../src/utils/rankings'
+import { getLatestStory } from '../../src/utils/stories'
+
 const buildNewsletter = require('./build-email-html')
 const createTemplate = require('./api/create-template')
 const createCampaign = require('./api/create-campaign')
-import fetchRankings from '../../src/utils/fetch-rankings'
-import getLastIssueNumber from '../utils/get-last-issue-number'
-import fetchStories from '../../src/utils/fetch-stories'
 
 const listIds = {
   test: '528',
   weekly: '529'
-}
-
-async function getLatestStory({ number }) {
-  const stories = await fetchStories()
-  const latest = stories.find(story => number === story.number)
-  return latest ? latest.contents : `<p>No story #${number} found!</p>`
-}
-async function getLatestRankings({ number }) {
-  const rankings = await fetchRankings()
-  const latestRankings = rankings.find(story => number === story.number)
-  return latestRankings.projects
 }
 
 async function main() {
@@ -32,7 +21,7 @@ async function main() {
   debug(`This week story: ${story.slice(0, 50)}...`)
   const projects = await getLatestRankings({ number })
   debug(
-    `This week rankings: ${projects
+    `This week rankings: ${projects.trending
       .map(project => project.name)
       .slice(0, 3)
       .join(', ')}`

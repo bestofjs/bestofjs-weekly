@@ -1,5 +1,44 @@
 const numeral = require('numeral')
 
+import { getWeeklyRelativeGrowth } from '../../../src/utils/project-helpers'
+
+const renderProject = ({ showGrowth = false }) => (project, index) => {
+  const size = 50
+  const iconUrl = getProjectAvatarUrl(project, size)
+  const url = getUrl(project)
+
+  return `
+    <tr>
+      <td>
+        <img src="${iconUrl}" width="${size}" height="${size}" alt="${
+    project.name
+  }" />
+      </td>
+      <td style="padding: 8px;">
+        <span>#${index + 1}</span>
+        <a href="${url}">${project.name}</a><br />
+        <div style="color: #788080;">${project.description}</div>
+      </td>
+      <td width="50">
+        ${showGrowth ? renderGrowthScore(project) : renderDelta(project)}
+      </td>
+    </tr>
+  `
+}
+
+// <td style="width: 30px; font-size: 24px; color: #788080">${index + 1}</td>
+
+const renderGrowthScore = project => {
+  const score = getWeeklyRelativeGrowth(project) * 100
+  return `+${score.toFixed(1)}%`
+}
+
+const renderDelta = project => {
+  const value = project.trends.weekly
+  const digits = value > 1000 && value < 10000 ? '0.0' : '0'
+  return `+${numeral(value).format(`${digits}a`)}★`
+}
+
 const isUrl = input => input.startsWith('http')
 
 const formatIconUrl = input =>
@@ -24,30 +63,6 @@ function getUrl(project) {
 function formatStarNumber(value) {
   const digits = value > 1000 && value < 10000 ? '0.0' : '0'
   return numeral(value).format(`${digits} a`)
-}
-
-function renderProject(project) {
-  const size = 100
-  const iconUrl = getProjectAvatarUrl(project, size)
-  const url = getUrl(project)
-  return `
-<mj-section background-color="white">
-  <mj-column width="25%" background-color="#fff">
-    <mj-image src="${iconUrl}" width="${size}" height="${size}" alt="${
-    project.name
-  }"></mj-image>
-  </mj-column>
-  <mj-column width="75%" background-color="#fff">
-    <mj-text padding="0 20px 20px" font-size="18px">
-      <a href="${url}">${project.name}</a> +${formatStarNumber(
-    project.trends.weekly
-  )} ★ this week
-    </mj-text>
-    <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />
-    <mj-text padding="20px">${project.description}</mj-text>
-  </mj-column>
-</mj-section>
-  `
 }
 
 module.exports = renderProject

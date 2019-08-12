@@ -11,10 +11,10 @@ const providers = {
 
 function renderFooter({ provider }) {
   const settings = providers[provider]
-  if (!settings) throw new Error(`Invald email provider "${provider}"`)
+  if (!settings) throw new Error(`Invalid email provider "${provider}"`)
   const { unsubscribe } = settings
   return ` 
-<mj-section>
+<mj-section border-top="3px solid #e65100">
   <mj-column>
     <mj-text>
       Thank you for your attention, visit <a href="https://bestofjs.org">Best of JavaScript</a> 
