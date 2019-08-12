@@ -1,14 +1,14 @@
 import fs from 'fs-extra'
 import path from 'path'
+import { orderBy } from 'lodash'
 
 export async function fetchRankings() {
   const folderPath = ['data', 'rankings']
   const filenames = await readDataFolder(folderPath)
-  const result = await Promise.all(
+  const issues = await Promise.all(
     filenames.map(readWeeklyReportFile(folderPath))
   )
-  const sorted = result.slice().sort((a, b) => (a.number > b.number ? -1 : 1))
-  return sorted
+  return orderBy(issues, 'number', 'desc')
 }
 
 export async function getLatestRankings({ number }) {

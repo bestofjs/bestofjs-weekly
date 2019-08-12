@@ -1,6 +1,7 @@
 require('dotenv').load()
 const debug = require('debug')('bestofjs')
 const prettyBytes = require('pretty-bytes')
+const { mapValues } = require('lodash')
 
 const buildNewsletter = require('./build-email-html')
 const createTemplate = require('./api/create-template')
@@ -15,13 +16,15 @@ async function preview() {
   const number = await getLastIssueNumber()
   const story = await getLatestStory({ number })
   debug(`This week story: ${story.slice(0, 50)}...`)
-  const projects = await getLatestRankings({ number })
-  const { growing, trending } = projects
+  const rankings = await getLatestRankings({ number })
+  const { growing, trending } = rankings
   debug('Growing', growing.map(project => project.name))
   debug('Trending', trending.map(project => project.name))
 
   const mjml = renderNewsletter({
-    projects,
+    projects: mapValues({ growing, trending }, projectList =>
+      projectList.map((project, index) => ({ ...project, ranking: index + 1 }))
+    ),
     provider: 'elasticemail',
     number,
     story
