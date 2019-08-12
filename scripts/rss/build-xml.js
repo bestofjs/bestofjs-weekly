@@ -1,6 +1,6 @@
 import builder from 'xmlbuilder'
 
-import getAvatarUrl from '../../src/components/get-avatar-url'
+import { getAvatarUrl } from '../../src/utils/project-helpers'
 
 export default function buildXml(projects) {
   const xml = builder
@@ -18,7 +18,7 @@ export default function buildXml(projects) {
 }
 
 function addItem(xmlParent, project) {
-  const repoUrl = `https://github.com/${project.full_name}` 
+  const repoUrl = `https://github.com/${project.full_name}`
   const xmlItem = xmlParent.ele('item')
   xmlItem.ele(
     'title',
