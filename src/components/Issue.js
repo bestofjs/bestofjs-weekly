@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import ProjectList from './ProjectList'
 import Navigation from './Navigation'
 import Story from './Story'
+import ProjectTable from './ProjectTable'
 
 const IssueStory = styled.div`
   margin-bottom: 2rem;
@@ -42,13 +43,13 @@ const RankingsV2 = ({ issue }) => {
   return (
     <>
       <h3>Growing Fast This Week</h3>
-      <ProjectList
+      <ProjectTable
         projects={issue.growing}
         showGrowth={true}
         showDelta={false}
       />
       <h3>Trending This Week</h3>
-      <ProjectList
+      <ProjectTable
         projects={issue.projects}
         showGrowth={false}
         showDelta={true}

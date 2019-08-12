@@ -4,6 +4,10 @@ export function getWeeklyRelativeGrowth(project) {
   return delta / (stars - delta)
 }
 
+export function getUrl(project) {
+  return project.url ? project.url : `https://github.com/${project.full_name}`
+}
+
 /*
 Return the image URL to be displayed inside the project card
 Can be either :

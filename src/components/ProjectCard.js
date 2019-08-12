@@ -7,6 +7,7 @@ import StarDelta from './StarDelta'
 import TagLabel from './TagLabel'
 import Description from './Description'
 import GrowthScore from './GrowthScore'
+import { getUrl } from '../utils/project-helpers'
 
 const cardBorderColor = '#cbcbcb'
 
@@ -42,10 +43,6 @@ Card.Tags = styled.div`
   border-top: 1px dashed rgb(203, 203, 203);
   padding: 1rem;
 `
-
-function getUrl(project) {
-  return project.url ? project.url : `https://github.com/${project.full_name}`
-}
 
 const ProjectCard = ({ project, showDelta = true, showGrowth = false }) => {
   const url = getUrl(project)
