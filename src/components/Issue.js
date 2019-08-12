@@ -42,13 +42,17 @@ const RankingsV1 = ({ issue }) => {
 const RankingsV2 = ({ issue }) => {
   return (
     <>
-      <h3>Growing Fast This Week</h3>
+      <Title>Growing Fast This Week</Title>
+      <SubTitle>
+        By % of GitHub stars added (relative growth) this week
+      </SubTitle>
       <ProjectTable
         projects={issue.growing}
         showGrowth={true}
         showDelta={false}
       />
-      <h3>Trending This Week</h3>
+      <Title>Trending This Week</Title>
+      <SubTitle>By number of GitHub stars added this week</SubTitle>
       <ProjectTable
         projects={issue.projects}
         showGrowth={false}
@@ -57,6 +61,16 @@ const RankingsV2 = ({ issue }) => {
     </>
   )
 }
+
+const Title = styled.h3`
+  margin-bottom: 0;
+`
+
+const SubTitle = styled.div`
+  font-size: 14px;
+  color: #788080;
+  margin-bottom: 1rem;
+`
 
 Issue.propTypes = {
   issue: PropTypes.object.isRequired
