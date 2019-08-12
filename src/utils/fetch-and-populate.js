@@ -3,16 +3,17 @@ import got from 'got'
 import fetchRankings from './fetch-rankings'
 
 async function fetchAllProjectsAndTags() {
-  const url = 'https://bestofjs-api-v2.firebaseapp.com/projects.json'
+  const url = 'https://bestofjs-api-v3.firebaseapp.com/projects.json'
   const response = await got(url, { json: true })
   return response.body
 }
 
 const populate = ({ tags }) => issue => {
-  const { projects, growing } = issue
+  const { projects, trending, growing } = issue
   return {
     ...issue,
-    projects: projects.map(populateProject({ tags })),
+    projects: projects ? projects.map(populateProject({ tags })) : null,
+    trending: trending ? trending.map(populateProject({ tags })) : null,
     growing: growing ? growing.map(populateProject({ tags })) : null
   }
 }

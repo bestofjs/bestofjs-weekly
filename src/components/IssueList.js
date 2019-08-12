@@ -44,21 +44,24 @@ IssueList.propTypes = {
   issues: PropTypes.array.isRequired
 }
 
-const IssueListItem = ({ issue }) => (
-  <tr>
-    <td>{issue.number}</td>
-    <td>
-      <Link to={`/issues/${issue.number}`} className="link">
-        <IssueDate date={issue.date} />
-      </Link>
-    </td>
-    <td>
-      {issue.projects
-        .slice(0, 3)
-        .map(project => project.name)
-        .join(', ')}
-    </td>
-  </tr>
-)
+const IssueListItem = ({ issue }) => {
+  const projects = issue.projects || issue.trending
+  return (
+    <tr>
+      <td>{issue.number}</td>
+      <td>
+        <Link to={`/issues/${issue.number}`} className="link">
+          <IssueDate date={issue.date} />
+        </Link>
+      </td>
+      <td>
+        {projects
+          .slice(0, 3)
+          .map(project => project.name)
+          .join(', ')}
+      </td>
+    </tr>
+  )
+}
 
 export default IssueList

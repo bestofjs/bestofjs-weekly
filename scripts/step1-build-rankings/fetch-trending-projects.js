@@ -19,7 +19,7 @@ export default async function fetchTrendingProjects({ count } = { count: 10 }) {
     count
   )
   return {
-    projects: byStarsAdded,
+    trending: byStarsAdded,
     growing: byRelativeGrowth
   }
 }

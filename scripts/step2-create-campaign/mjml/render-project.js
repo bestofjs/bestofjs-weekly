@@ -40,7 +40,7 @@ function renderProject(project) {
   <mj-column width="75%" background-color="#fff">
     <mj-text padding="0 20px 20px" font-size="18px">
       <a href="${url}">${project.name}</a> +${formatStarNumber(
-    project.weekly
+    project.trends.weekly
   )} ★ this week
     </mj-text>
     <mj-divider border-width="1px" border-style="dashed" border-color="#cbcbcb" padding="0 20px 0 0" />

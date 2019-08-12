@@ -54,7 +54,7 @@ const RankingsV2 = ({ issue }) => {
       <Title>Trending This Week</Title>
       <SubTitle>By number of GitHub stars added this week</SubTitle>
       <ProjectTable
-        projects={issue.projects}
+        projects={issue.trending}
         showGrowth={false}
         showDelta={true}
       />
