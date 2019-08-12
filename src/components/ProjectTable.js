@@ -53,12 +53,12 @@ const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
         </Link>
       </Cell>
 
-      <Cell>
+      <LastCell>
         {showDelta && (
           <StarDelta value={project.weekly || project.trends.weekly} />
         )}
         {showGrowth && <GrowthScore project={project} />}
-      </Cell>
+      </LastCell>
     </Row>
   )
 }
@@ -79,6 +79,7 @@ const Row = styled.tr`
 const Cell = styled.td`
   height: 50px;
   padding: 8px 0;
+  background-color: white;
 `
 
 const ProjectRankingNumber = styled.div`
@@ -89,6 +90,10 @@ const ProjectRankingNumber = styled.div`
 `
 
 const MainCell = styled(Cell)`
+  padding: 8px;
+`
+
+const LastCell = styled(Cell)`
   padding: 8px;
 `
 
