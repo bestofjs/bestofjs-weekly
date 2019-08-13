@@ -23,7 +23,7 @@ function addItem(xmlParent, project) {
   xmlItem.ele(
     'title',
     {},
-    `${project.name} [+${project.weekly} stars this week]`
+    `${project.name} [+${project.trends.weekly} stars this week]`
   )
   xmlItem.ele('author', {}, project.full_name.split('/').slice(0, 1))
   xmlItem.ele('description', {}, project.description)
