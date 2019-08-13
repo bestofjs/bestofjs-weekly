@@ -22,9 +22,7 @@ async function preview() {
   debug('Trending', trending.map(project => project.name))
 
   const mjml = renderNewsletter({
-    projects: mapValues({ growing, trending }, projectList =>
-      projectList.map((project, index) => ({ ...project, ranking: index + 1 }))
-    ),
+    rankings,
     provider: 'elasticemail',
     number,
     story

@@ -5,11 +5,19 @@ const renderFooter = require('./render-footer')
 const renderRankings = require('./render-rankings')
 
 function renderNewsletter({
-  projects: { trending, growing },
+  rankings: { trending, growing },
   provider,
   number,
   story
 }) {
+  const growingProjects = growing.map(addRankingNumber)
+  const trendingProjects = trending
+    .map(addRankingNumber)
+    .filter(
+      project =>
+        !growing.map(({ full_name }) => full_name).includes(project.full_name)
+    )
+
   return `
     <mjml>
       <mj-head>
@@ -27,17 +35,12 @@ function renderNewsletter({
         ${renderHeader()}
         ${renderIntro({ number, story })}
         ${renderRankings({
-          projects: growing,
+          projects: growingProjects,
           title: 'Growing Fast This Week',
           showGrowth: true
         })}
         ${renderRankings({
-          projects: trending.filter(
-            project =>
-              !growing
-                .map(({ full_name }) => full_name)
-                .includes(project.full_name)
-          ),
+          projects: trendingProjects,
           title: 'Trending This Week',
           showGrowth: false
         })}
@@ -46,4 +49,10 @@ function renderNewsletter({
     </mjml>
 `
 }
+
+const addRankingNumber = (project, index) => ({
+  ...project,
+  ranking: index + 1
+})
+
 module.exports = renderNewsletter

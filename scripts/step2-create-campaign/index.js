@@ -19,16 +19,16 @@ async function main() {
   const number = await getLastIssueNumber()
   const story = await getLatestStory({ number })
   debug(`This week story: ${story.slice(0, 50)}...`)
-  const projects = await getLatestRankings({ number })
+  const rankings = await getLatestRankings({ number })
   debug(
-    `This week rankings: ${projects.trending
+    `This week rankings: ${rankings.trending
       .map(project => project.name)
       .slice(0, 3)
       .join(', ')}`
   )
   debug(`Creating email content for the issue number ${number}`)
   const { html, errors } = buildNewsletter({
-    projects,
+    rankings,
     story,
     provider: 'elasticemail',
     number
