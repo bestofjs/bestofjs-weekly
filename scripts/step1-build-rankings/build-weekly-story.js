@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 const path = require('path')
 const debug = require('debug')('bestofjs')
 
-import fetchStories from '../../src/utils/fetch-stories'
+import { fetchStories } from '../../src/utils/stories'
 
 export async function isStoryAlreadyBuilt({ number }) {
   const stories = await fetchStories()

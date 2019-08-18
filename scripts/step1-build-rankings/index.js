@@ -1,6 +1,6 @@
 import build from './build-weekly-report'
 import { createStoryIfNeeded } from './build-weekly-story'
-import getLastIssueNumber from '../utils/get-last-issue-number'
+import { getLastIssueNumber } from '../../src/utils/rankings'
 
 async function buildData() {
   console.log('Build the weekly report...')
