@@ -10,13 +10,17 @@ function renderNewsletter({
   number,
   story
 }) {
-  const growingProjects = growing.map(addRankingNumber)
+  const limit = 5
+  const growingProjects = growing.map(addRankingNumber).slice(0, limit)
   const trendingProjects = trending
     .map(addRankingNumber)
     .filter(
       project =>
-        !growing.map(({ full_name }) => full_name).includes(project.full_name)
+        !growingProjects
+          .map(({ full_name }) => full_name)
+          .includes(project.full_name)
     )
+    .slice(0, limit)
 
   return `
     <mjml>

@@ -30,7 +30,8 @@ const renderProject = ({ showGrowth = false }) => (project, index) => {
 
 const renderGrowthScore = project => {
   const score = getWeeklyRelativeGrowth(project) * 100
-  return `+${score.toFixed(1)}%`
+  const decimals = score >= 10 ? 0 : 1
+  return `+${score.toFixed(decimals)}%`
 }
 
 const renderDelta = project => {

@@ -1,1 +1,351 @@
-{"date":"2019-08-18T07:13:44.874Z","trending":[{"name":"Reactide","full_name":"reactide/reactide","description":"Reactide is the first dedicated IDE for React web application development.","stars":9413,"trends":{"daily":29,"weekly":495,"monthly":575,"quarterly":621,"yearly":1241},"tags":["ide"],"owner_id":26257999,"contributor_count":12,"commit_count":264,"pushed_at":"2019-08-14T15:58:05.000Z","url":"https://reactide.io"},{"name":"Vue.js","full_name":"vuejs/vue","description":"A progressive, incrementally-adoptable framework for building UI on the web","stars":146216,"trends":{"daily":44,"weekly":472,"monthly":2170,"quarterly":7363,"yearly":35064},"tags":["framework","vdom","vue"],"owner_id":6128107,"contributor_count":279,"commit_count":3034,"pushed_at":"2019-08-12T08:05:31.000Z","url":"http://vuejs.org","branch":"dev","npm":"vue","icon":"vue.svg"},{"name":"Awesome","full_name":"sindresorhus/awesome","description":"Awesome lists about all kinds of interesting topics","stars":114228,"trends":{"daily":43,"weekly":467,"monthly":1931,"quarterly":5556,"yearly":23344},"tags":["meta"],"owner_id":170270,"contributor_count":401,"commit_count":846,"pushed_at":"2019-08-03T14:14:02.000Z","icon":"awesome.svg"},{"name":"VS Code","full_name":"microsoft/vscode","description":"Visual Studio Code","stars":81411,"trends":{"daily":62,"weekly":428,"monthly":1531,"quarterly":5066,"yearly":24012},"tags":["ide"],"owner_id":6154722,"contributor_count":949,"commit_count":53278,"pushed_at":"2019-08-17T08:17:09.000Z","url":"https://code.visualstudio.com","icon":"vscode.svg"},{"name":"Vue Element Admin","full_name":"PanJiaChen/vue-element-admin","description":"A magical vue admin","stars":39138,"trends":{"daily":27,"weekly":415,"monthly":1873,"quarterly":5732,"yearly":21236},"tags":["vue","dashboard"],"owner_id":8121621,"contributor_count":86,"commit_count":921,"pushed_at":"2019-07-16T09:12:26.000Z","url":"http://panjiachen.github.io/vue-element-admin","icon":"vueelementadmin.png"},{"name":"React","full_name":"facebook/react","description":"A declarative, efficient, and flexible JavaScript library for building user...","stars":134546,"trends":{"daily":22,"weekly":377,"monthly":1671,"quarterly":5220,"yearly":25567},"tags":["framework","vdom","react"],"owner_id":69631,"contributor_count":1305,"commit_count":11234,"pushed_at":"2019-08-17T18:47:38.000Z","url":"https://reactjs.org","npm":"react","icon":"react.svg"},{"name":"You Don't Know JS","full_name":"getify/You-Dont-Know-JS","description":"A book series on JavaScript","stars":106698,"trends":{"daily":26,"weekly":336,"monthly":1514,"quarterly":4752,"yearly":19985},"tags":["learning","book"],"owner_id":150330,"contributor_count":159,"commit_count":1487,"pushed_at":"2018-11-17T23:04:22.000Z","url":"http://www.kickstarter.com/projects/getify/you-dont-know-js-book-series","icon":"js.svg"},{"name":"Data Structures and Algorithms in JS","full_name":"amejiarosario/dsa.js-data-structures-algorithms-javascript","description":"Data Structures and Algorithms explained and implemented in JavaScript","stars":4370,"trends":{"daily":25,"weekly":303,"monthly":1887,"quarterly":2871},"tags":["data-structure","learning","book"],"owner_id":418605,"contributor_count":7,"commit_count":575,"pushed_at":"2019-08-16T22:35:48.000Z","url":"https://books.adrianmejia.com"},{"name":"Svelte","full_name":"sveltejs/svelte","description":"Cybernetically enhanced web apps","stars":22366,"trends":{"daily":25,"weekly":278,"monthly":1155,"quarterly":6735,"yearly":14556},"tags":["framework"],"owner_id":23617963,"contributor_count":187,"commit_count":4937,"pushed_at":"2019-08-16T18:01:41.000Z","url":"https://svelte.dev","icon":"svelte.svg"},{"name":"Axios","full_name":"axios/axios","description":"Promise based HTTP client for the browser and node.js","stars":63392,"trends":{"daily":31,"weekly":278,"monthly":1204,"quarterly":3901,"yearly":16699},"tags":["http"],"owner_id":32372333,"contributor_count":166,"commit_count":853,"pushed_at":"2019-05-31T15:20:35.000Z","npm":"axios"}],"growing":[{"name":"TypeLighterJS","full_name":"EdernClemente/TypeLighterJS","description":"Take a stride into the world of dynamic and appealing typewriters. You can ...","stars":156,"trends":{"daily":3,"weekly":97},"tags":["typo"],"owner_id":53342699,"contributor_count":1,"commit_count":9,"pushed_at":"2019-08-11T19:21:12.000Z","url":"https://edernclemente.com/plugin/typelighterjs"},{"name":"Frontless","full_name":"nesterow/frontless","description":"Build universal JS applications with Riot.JS","stars":82,"trends":{"daily":0,"weekly":9},"tags":["isomorphic","nodejs-framework","express"],"owner_id":48190253,"contributor_count":4,"commit_count":437,"pushed_at":"2019-08-13T19:54:30.000Z","url":"https://frontless.js.org/","npm":"frontless"},{"name":"React Hook Form","full_name":"react-hook-form/react-hook-form","description":"React hooks for form validation without the hassle","stars":1264,"trends":{"daily":5,"weekly":93},"tags":["react","form"],"owner_id":53986236,"contributor_count":21,"commit_count":1034,"pushed_at":"2019-08-17T12:43:56.000Z","url":"https://react-hook-form.com","npm":"react-hook-form"},{"name":"Data Structures and Algorithms in JS","full_name":"amejiarosario/dsa.js-data-structures-algorithms-javascript","description":"Data Structures and Algorithms explained and implemented in JavaScript","stars":4370,"trends":{"daily":25,"weekly":303,"monthly":1887,"quarterly":2871},"tags":["data-structure","learning","book"],"owner_id":418605,"contributor_count":7,"commit_count":575,"pushed_at":"2019-08-16T22:35:48.000Z","url":"https://books.adrianmejia.com"},{"name":"Treeverse","full_name":"npm/treeverse","description":"Walk any kind of tree structure depth- or breadth-first","stars":92,"trends":{"daily":0,"weekly":5},"tags":["data-structure"],"owner_id":6078720,"contributor_count":1,"commit_count":12,"pushed_at":"2019-07-30T23:42:54.000Z","npm":"treeverse"},{"name":"Moveable","full_name":"daybrush/moveable","description":"Draggable! Resizable! Scalable! Rotatable! ","stars":1682,"trends":{"daily":5,"weekly":91,"monthly":1352},"tags":["react","dnd","touch"],"owner_id":3433062,"contributor_count":2,"commit_count":171,"pushed_at":"2019-08-12T01:41:06.000Z","url":"https://daybrush.com/moveable/","npm":"moveable"},{"name":"Reactide","full_name":"reactide/reactide","description":"Reactide is the first dedicated IDE for React web application development.","stars":9413,"trends":{"daily":29,"weekly":495,"monthly":575,"quarterly":621,"yearly":1241},"tags":["ide"],"owner_id":26257999,"contributor_count":12,"commit_count":264,"pushed_at":"2019-08-14T15:58:05.000Z","url":"https://reactide.io"},{"name":"treat","full_name":"seek-oss/treat","description":"Themeable, statically extracted CSS‑in‑JS with near‑zero runtime.","stars":416,"trends":{"daily":0,"weekly":19},"tags":["css-in-js"],"owner_id":22927121,"contributor_count":9,"commit_count":60,"pushed_at":"2019-08-06T06:15:58.000Z","url":"https://seek-oss.github.io/treat","npm":"treat"},{"name":"Unstated Next","full_name":"jamiebuilds/unstated-next","description":"200 bytes to never think about React state management libraries ever again","stars":1205,"trends":{"daily":5,"weekly":41,"monthly":178},"tags":["react","state"],"owner_id":952783,"contributor_count":10,"commit_count":20,"pushed_at":"2019-06-27T17:18:03.000Z","npm":"unstated-next"},{"name":"Motion","full_name":"framer/motion","description":"Production-ready animation and gesture library for React ","stars":2248,"trends":{"daily":1,"weekly":75},"tags":["react","animation","touch"],"owner_id":42876,"contributor_count":13,"commit_count":1260,"pushed_at":"2019-08-14T11:37:52.000Z","url":"https://framer.com/motion","npm":"framer-motion"}]}
+{
+  "date": "2019-08-18T07:13:44.874Z",
+  "trending": [
+    {
+      "name": "Reactide",
+      "full_name": "reactide/reactide",
+      "description": "The first dedicated IDE for React web application development",
+      "stars": 9413,
+      "trends": {
+        "daily": 29,
+        "weekly": 495,
+        "monthly": 575,
+        "quarterly": 621,
+        "yearly": 1241
+      },
+      "tags": ["ide"],
+      "owner_id": 26257999,
+      "contributor_count": 12,
+      "commit_count": 264,
+      "pushed_at": "2019-08-14T15:58:05.000Z",
+      "url": "https://reactide.io"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 146216,
+      "trends": {
+        "daily": 44,
+        "weekly": 472,
+        "monthly": 2170,
+        "quarterly": 7363,
+        "yearly": 35064
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "owner_id": 6128107,
+      "contributor_count": 279,
+      "commit_count": 3034,
+      "pushed_at": "2019-08-12T08:05:31.000Z",
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 114228,
+      "trends": {
+        "daily": 43,
+        "weekly": 467,
+        "monthly": 1931,
+        "quarterly": 5556,
+        "yearly": 23344
+      },
+      "tags": ["meta"],
+      "owner_id": 170270,
+      "contributor_count": 401,
+      "commit_count": 846,
+      "pushed_at": "2019-08-03T14:14:02.000Z",
+      "icon": "awesome.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 81411,
+      "trends": {
+        "daily": 62,
+        "weekly": 428,
+        "monthly": 1531,
+        "quarterly": 5066,
+        "yearly": 24012
+      },
+      "tags": ["ide"],
+      "owner_id": 6154722,
+      "contributor_count": 949,
+      "commit_count": 53278,
+      "pushed_at": "2019-08-17T08:17:09.000Z",
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 39138,
+      "trends": {
+        "daily": 27,
+        "weekly": 415,
+        "monthly": 1873,
+        "quarterly": 5732,
+        "yearly": 21236
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 8121621,
+      "contributor_count": 86,
+      "commit_count": 921,
+      "pushed_at": "2019-07-16T09:12:26.000Z",
+      "url": "http://panjiachen.github.io/vue-element-admin",
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user...",
+      "stars": 134546,
+      "trends": {
+        "daily": 22,
+        "weekly": 377,
+        "monthly": 1671,
+        "quarterly": 5220,
+        "yearly": 25567
+      },
+      "tags": ["framework", "vdom", "react"],
+      "owner_id": 69631,
+      "contributor_count": 1305,
+      "commit_count": 11234,
+      "pushed_at": "2019-08-17T18:47:38.000Z",
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 106698,
+      "trends": {
+        "daily": 26,
+        "weekly": 336,
+        "monthly": 1514,
+        "quarterly": 4752,
+        "yearly": 19985
+      },
+      "tags": ["learning", "book"],
+      "owner_id": 150330,
+      "contributor_count": 159,
+      "commit_count": 1487,
+      "pushed_at": "2018-11-17T23:04:22.000Z",
+      "url": "http://www.kickstarter.com/projects/getify/you-dont-know-js-book-series",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Data Structures and Algorithms in JS",
+      "full_name": "amejiarosario/dsa.js-data-structures-algorithms-javascript",
+      "description": "Data Structures and Algorithms explained and implemented in JavaScript",
+      "stars": 4370,
+      "trends": {
+        "daily": 25,
+        "weekly": 303,
+        "monthly": 1887,
+        "quarterly": 2871
+      },
+      "tags": ["data-structure", "learning", "book"],
+      "owner_id": 418605,
+      "contributor_count": 7,
+      "commit_count": 575,
+      "pushed_at": "2019-08-16T22:35:48.000Z",
+      "url": "https://books.adrianmejia.com"
+    },
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 22366,
+      "trends": {
+        "daily": 25,
+        "weekly": 278,
+        "monthly": 1155,
+        "quarterly": 6735,
+        "yearly": 14556
+      },
+      "tags": ["framework"],
+      "owner_id": 23617963,
+      "contributor_count": 187,
+      "commit_count": 4937,
+      "pushed_at": "2019-08-16T18:01:41.000Z",
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
+      "name": "Axios",
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stars": 63392,
+      "trends": {
+        "daily": 31,
+        "weekly": 278,
+        "monthly": 1204,
+        "quarterly": 3901,
+        "yearly": 16699
+      },
+      "tags": ["http"],
+      "owner_id": 32372333,
+      "contributor_count": 166,
+      "commit_count": 853,
+      "pushed_at": "2019-05-31T15:20:35.000Z",
+      "npm": "axios"
+    }
+  ],
+  "growing": [
+    {
+      "name": "TypeLighterJS",
+      "full_name": "EdernClemente/TypeLighterJS",
+      "description": "The world's lightest yet most powerful JS TypeWriter out there. ",
+      "stars": 156,
+      "trends": { "daily": 3, "weekly": 97 },
+      "tags": ["typo"],
+      "owner_id": 53342699,
+      "contributor_count": 1,
+      "commit_count": 9,
+      "pushed_at": "2019-08-11T19:21:12.000Z",
+      "url": "https://edernclemente.com/plugin/typelighterjs"
+    },
+    {
+      "name": "Frontless",
+      "full_name": "nesterow/frontless",
+      "description": "Build universal JS applications with Riot.JS",
+      "stars": 82,
+      "trends": { "daily": 0, "weekly": 9 },
+      "tags": ["isomorphic", "nodejs-framework", "express"],
+      "owner_id": 48190253,
+      "contributor_count": 4,
+      "commit_count": 437,
+      "pushed_at": "2019-08-13T19:54:30.000Z",
+      "url": "https://frontless.js.org/",
+      "npm": "frontless"
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for form validation without the hassle",
+      "stars": 1264,
+      "trends": { "daily": 5, "weekly": 93 },
+      "tags": ["react", "form"],
+      "owner_id": 53986236,
+      "contributor_count": 21,
+      "commit_count": 1034,
+      "pushed_at": "2019-08-17T12:43:56.000Z",
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form"
+    },
+    {
+      "name": "Data Structures and Algorithms in JS",
+      "full_name": "amejiarosario/dsa.js-data-structures-algorithms-javascript",
+      "description": "Data Structures and Algorithms explained and implemented in JavaScript",
+      "stars": 4370,
+      "trends": {
+        "daily": 25,
+        "weekly": 303,
+        "monthly": 1887,
+        "quarterly": 2871
+      },
+      "tags": ["data-structure", "learning", "book"],
+      "owner_id": 418605,
+      "contributor_count": 7,
+      "commit_count": 575,
+      "pushed_at": "2019-08-16T22:35:48.000Z",
+      "url": "https://books.adrianmejia.com"
+    },
+    {
+      "name": "Treeverse",
+      "full_name": "npm/treeverse",
+      "description": "Walk any kind of tree structure depth- or breadth-first",
+      "stars": 92,
+      "trends": { "daily": 0, "weekly": 5 },
+      "tags": ["data-structure"],
+      "owner_id": 6078720,
+      "contributor_count": 1,
+      "commit_count": 12,
+      "pushed_at": "2019-07-30T23:42:54.000Z",
+      "npm": "treeverse"
+    },
+    {
+      "name": "Moveable",
+      "full_name": "daybrush/moveable",
+      "description": "Draggable! Resizable! Scalable! Rotatable! ",
+      "stars": 1682,
+      "trends": { "daily": 5, "weekly": 91, "monthly": 1352 },
+      "tags": ["react", "dnd", "touch"],
+      "owner_id": 3433062,
+      "contributor_count": 2,
+      "commit_count": 171,
+      "pushed_at": "2019-08-12T01:41:06.000Z",
+      "url": "https://daybrush.com/moveable/",
+      "npm": "moveable"
+    },
+    {
+      "name": "Reactide",
+      "full_name": "reactide/reactide",
+      "description": "Reactide is the first dedicated IDE for React web application development.",
+      "stars": 9413,
+      "trends": {
+        "daily": 29,
+        "weekly": 495,
+        "monthly": 575,
+        "quarterly": 621,
+        "yearly": 1241
+      },
+      "tags": ["ide"],
+      "owner_id": 26257999,
+      "contributor_count": 12,
+      "commit_count": 264,
+      "pushed_at": "2019-08-14T15:58:05.000Z",
+      "url": "https://reactide.io"
+    },
+    {
+      "name": "treat",
+      "full_name": "seek-oss/treat",
+      "description": "Themeable, statically extracted CSS‑in‑JS with near‑zero runtime.",
+      "stars": 416,
+      "trends": { "daily": 0, "weekly": 19 },
+      "tags": ["css-in-js"],
+      "owner_id": 22927121,
+      "contributor_count": 9,
+      "commit_count": 60,
+      "pushed_at": "2019-08-06T06:15:58.000Z",
+      "url": "https://seek-oss.github.io/treat",
+      "npm": "treat"
+    },
+    {
+      "name": "Unstated Next",
+      "full_name": "jamiebuilds/unstated-next",
+      "description": "200 bytes to never think about React state management libraries ever again",
+      "stars": 1205,
+      "trends": { "daily": 5, "weekly": 41, "monthly": 178 },
+      "tags": ["react", "state"],
+      "owner_id": 952783,
+      "contributor_count": 10,
+      "commit_count": 20,
+      "pushed_at": "2019-06-27T17:18:03.000Z",
+      "npm": "unstated-next"
+    },
+    {
+      "name": "Motion",
+      "full_name": "framer/motion",
+      "description": "Production-ready animation and gesture library for React ",
+      "stars": 2248,
+      "trends": { "daily": 1, "weekly": 75 },
+      "tags": ["react", "animation", "touch"],
+      "owner_id": 42876,
+      "contributor_count": 13,
+      "commit_count": 1260,
+      "pushed_at": "2019-08-14T11:37:52.000Z",
+      "url": "https://framer.com/motion",
+      "npm": "framer-motion"
+    }
+  ]
+}
