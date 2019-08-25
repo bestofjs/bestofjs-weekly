@@ -1,0 +1,351 @@
+{
+  "date": "2019-08-25T11:54:09.960Z",
+  "trending": [
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 31752,
+      "trends": {
+        "daily": 55,
+        "weekly": 2224,
+        "monthly": 2581,
+        "quarterly": 3981,
+        "yearly": 9295
+      },
+      "tags": ["learning"],
+      "owner_id": 1315101,
+      "contributor_count": 60,
+      "commit_count": 213,
+      "pushed_at": "2019-08-24T12:53:56.000Z"
+    },
+    {
+      "name": "NodeGUI",
+      "full_name": "nodegui/nodegui",
+      "description": "A library for building cross-platform native desktop applications with Java...",
+      "stars": 1596,
+      "trends": { "daily": 168, "weekly": 1179 },
+      "tags": ["desktop"],
+      "owner_id": 51644128,
+      "contributor_count": 9,
+      "commit_count": 312,
+      "pushed_at": "2019-08-24T17:42:24.000Z",
+      "url": "https://nodegui.github.io/nodegui/",
+      "icon": "nodegui.svg"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 107215,
+      "trends": {
+        "daily": 34,
+        "weekly": 517,
+        "monthly": 1658,
+        "quarterly": 4920,
+        "yearly": 20056
+      },
+      "tags": ["learning", "book"],
+      "owner_id": 150330,
+      "contributor_count": 159,
+      "commit_count": 1487,
+      "pushed_at": "2018-11-17T23:04:22.000Z",
+      "url": "http://www.kickstarter.com/projects/getify/you-dont-know-js-book-series",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 146711,
+      "trends": {
+        "daily": 55,
+        "weekly": 495,
+        "monthly": 2160,
+        "quarterly": 7188,
+        "yearly": 34802
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "owner_id": 6128107,
+      "contributor_count": 279,
+      "commit_count": 3035,
+      "pushed_at": "2019-08-24T11:10:40.000Z",
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 114641,
+      "trends": {
+        "daily": 45,
+        "weekly": 413,
+        "monthly": 1810,
+        "quarterly": 5568,
+        "yearly": 23425
+      },
+      "tags": ["meta"],
+      "owner_id": 170270,
+      "contributor_count": 403,
+      "commit_count": 849,
+      "pushed_at": "2019-08-18T20:13:13.000Z",
+      "icon": "awesome.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user...",
+      "stars": 134954,
+      "trends": {
+        "daily": 37,
+        "weekly": 408,
+        "monthly": 1692,
+        "quarterly": 5066,
+        "yearly": 25409
+      },
+      "tags": ["framework", "vdom", "react"],
+      "owner_id": 69631,
+      "contributor_count": 1307,
+      "commit_count": 11258,
+      "pushed_at": "2019-08-22T22:58:16.000Z",
+      "url": "http://facebook.github.io/react/",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 39517,
+      "trends": {
+        "daily": 28,
+        "weekly": 379,
+        "monthly": 1829,
+        "quarterly": 5634,
+        "yearly": 21296
+      },
+      "tags": ["vue", "dashboard"],
+      "owner_id": 8121621,
+      "contributor_count": 86,
+      "commit_count": 921,
+      "pushed_at": "2019-07-16T09:12:26.000Z",
+      "url": "http://panjiachen.github.io/vue-element-admin",
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 81760,
+      "trends": {
+        "daily": 38,
+        "weekly": 349,
+        "monthly": 1534,
+        "quarterly": 4974,
+        "yearly": 23933
+      },
+      "tags": ["ide"],
+      "owner_id": 6154722,
+      "contributor_count": 953,
+      "commit_count": 53624,
+      "pushed_at": "2019-08-24T15:51:24.000Z",
+      "url": "https://code.visualstudio.com/",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "date-fns",
+      "full_name": "date-fns/date-fns",
+      "description": "Modern JavaScript date utility library ️",
+      "stars": 19228,
+      "trends": {
+        "daily": 48,
+        "weekly": 337,
+        "monthly": 597,
+        "quarterly": 1399,
+        "yearly": 7373
+      },
+      "tags": ["date"],
+      "owner_id": 14921202,
+      "contributor_count": 165,
+      "commit_count": 1230,
+      "pushed_at": "2019-08-23T15:34:45.000Z",
+      "url": "https://date-fns.org",
+      "npm": "date-fns",
+      "icon": "date-fns.svg"
+    },
+    {
+      "name": "Ant Design",
+      "full_name": "ant-design/ant-design",
+      "description": "A UI Design Language",
+      "stars": 50718,
+      "trends": {
+        "daily": 31,
+        "weekly": 296,
+        "monthly": 1247,
+        "quarterly": 3880,
+        "yearly": 18142
+      },
+      "tags": ["react", "component"],
+      "owner_id": 12101536,
+      "contributor_count": 888,
+      "commit_count": 15784,
+      "pushed_at": "2019-08-24T09:58:20.000Z",
+      "url": "https://ant.design",
+      "npm": "antd",
+      "icon": "ant.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "NodeGUI",
+      "full_name": "nodegui/nodegui",
+      "description": "A library for building cross-platform native desktop applications with Java...",
+      "stars": 1596,
+      "trends": { "daily": 168, "weekly": 1179 },
+      "tags": ["desktop"],
+      "owner_id": 51644128,
+      "contributor_count": 9,
+      "commit_count": 312,
+      "pushed_at": "2019-08-24T17:42:24.000Z",
+      "url": "https://nodegui.github.io/nodegui/",
+      "icon": "nodegui.svg"
+    },
+    {
+      "name": "TypeLighterJS",
+      "full_name": "EdernClemente/TypeLighterJS",
+      "description": "The world's lightest yet most powerful JS TypeWriter out there",
+      "stars": 192,
+      "trends": { "daily": 1, "weekly": 36 },
+      "tags": ["typo"],
+      "owner_id": 53342699,
+      "contributor_count": 1,
+      "commit_count": 9,
+      "pushed_at": "2019-08-11T19:21:12.000Z",
+      "url": "https://edernclemente.com/plugin/typelighterjs"
+    },
+    {
+      "name": "Moveable",
+      "full_name": "daybrush/moveable",
+      "description": "Draggable! Resizable! Scalable! Rotatable! ",
+      "stars": 1947,
+      "trends": { "daily": 11, "weekly": 265, "monthly": 1565 },
+      "tags": ["react", "dnd", "touch"],
+      "owner_id": 3433062,
+      "contributor_count": 2,
+      "commit_count": 229,
+      "pushed_at": "2019-08-24T09:48:11.000Z",
+      "url": "https://github.com/daybrush/moveable",
+      "npm": "moveable"
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for form validation without the hassle",
+      "stars": 1433,
+      "trends": { "daily": 7, "weekly": 169 },
+      "tags": ["react", "form"],
+      "owner_id": 53986236,
+      "contributor_count": 22,
+      "commit_count": 1111,
+      "pushed_at": "2019-08-24T12:44:54.000Z",
+      "url": "https://react-hook-form.com/",
+      "npm": "react-hook-form"
+    },
+    {
+      "name": "MEVN CLI",
+      "full_name": "madlabsinc/mevn-cli",
+      "description": "Light speed setup for MEVN (Mongo Express Vue Node) Apps",
+      "stars": 176,
+      "trends": { "daily": 0, "weekly": 14, "monthly": 27, "quarterly": 83 },
+      "tags": ["vue", "scaffolding"],
+      "owner_id": 40263810,
+      "contributor_count": 21,
+      "commit_count": 491,
+      "pushed_at": "2019-08-13T16:18:33.000Z",
+      "branch": "develop"
+    },
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 31752,
+      "trends": {
+        "daily": 55,
+        "weekly": 2224,
+        "monthly": 2581,
+        "quarterly": 3981,
+        "yearly": 9295
+      },
+      "tags": ["learning"],
+      "owner_id": 1315101,
+      "contributor_count": 60,
+      "commit_count": 213,
+      "pushed_at": "2019-08-24T12:53:56.000Z"
+    },
+    {
+      "name": "Frontless",
+      "full_name": "nesterow/frontless",
+      "description": "Build universal JS applications with Riot.JS",
+      "stars": 88,
+      "trends": { "daily": 0, "weekly": 6 },
+      "tags": ["isomorphic", "nodejs-framework", "express"],
+      "owner_id": 48190253,
+      "contributor_count": 4,
+      "commit_count": 442,
+      "pushed_at": "2019-08-22T11:31:17.000Z",
+      "url": "https://frontless.js.org/",
+      "npm": "frontless"
+    },
+    {
+      "name": "Pickr",
+      "full_name": "Simonwep/pickr",
+      "description": "Flat, simple, multi-themed, responsive and hackable Color-Picker library. N...",
+      "stars": 2304,
+      "trends": {
+        "daily": 10,
+        "weekly": 138,
+        "monthly": 188,
+        "quarterly": 902,
+        "yearly": 1115
+      },
+      "tags": ["color"],
+      "owner_id": 30767528,
+      "contributor_count": 16,
+      "commit_count": 453,
+      "pushed_at": "2019-08-24T19:41:24.000Z",
+      "url": "https://simonwep.github.io/pickr/",
+      "npm": "@simonwep/pickr"
+    },
+    {
+      "name": "react-top-loading-bar",
+      "full_name": "klendi/react-top-loading-bar",
+      "description": "A very simple, highly customisable youtube-like react loader component.",
+      "stars": 138,
+      "trends": { "daily": 0, "weekly": 8, "monthly": 16 },
+      "tags": ["progress-bar"],
+      "owner_id": 20234738,
+      "contributor_count": 1,
+      "commit_count": 27,
+      "pushed_at": "2019-08-14T14:44:01.000Z",
+      "url": "https://klendi.github.io/react-top-loading-bar/",
+      "npm": "react-top-loading-bar"
+    },
+    {
+      "name": "material-table",
+      "full_name": "mbrn/material-table",
+      "description": "Datatable for React based on material-ui's table with additional features",
+      "stars": 790,
+      "trends": { "daily": 3, "weekly": 40, "monthly": 128, "quarterly": 414 },
+      "tags": ["react", "material", "table"],
+      "owner_id": 7895451,
+      "contributor_count": 58,
+      "commit_count": 903,
+      "pushed_at": "2019-08-16T05:47:17.000Z",
+      "url": "https://mbrn.github.io/material-table/",
+      "npm": "material-table"
+    }
+  ]
+}
