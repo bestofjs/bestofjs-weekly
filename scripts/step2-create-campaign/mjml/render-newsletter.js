@@ -41,11 +41,13 @@ function renderNewsletter({
         ${renderRankings({
           projects: growingProjects,
           title: 'Growing Fast This Week',
+          subtitle: 'By % of GitHub stars added (relative growth) this week',
           showGrowth: true
         })}
         ${renderRankings({
           projects: trendingProjects,
           title: 'Trending This Week',
+          subtitle: 'By number of GitHub stars added this week',
           showGrowth: false
         })}
         ${renderFooter({ provider })}

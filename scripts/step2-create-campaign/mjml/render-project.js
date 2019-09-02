@@ -15,7 +15,6 @@ const renderProject = ({ showGrowth = false }) => (project, index) => {
   }" />
       </td>
       <td style="padding: 8px;">
-        <span>#${project.ranking}</span>
         <a href="${url}">${project.name}</a><br />
         <div style="color: #788080;">${project.description}</div>
       </td>
