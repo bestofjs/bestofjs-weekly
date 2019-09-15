@@ -1,0 +1,315 @@
+{
+  "date": "2019-09-15T11:55:09.964Z",
+  "trending": [
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 34522,
+      "trends": {
+        "daily": 49,
+        "weekly": 876,
+        "monthly": 5006,
+        "quarterly": 6399,
+        "yearly": 11560
+      },
+      "tags": ["learning"],
+      "contributor_count": 67,
+      "pushed_at": "2019-09-13T18:46:55.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 40851,
+      "trends": {
+        "daily": 28,
+        "weekly": 571,
+        "monthly": 1803,
+        "quarterly": 5676,
+        "yearly": 21497
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 88,
+      "pushed_at": "2019-08-29T02:23:45.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Leon Sans",
+      "full_name": "cmiscm/leonsans",
+      "description": "A geometric sans-serif typeface made with code",
+      "stars": 5506,
+      "trends": { "daily": 23, "weekly": 537 },
+      "tags": ["typo", "canvas"],
+      "contributor_count": 2,
+      "pushed_at": "2019-09-14T06:00:35.000Z",
+      "owner_id": 2730116,
+      "url": "https://leon-kim.com/"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 82900,
+      "trends": {
+        "daily": 43,
+        "weekly": 422,
+        "monthly": 1641,
+        "quarterly": 4675,
+        "yearly": 23589
+      },
+      "tags": ["ide"],
+      "contributor_count": 965,
+      "pushed_at": "2019-09-14T16:17:10.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 136070,
+      "trends": {
+        "daily": 40,
+        "weekly": 396,
+        "monthly": 1622,
+        "quarterly": 4946,
+        "yearly": 24833
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1331,
+      "pushed_at": "2019-09-14T19:51:20.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI",
+      "stars": 148006,
+      "trends": {
+        "daily": 26,
+        "weekly": 352,
+        "monthly": 1896,
+        "quarterly": 6577,
+        "yearly": 34070
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 280,
+      "pushed_at": "2019-09-04T19:32:22.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Puppeteer",
+      "full_name": "GoogleChrome/puppeteer",
+      "description": "Headless Chrome Node.js API",
+      "stars": 53898,
+      "trends": {
+        "daily": 44,
+        "weekly": 351,
+        "monthly": 1042,
+        "quarterly": 3557,
+        "yearly": 15714
+      },
+      "tags": ["auto"],
+      "contributor_count": 233,
+      "pushed_at": "2019-09-14T02:59:14.000Z",
+      "owner_id": 1778935,
+      "url": "https://pptr.dev/",
+      "npm": "puppeteer",
+      "icon": "puppeteer.svg"
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 51513,
+      "trends": {
+        "daily": 29,
+        "weekly": 334,
+        "monthly": 1235,
+        "quarterly": 2440,
+        "yearly": 10904
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 994,
+      "pushed_at": "2019-09-13T22:13:44.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "icon": "angular.svg"
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 115726,
+      "trends": {
+        "daily": 34,
+        "weekly": 328,
+        "monthly": 1613,
+        "quarterly": 5143,
+        "yearly": 23267
+      },
+      "tags": ["meta"],
+      "contributor_count": 405,
+      "pushed_at": "2019-08-18T20:13:13.000Z",
+      "owner_id": 170270,
+      "icon": "awesome.svg"
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio",
+      "stars": 38259,
+      "trends": {
+        "daily": 24,
+        "weekly": 307,
+        "monthly": 677,
+        "quarterly": 2777,
+        "yearly": 12704
+      },
+      "tags": ["runtime"],
+      "contributor_count": 150,
+      "pushed_at": "2019-09-14T16:05:00.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Draqula",
+      "full_name": "vadimdemedes/draqula",
+      "description": "GraphQL client for minimalistic React apps",
+      "stars": 570,
+      "trends": { "daily": 8, "weekly": 268 },
+      "tags": ["react", "graphql"],
+      "contributor_count": 4,
+      "pushed_at": "2019-09-07T21:04:00.000Z",
+      "owner_id": 697676,
+      "url": "https://draqulajs.com",
+      "npm": "draqula"
+    },
+    {
+      "name": "Ackee",
+      "full_name": "electerious/Ackee",
+      "description": "Self-hosted, Node.js based analytics tool for those who care about privacy.",
+      "stars": 903,
+      "trends": { "daily": 6, "weekly": 150 },
+      "tags": ["analytics"],
+      "contributor_count": 5,
+      "pushed_at": "2019-09-11T19:01:04.000Z",
+      "owner_id": 499088,
+      "url": "https://ackee.electerious.com"
+    },
+    {
+      "name": "Leon Sans",
+      "full_name": "cmiscm/leonsans",
+      "description": "A geometric sans-serif typeface made with code",
+      "stars": 5506,
+      "trends": { "daily": 23, "weekly": 537 },
+      "tags": ["typo", "canvas"],
+      "contributor_count": 2,
+      "pushed_at": "2019-09-14T06:00:35.000Z",
+      "owner_id": 2730116,
+      "url": "https://leon-kim.com/"
+    },
+    {
+      "name": "Mali",
+      "full_name": "malijs/mali",
+      "description": "A minimalistic gRPC microservice framework for Node.js",
+      "stars": 467,
+      "trends": { "daily": 1, "weekly": 45 },
+      "tags": ["rpc", "microservice"],
+      "contributor_count": 9,
+      "pushed_at": "2019-09-05T00:34:53.000Z",
+      "owner_id": 24784241,
+      "url": "https://mali.js.org",
+      "npm": "mali"
+    },
+    {
+      "name": "Radial Menu",
+      "full_name": "victorqribeiro/radialMenu",
+      "description": "A highly customizable radial menu that's very easy to setup.",
+      "stars": 307,
+      "trends": { "daily": 3, "weekly": 26 },
+      "tags": ["menu"],
+      "contributor_count": 1,
+      "pushed_at": "2019-08-30T22:49:20.000Z",
+      "owner_id": 3822139
+    },
+    {
+      "name": "NodeGUI",
+      "full_name": "nodegui/nodegui",
+      "description": "A library for building cross-platform native desktop applications",
+      "stars": 2766,
+      "trends": { "daily": 21, "weekly": 178 },
+      "tags": ["desktop"],
+      "contributor_count": 12,
+      "pushed_at": "2019-09-13T20:59:42.000Z",
+      "owner_id": 51644128,
+      "url": "http://docs.nodegui.org",
+      "icon": "nodegui.svg"
+    },
+    {
+      "name": "TypeLighterJS",
+      "full_name": "EdernClemente/TypeLighterJS",
+      "description": "The world's lightest yet most powerful JS TypeWriter out there",
+      "stars": 221,
+      "trends": { "daily": 1, "weekly": 14, "monthly": 82 },
+      "tags": ["typo"],
+      "contributor_count": 1,
+      "pushed_at": "2019-08-11T19:21:12.000Z",
+      "owner_id": 53342699,
+      "url": "https://edernclemente.com/plugin/typelighterjs"
+    },
+    {
+      "name": "WebComponents Polyfills",
+      "full_name": "webcomponents/polyfills",
+      "description": "A suite of polyfills supporting the Web Components specs",
+      "stars": 158,
+      "trends": { "daily": 1, "weekly": 10 },
+      "tags": ["webcomponent"],
+      "contributor_count": 105,
+      "pushed_at": "2019-09-14T00:51:37.000Z",
+      "owner_id": 1905708,
+      "npm": "@webcomponents/webcomponentsjs"
+    },
+    {
+      "name": "@panva/jose",
+      "full_name": "panva/jose",
+      "description": "\"JSON Web Almost Everything\" - JWA, JWS, JWE, JWK, JWT, JWKS for Node.js wi...",
+      "stars": 129,
+      "trends": { "daily": 2, "weekly": 7 },
+      "tags": ["auth"],
+      "contributor_count": 1,
+      "pushed_at": "2019-09-12T19:44:52.000Z",
+      "owner_id": 241506,
+      "npm": "@panva/jose"
+    },
+    {
+      "name": "Vue-Treeselect",
+      "full_name": "riophae/vue-treeselect",
+      "description": "A multi-select component with nested options support for Vue.js",
+      "stars": 1215,
+      "trends": { "daily": 0, "weekly": 61 },
+      "tags": ["autocomplete", "tree"],
+      "contributor_count": 19,
+      "pushed_at": "2019-09-12T19:48:18.000Z",
+      "owner_id": 1289884,
+      "url": "https://vue-treeselect.js.org/",
+      "npm": "vue-treeselect"
+    }
+  ]
+}
