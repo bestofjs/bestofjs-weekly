@@ -1,0 +1,321 @@
+{
+  "date": "2019-09-22T11:56:31.907Z",
+  "trending": [
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 35104,
+      "trends": {
+        "daily": 40,
+        "weekly": 582,
+        "monthly": 3516,
+        "quarterly": 6566,
+        "yearly": 11985
+      },
+      "tags": ["learning"],
+      "contributor_count": 69,
+      "pushed_at": "2019-09-21T20:09:21.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 41351,
+      "trends": {
+        "daily": 37,
+        "weekly": 500,
+        "monthly": 1928,
+        "quarterly": 5720,
+        "yearly": 21512
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 88,
+      "pushed_at": "2019-08-29T02:23:45.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 148423,
+      "trends": {
+        "daily": 30,
+        "weekly": 417,
+        "monthly": 1849,
+        "quarterly": 6476,
+        "yearly": 33895
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 281,
+      "pushed_at": "2019-09-19T20:09:31.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 83301,
+      "trends": {
+        "daily": 58,
+        "weekly": 401,
+        "monthly": 1626,
+        "quarterly": 4731,
+        "yearly": 23580
+      },
+      "tags": ["ide"],
+      "contributor_count": 969,
+      "pushed_at": "2019-09-21T20:24:30.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Algorithm Visualizer",
+      "full_name": "algorithm-visualizer/algorithm-visualizer",
+      "description": "Interactive Online Platform that Visualizes Algorithms from Code",
+      "stars": 24572,
+      "trends": {
+        "daily": 32,
+        "weekly": 392,
+        "monthly": 683,
+        "quarterly": 4407
+      },
+      "tags": ["learning"],
+      "contributor_count": 23,
+      "pushed_at": "2019-08-28T16:01:39.000Z",
+      "owner_id": 38487505,
+      "url": "https://algorithm-visualizer.org/"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user...",
+      "stars": 136456,
+      "trends": {
+        "daily": 39,
+        "weekly": 386,
+        "monthly": 1591,
+        "quarterly": 4971,
+        "yearly": 24760
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1335,
+      "pushed_at": "2019-09-20T10:51:03.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 116093,
+      "trends": {
+        "daily": 33,
+        "weekly": 367,
+        "monthly": 1557,
+        "quarterly": 5180,
+        "yearly": 23250
+      },
+      "tags": ["meta"],
+      "contributor_count": 405,
+      "pushed_at": "2019-08-18T20:13:13.000Z",
+      "owner_id": 170270,
+      "icon": "awesome.svg"
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 51839,
+      "trends": {
+        "daily": 35,
+        "weekly": 326,
+        "monthly": 1398,
+        "quarterly": 2631,
+        "yearly": 10984
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 995,
+      "pushed_at": "2019-09-19T21:20:50.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "icon": "angular.svg"
+    },
+    {
+      "name": "30 seconds of code",
+      "full_name": "30-seconds/30-seconds-of-code",
+      "description": "A curated collection of useful JavaScript snippets that you can understand ...",
+      "stars": 48982,
+      "trends": {
+        "daily": 29,
+        "weekly": 303,
+        "monthly": 1031,
+        "quarterly": 2804,
+        "yearly": 27184
+      },
+      "tags": ["learning"],
+      "contributor_count": 178,
+      "pushed_at": "2019-09-21T16:49:54.000Z",
+      "owner_id": 43479428,
+      "url": "https://www.30secondsofcode.org/"
+    },
+    {
+      "name": "Leon Sans",
+      "full_name": "cmiscm/leonsans",
+      "description": "A geometric sans-serif typeface made with code",
+      "stars": 5798,
+      "trends": { "daily": 23, "weekly": 292 },
+      "tags": ["typo", "canvas"],
+      "contributor_count": 2,
+      "pushed_at": "2019-09-16T17:25:31.000Z",
+      "owner_id": 2730116,
+      "url": "https://leon-kim.com/"
+    }
+  ],
+  "growing": [
+    {
+      "name": "js-fire",
+      "full_name": "hobochild/js-fire",
+      "description": "A javascript clone of google/python-fire",
+      "stars": 291,
+      "trends": { "daily": 1, "weekly": 99 },
+      "tags": ["cli"],
+      "contributor_count": 4,
+      "pushed_at": "2019-09-18T20:03:37.000Z",
+      "owner_id": 9499917,
+      "npm": "js-fire"
+    },
+    {
+      "name": "nanoSQL",
+      "full_name": "ClickSimply/Nano-SQL",
+      "description": "Universal database layer for the client, server & mobile devices.",
+      "stars": 508,
+      "trends": { "daily": 3, "weekly": 104 },
+      "tags": ["db"],
+      "contributor_count": 8,
+      "pushed_at": "2019-09-17T17:08:20.000Z",
+      "owner_id": 14365337,
+      "url": "https://nanosql.io",
+      "npm": "@nano-sql/core"
+    },
+    {
+      "name": "Draqula",
+      "full_name": "vadimdemedes/draqula",
+      "description": "GraphQL client for minimalistic React apps",
+      "stars": 611,
+      "trends": { "daily": 2, "weekly": 41 },
+      "tags": ["react", "graphql"],
+      "contributor_count": 4,
+      "pushed_at": "2019-09-07T21:04:00.000Z",
+      "owner_id": 697676,
+      "url": "https://draqulajs.com",
+      "npm": "draqula"
+    },
+    {
+      "name": "MEVN CLI",
+      "full_name": "madlabsinc/mevn-cli",
+      "description": "Light speed setup for MEVN (Mongo Express Vue Node) Apps",
+      "stars": 222,
+      "trends": { "daily": 1, "weekly": 12, "monthly": 48, "quarterly": 104 },
+      "tags": ["vue", "scaffolding"],
+      "contributor_count": 22,
+      "pushed_at": "2019-09-18T08:56:58.000Z",
+      "owner_id": 40263810,
+      "url": "https://mevn.madlabs.xyz"
+    },
+    {
+      "name": "NodeGUI",
+      "full_name": "nodegui/nodegui",
+      "description": "A library for building cross-platform native desktop applications with Java...",
+      "stars": 2917,
+      "trends": { "daily": 10, "weekly": 151, "monthly": 1887 },
+      "tags": ["desktop"],
+      "contributor_count": 14,
+      "pushed_at": "2019-09-21T20:05:25.000Z",
+      "owner_id": 51644128,
+      "url": "http://docs.nodegui.org",
+      "icon": "nodegui.svg"
+    },
+    {
+      "name": "Leon Sans",
+      "full_name": "cmiscm/leonsans",
+      "description": "A geometric sans-serif typeface made with code",
+      "stars": 5798,
+      "trends": { "daily": 23, "weekly": 292 },
+      "tags": ["typo", "canvas"],
+      "contributor_count": 2,
+      "pushed_at": "2019-09-16T17:25:31.000Z",
+      "owner_id": 2730116,
+      "url": "https://leon-kim.com/"
+    },
+    {
+      "name": "Motion",
+      "full_name": "framer/motion",
+      "description": "Production-ready animation and gesture library for React ",
+      "stars": 2612,
+      "trends": { "daily": 8, "weekly": 108, "monthly": 316 },
+      "tags": ["react", "animation", "touch"],
+      "contributor_count": 13,
+      "pushed_at": "2019-09-20T07:46:30.000Z",
+      "owner_id": 42876,
+      "url": "https://framer.com/motion",
+      "npm": "framer-motion",
+      "icon": "motion.svg"
+    },
+    {
+      "name": "React Suite",
+      "full_name": "rsuite/rsuite",
+      "description": "A suite of React components .",
+      "stars": 3261,
+      "trends": { "daily": 4, "weekly": 122 },
+      "tags": ["react", "component"],
+      "contributor_count": 20,
+      "pushed_at": "2019-09-20T02:56:57.000Z",
+      "owner_id": 19635045,
+      "url": "https://rsuitejs.com",
+      "npm": "rsuite"
+    },
+    {
+      "name": "Ackee",
+      "full_name": "electerious/Ackee",
+      "description": "Self-hosted, Node.js based analytics tool for those who care about privacy.",
+      "stars": 937,
+      "trends": { "daily": 2, "weekly": 34 },
+      "tags": ["analytics"],
+      "contributor_count": 5,
+      "pushed_at": "2019-09-21T18:22:48.000Z",
+      "owner_id": 499088,
+      "url": "https://ackee.electerious.com"
+    },
+    {
+      "name": "material-table",
+      "full_name": "mbrn/material-table",
+      "description": "Datatable for React based on material-ui's table with additional features",
+      "stars": 914,
+      "trends": {
+        "daily": 2,
+        "weekly": 32,
+        "monthly": 135,
+        "quarterly": 397,
+        "yearly": 890
+      },
+      "tags": ["react", "material", "table"],
+      "contributor_count": 59,
+      "pushed_at": "2019-09-21T18:53:00.000Z",
+      "owner_id": 7895451,
+      "url": "https://material-table.com",
+      "npm": "material-table"
+    }
+  ]
+}
