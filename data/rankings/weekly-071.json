@@ -1,0 +1,335 @@
+{
+  "date": "2019-10-06T12:05:49.155Z",
+  "trending": [
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 109239,
+      "trends": {
+        "daily": 50,
+        "weekly": 402,
+        "monthly": 1314,
+        "quarterly": 4715,
+        "yearly": 19775
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 159,
+      "pushed_at": "2019-08-28T12:36:48.000Z",
+      "owner_id": 150330,
+      "icon": "js.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 149252,
+      "trends": {
+        "daily": 71,
+        "weekly": 401,
+        "monthly": 1733,
+        "quarterly": 6171,
+        "yearly": 33627
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 282,
+      "pushed_at": "2019-10-01T07:07:36.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user...",
+      "stars": 137245,
+      "trends": {
+        "daily": 54,
+        "weekly": 377,
+        "monthly": 1661,
+        "quarterly": 5043,
+        "yearly": 24704
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1339,
+      "pushed_at": "2019-10-04T00:22:22.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The largest Node.js best practices list (September 2019)",
+      "stars": 34032,
+      "trends": {
+        "daily": 19,
+        "weekly": 376,
+        "monthly": 1224,
+        "quarterly": 2964,
+        "yearly": 16380
+      },
+      "tags": ["learning"],
+      "contributor_count": 108,
+      "pushed_at": "2019-10-04T08:43:23.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "Awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "Awesome lists about all kinds of interesting topics",
+      "stars": 117014,
+      "trends": {
+        "daily": 62,
+        "weekly": 375,
+        "monthly": 1709,
+        "quarterly": 5380,
+        "yearly": 23460
+      },
+      "tags": ["meta"],
+      "contributor_count": 417,
+      "pushed_at": "2019-10-05T05:41:22.000Z",
+      "owner_id": 170270,
+      "icon": "awesome.svg"
+    },
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 24247,
+      "trends": {
+        "daily": 32,
+        "weekly": 313,
+        "monthly": 1141,
+        "quarterly": 3691,
+        "yearly": 16145
+      },
+      "tags": ["framework"],
+      "contributor_count": 212,
+      "pushed_at": "2019-10-04T12:54:10.000Z",
+      "owner_id": 23617963,
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
+      "name": "Theia",
+      "full_name": "eclipse-theia/theia",
+      "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
+      "stars": 5729,
+      "trends": {
+        "daily": 15,
+        "weekly": 304,
+        "monthly": 471,
+        "quarterly": 1080,
+        "yearly": 4112
+      },
+      "tags": ["ide"],
+      "contributor_count": 116,
+      "pushed_at": "2019-10-04T17:46:37.000Z",
+      "owner_id": 54183333,
+      "url": "http://theia-ide.org"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 83979,
+      "trends": {
+        "daily": 32,
+        "weekly": 296,
+        "monthly": 1618,
+        "quarterly": 4657,
+        "yearly": 22961
+      },
+      "tags": ["ide"],
+      "contributor_count": 976,
+      "pushed_at": "2019-10-05T14:11:41.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 52437,
+      "trends": {
+        "daily": 29,
+        "weekly": 287,
+        "monthly": 1332,
+        "quarterly": 2997,
+        "yearly": 11164
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 1009,
+      "pushed_at": "2019-10-04T20:54:39.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "icon": "angular.svg"
+    },
+    {
+      "name": "Gatsby",
+      "full_name": "gatsbyjs/gatsby",
+      "description": "Build blazing fast, modern apps and websites with React",
+      "stars": 38796,
+      "trends": {
+        "daily": 27,
+        "weekly": 279,
+        "monthly": 947,
+        "quarterly": 2637,
+        "yearly": 12434
+      },
+      "tags": ["ssg", "react", "graphql", "prefetch"],
+      "contributor_count": 2506,
+      "pushed_at": "2019-10-05T13:35:36.000Z",
+      "owner_id": 12551863,
+      "url": "https://www.gatsbyjs.org",
+      "npm": "gatsby",
+      "icon": "gatsby.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Robot",
+      "full_name": "matthewp/robot",
+      "description": "A functional, immutable Finite State Machine library",
+      "stars": 541,
+      "trends": { "daily": 9, "weekly": 175 },
+      "tags": ["state-machine"],
+      "contributor_count": 10,
+      "pushed_at": "2019-10-03T11:23:56.000Z",
+      "owner_id": 361671,
+      "url": "https://thisrobot.life",
+      "npm": "robot3"
+    },
+    {
+      "name": "Geometric.js",
+      "full_name": "HarryStevens/geometric",
+      "description": "A JavaScript library for doing geometry.",
+      "stars": 286,
+      "trends": { "daily": 1, "weekly": 29 },
+      "tags": ["geometry"],
+      "contributor_count": 2,
+      "pushed_at": "2019-09-30T14:41:30.000Z",
+      "owner_id": 6527267,
+      "npm": "geometric"
+    },
+    {
+      "name": "Analytics",
+      "full_name": "DavidWells/analytics",
+      "description": "Lightweight analytics library for tracking events, page views...",
+      "stars": 195,
+      "trends": { "daily": 2, "weekly": 18, "monthly": 40 },
+      "tags": ["analytics"],
+      "contributor_count": 2,
+      "pushed_at": "2019-10-04T07:09:18.000Z",
+      "owner_id": 532272,
+      "url": "https://getanalytics.io/",
+      "npm": "analytics"
+    },
+    {
+      "name": "NodeGUI",
+      "full_name": "nodegui/nodegui",
+      "description": "A library for building cross-platform native desktop applications with Java...",
+      "stars": 3266,
+      "trends": { "daily": 44, "weekly": 231, "monthly": 729 },
+      "tags": ["desktop"],
+      "contributor_count": 15,
+      "pushed_at": "2019-10-04T17:41:29.000Z",
+      "owner_id": 51644128,
+      "url": "http://docs.nodegui.org",
+      "icon": "nodegui.svg"
+    },
+    {
+      "name": "node-rate-limiter-flexible",
+      "full_name": "animir/node-rate-limiter-flexible",
+      "description": "Node.js rate limit requests by key and protection from DDoS and Brute-Force...",
+      "stars": 558,
+      "trends": {
+        "daily": 4,
+        "weekly": 38,
+        "monthly": 69,
+        "quarterly": 133,
+        "yearly": 421
+      },
+      "tags": ["middleware", "express"],
+      "contributor_count": 8,
+      "pushed_at": "2019-10-04T00:23:25.000Z",
+      "owner_id": 4623196,
+      "npm": "rate-limiter-flexible"
+    },
+    {
+      "name": "Goober",
+      "full_name": "cristianbote/goober",
+      "description": "A less than 1KB css-in-js alternative with a familiar API ",
+      "stars": 331,
+      "trends": { "daily": 2, "weekly": 21, "monthly": 25, "quarterly": 45 },
+      "tags": ["css-in-js"],
+      "contributor_count": 5,
+      "pushed_at": "2019-10-03T07:56:43.000Z",
+      "owner_id": 3405161,
+      "npm": "goober"
+    },
+    {
+      "name": "oidc-provider",
+      "full_name": "panva/node-oidc-provider",
+      "description": "OpenID Certified™ OAuth 2.0 Authorization Server implementation for Node.js",
+      "stars": 788,
+      "trends": { "daily": 1, "weekly": 46, "monthly": 77, "quarterly": 149 },
+      "tags": ["auth", "express"],
+      "contributor_count": 21,
+      "pushed_at": "2019-10-04T15:49:51.000Z",
+      "owner_id": 241506,
+      "npm": "oidc-provider"
+    },
+    {
+      "name": "webhint",
+      "full_name": "webhintio/hint",
+      "description": "A hinting engine for the web",
+      "stars": 2595,
+      "trends": {
+        "daily": 8,
+        "weekly": 146,
+        "monthly": 181,
+        "quarterly": 280,
+        "yearly": 689
+      },
+      "tags": ["lint", "access"],
+      "contributor_count": 57,
+      "pushed_at": "2019-10-03T00:29:14.000Z",
+      "owner_id": 25042266,
+      "url": "https://webhint.io/",
+      "npm": "hint"
+    },
+    {
+      "name": "Moveable",
+      "full_name": "daybrush/moveable",
+      "description": "Draggable! Resizable! Scalable! Rotatable! ",
+      "stars": 2341,
+      "trends": { "daily": 27, "weekly": 129, "monthly": 263 },
+      "tags": ["react", "dnd", "touch"],
+      "contributor_count": 5,
+      "pushed_at": "2019-10-03T04:10:13.000Z",
+      "owner_id": 3433062,
+      "url": "https://daybrush.com/moveable/",
+      "npm": "moveable"
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for form validation without the hassle.",
+      "stars": 2116,
+      "trends": { "daily": 12, "weekly": 116, "monthly": 407 },
+      "tags": ["react", "form"],
+      "contributor_count": 28,
+      "pushed_at": "2019-10-05T09:07:19.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form"
+    }
+  ]
+}
