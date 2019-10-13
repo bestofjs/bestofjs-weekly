@@ -62,9 +62,11 @@ const ProjectCard = ({ project, showDelta = true, showGrowth = false }) => {
         <Description text={project.description} />
       </Card.Description>
       <Card.Tags>
-        {project.tags.map(tag => (
-          <TagLabel key={tag.code} tag={tag} />
-        ))}
+        {project.tags
+          .filter(tag => !!tag)
+          .map(tag => (
+            <TagLabel key={tag.code} tag={tag} />
+          ))}
       </Card.Tags>
     </Card>
   )
