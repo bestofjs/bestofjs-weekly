@@ -65,6 +65,7 @@ const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
 
 const Table = styled.table`
   border-spacing: 0;
+  width: 100%;
 `
 
 const Row = styled.tr`
