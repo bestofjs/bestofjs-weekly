@@ -1,12 +1,16 @@
 const got = require('got')
 const { orderBy } = require('lodash')
 
+const excluded = ['sindresorhus/awesome']
+
 function fetchAllProjects() {
   const url = 'https://bestofjs-api-v3.firebaseapp.com/projects.json'
   return got(url, { json: true })
     .then(r => r.body)
     .then(json =>
-      json.projects.filter(project => project.trends.weekly !== undefined)
+      json.projects
+        .filter(project => project.trends.weekly !== undefined)
+        .filter(project => !excluded.includes(project.full_name))
     )
 }
 
