@@ -1,0 +1,324 @@
+{
+  "date": "2019-11-03T12:35:39.957Z",
+  "trending": [
+    {
+      "name": "RxDB",
+      "full_name": "pubkey/rxdb",
+      "description": "A realtime Database for JavaScript Applications",
+      "stars": 12082,
+      "trends": {
+        "daily": 30,
+        "weekly": 1263,
+        "monthly": 2346,
+        "quarterly": 2645,
+        "yearly": 3764
+      },
+      "tags": ["db", "realtime", "browser-storage"],
+      "contributor_count": 72,
+      "pushed_at": "2019-11-02T09:34:52.000Z",
+      "owner_id": 8926560,
+      "url": "https://rxdb.info/",
+      "npm": "rxdb",
+      "icon": "rxdb.svg"
+    },
+    {
+      "name": "Leon Sans",
+      "full_name": "cmiscm/leonsans",
+      "description": "A geometric sans-serif typeface made with code",
+      "stars": 7083,
+      "trends": { "daily": 47, "weekly": 485, "monthly": 1017 },
+      "tags": ["typo", "canvas"],
+      "contributor_count": 2,
+      "pushed_at": "2019-09-16T17:25:31.000Z",
+      "owner_id": 2730116,
+      "url": "https://leon-kim.com/"
+    },
+    {
+      "name": "XState",
+      "full_name": "davidkpiano/xstate",
+      "description": "State machines and statecharts for the modern web.",
+      "stars": 7779,
+      "trends": {
+        "daily": 21,
+        "weekly": 470,
+        "monthly": 767,
+        "quarterly": 1601,
+        "yearly": 4978
+      },
+      "tags": ["state-machine"],
+      "contributor_count": 90,
+      "pushed_at": "2019-11-02T19:59:48.000Z",
+      "owner_id": 1093738,
+      "url": "https://xstate.js.org/docs",
+      "npm": "xstate",
+      "icon": "xstate.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 151401,
+      "trends": {
+        "daily": 54,
+        "weekly": 433,
+        "monthly": 2275,
+        "quarterly": 6160,
+        "yearly": 33418
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 283,
+      "pushed_at": "2019-10-30T14:45:29.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 44157,
+      "trends": {
+        "daily": 34,
+        "weekly": 420,
+        "monthly": 1991,
+        "quarterly": 5845,
+        "yearly": 22395
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 91,
+      "pushed_at": "2019-10-25T11:45:21.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations ...",
+      "stars": 55755,
+      "trends": {
+        "daily": 31,
+        "weekly": 414,
+        "monthly": 1246,
+        "quarterly": 3680,
+        "yearly": 17154
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-06-25T04:56:44.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Mermaid",
+      "full_name": "mermaid-js/mermaid",
+      "description": "Generation of diagram and flowchart from text in a similar manner as markdo...",
+      "stars": 25958,
+      "trends": {
+        "daily": 33,
+        "weekly": 409,
+        "monthly": 855,
+        "quarterly": 1626,
+        "yearly": 5697
+      },
+      "tags": ["chart", "d3"],
+      "contributor_count": 114,
+      "pushed_at": "2019-11-01T17:38:00.000Z",
+      "owner_id": 57169982,
+      "url": "http://mermaid-js.github.io/mermaid/",
+      "npm": "mermaid"
+    },
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 25748,
+      "trends": {
+        "daily": 33,
+        "weekly": 397,
+        "monthly": 1599,
+        "quarterly": 3929,
+        "yearly": 17500
+      },
+      "tags": ["framework"],
+      "contributor_count": 227,
+      "pushed_at": "2019-10-31T14:41:28.000Z",
+      "owner_id": 23617963,
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user...",
+      "stars": 138783,
+      "trends": {
+        "daily": 32,
+        "weekly": 384,
+        "monthly": 1645,
+        "quarterly": 4995,
+        "yearly": 24178
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1342,
+      "pushed_at": "2019-11-02T00:39:24.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "icon": "react.svg"
+    },
+    {
+      "name": "TinaCMS",
+      "full_name": "tinacms/tinacms",
+      "description": "A site editing toolkit for modern React-based sites (Gatsby and Next.js)",
+      "stars": 2603,
+      "trends": { "daily": 12, "weekly": 374 },
+      "tags": ["react", "cms"],
+      "contributor_count": 19,
+      "pushed_at": "2019-11-01T19:53:02.000Z",
+      "owner_id": 54718400,
+      "url": "https://tinacms.org"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Tiny-Swiper",
+      "full_name": "joe223/tiny-swiper",
+      "description": "2kb alternative to Swiper.js with the same modern API for creating html sli...",
+      "stars": 209,
+      "trends": { "daily": 0, "weekly": 88 },
+      "tags": ["slider"],
+      "contributor_count": 1,
+      "pushed_at": "2019-10-28T15:28:09.000Z",
+      "owner_id": 10026019,
+      "url": "https://joe223.com/tiny-swiper",
+      "branch": "dev",
+      "npm": "tiny-swiper"
+    },
+    {
+      "name": "BullMQ",
+      "full_name": "taskforcesh/bullmq",
+      "description": "Premium Message Queue for NodeJS based on Redis",
+      "stars": 82,
+      "trends": { "daily": 0, "weekly": 31 },
+      "tags": ["queue"],
+      "contributor_count": 4,
+      "pushed_at": "2019-11-01T18:37:00.000Z",
+      "owner_id": 29824808,
+      "url": "https://docs.bullmq.io/",
+      "npm": "bullmq"
+    },
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "An exceptionally fast, tiny time series chart",
+      "stars": 1236,
+      "trends": { "daily": 7, "weekly": 179 },
+      "tags": ["chart"],
+      "contributor_count": 3,
+      "pushed_at": "2019-11-02T19:00:56.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "TinaCMS",
+      "full_name": "tinacms/tinacms",
+      "description": "A site editing toolkit for modern React-based sites (Gatsby and Next.js)",
+      "stars": 2603,
+      "trends": { "daily": 12, "weekly": 374 },
+      "tags": ["react", "cms"],
+      "contributor_count": 19,
+      "pushed_at": "2019-11-01T19:53:02.000Z",
+      "owner_id": 54718400,
+      "url": "https://tinacms.org"
+    },
+    {
+      "name": "Dyo",
+      "full_name": "dyo/dyo",
+      "description": "A JavaScript library for building user interfaces.",
+      "stars": 622,
+      "trends": {
+        "daily": 75,
+        "weekly": 75,
+        "monthly": 76,
+        "quarterly": 84,
+        "yearly": 103
+      },
+      "tags": ["vdom"],
+      "contributor_count": 6,
+      "pushed_at": "2019-09-17T08:51:38.000Z",
+      "owner_id": 42658321,
+      "url": "https://dyo.js.org"
+    },
+    {
+      "name": "RxDB",
+      "full_name": "pubkey/rxdb",
+      "description": "A realtime Database for JavaScript Applications",
+      "stars": 12082,
+      "trends": {
+        "daily": 30,
+        "weekly": 1263,
+        "monthly": 2346,
+        "quarterly": 2645,
+        "yearly": 3764
+      },
+      "tags": ["db", "realtime", "browser-storage"],
+      "contributor_count": 72,
+      "pushed_at": "2019-11-02T09:34:52.000Z",
+      "owner_id": 8926560,
+      "url": "https://rxdb.info/",
+      "npm": "rxdb",
+      "icon": "rxdb.svg"
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 3734,
+      "trends": { "daily": 42, "weekly": 350, "monthly": 1648 },
+      "tags": ["react", "form"],
+      "contributor_count": 36,
+      "pushed_at": "2019-11-02T07:10:19.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form"
+    },
+    {
+      "name": "Little State Machine",
+      "full_name": "bluebill1049/little-state-machine",
+      "description": "React hooks for persist state management based",
+      "stars": 75,
+      "trends": { "daily": 2, "weekly": 7 },
+      "tags": ["state", "react", "state-machine", "flux"],
+      "contributor_count": 2,
+      "pushed_at": "2019-10-12T12:16:30.000Z",
+      "owner_id": 10513364,
+      "url": "https://lrz5wloklm.csb.app/",
+      "npm": "little-state-machine"
+    },
+    {
+      "name": "roughViz.js",
+      "full_name": "jwilber/roughViz",
+      "description": "Reusable JavaScript library for creating sketchy/hand-drawn styled charts i...",
+      "stars": 2003,
+      "trends": { "daily": 9, "weekly": 183 },
+      "tags": ["chart", "d3"],
+      "contributor_count": 3,
+      "pushed_at": "2019-10-28T03:15:48.000Z",
+      "owner_id": 8595819,
+      "npm": "rough-viz"
+    },
+    {
+      "name": "Peaks.js",
+      "full_name": "bbc/peaks.js",
+      "description": "JavaScript UI component for interacting with audio waveforms",
+      "stars": 1407,
+      "trends": { "daily": 5, "weekly": 102 },
+      "tags": ["audio"],
+      "contributor_count": 27,
+      "pushed_at": "2019-10-31T17:02:25.000Z",
+      "owner_id": 828722,
+      "url": "https://waveform.prototyping.bbc.co.uk",
+      "npm": "peaks.js"
+    }
+  ]
+}
