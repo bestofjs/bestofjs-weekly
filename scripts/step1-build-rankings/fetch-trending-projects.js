@@ -22,6 +22,7 @@ export default async function fetchTrendingProjects({ count } = { count: 10 }) {
     0,
     count
   )
+
   return {
     trending: byStarsAdded,
     growing: byRelativeGrowth
@@ -33,10 +34,14 @@ function getProjectsByStarAdded(projects) {
 }
 
 function getProjectsByRelativeGrowth(projects) {
-  return orderBy(projects.slice(0), getWeeklyRelativeGrowth, 'desc')
+  return orderBy(
+    projects.filter(project => project.trends.weekly > 50),
+    getWeeklyRelativeGrowth,
+    'desc'
+  )
 }
 
-function getWeeklyRelativeGrowth(project) {
+export function getWeeklyRelativeGrowth(project) {
   const { trends, stars } = project
   const delta = trends.weekly
   return delta / (stars - delta)

@@ -1,5 +1,7 @@
 import { mapValues } from 'lodash'
-import fetchTrendingProjects from './fetch-trending-projects'
+import fetchTrendingProjects, {
+  getWeeklyRelativeGrowth
+} from './fetch-trending-projects'
 
 async function main() {
   try {
@@ -8,9 +10,9 @@ async function main() {
       mapValues(result, projects =>
         projects.map(project => ({
           name: project.name,
+          stars: project.stars,
           added: project.trends.weekly,
-          growth:
-            project.trends.weekly / (project.stars - project.trends.weekly)
+          growth: getWeeklyRelativeGrowth(project)
         }))
       )
     )
