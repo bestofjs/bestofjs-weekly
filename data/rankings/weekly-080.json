@@ -1,0 +1,316 @@
+{
+  "date": "2019-12-08T06:12:59.175Z",
+  "trending": [
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 37495,
+      "trends": {
+        "daily": 19,
+        "weekly": 495,
+        "monthly": 1034,
+        "yearly": 12891
+      },
+      "tags": ["learning"],
+      "contributor_count": 72,
+      "pushed_at": "2019-11-04T05:11:17.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 57036,
+      "trends": {
+        "daily": 80,
+        "weekly": 468,
+        "monthly": 1042,
+        "yearly": 17187
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-06-25T04:56:44.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 153551,
+      "trends": {
+        "daily": 34,
+        "weekly": 429,
+        "monthly": 1818,
+        "yearly": 32106
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 284,
+      "pushed_at": "2019-12-05T13:39:22.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 5311238,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "roughViz.js",
+      "full_name": "jwilber/roughViz",
+      "description": "Reusable JavaScript library for creating sketchy/hand-drawn styled charts",
+      "stars": 4452,
+      "trends": { "daily": 39, "weekly": 422, "monthly": 2326 },
+      "tags": ["chart", "d3"],
+      "contributor_count": 7,
+      "pushed_at": "2019-12-02T18:42:37.000Z",
+      "owner_id": 8595819,
+      "npm": "rough-viz",
+      "downloads": 600
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 88074,
+      "trends": {
+        "daily": 36,
+        "weekly": 417,
+        "monthly": 2447,
+        "yearly": 22859
+      },
+      "tags": ["ide"],
+      "contributor_count": 1033,
+      "pushed_at": "2019-12-06T22:32:27.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 46222,
+      "trends": {
+        "daily": 29,
+        "weekly": 387,
+        "monthly": 1745,
+        "yearly": 22629
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 95,
+      "pushed_at": "2019-12-04T02:34:23.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "swr",
+      "full_name": "zeit/swr",
+      "description": "React Hooks library for remote data fetching",
+      "stars": 5494,
+      "trends": { "daily": 24, "weekly": 364, "monthly": 1641 },
+      "tags": ["data", "caching", "react"],
+      "contributor_count": 25,
+      "pushed_at": "2019-12-06T09:55:23.000Z",
+      "owner_id": 14985020,
+      "url": "https://swr.now.sh",
+      "npm": "swr",
+      "downloads": 6691
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The largest Node.js best practices list (November 2019)",
+      "stars": 36735,
+      "trends": {
+        "daily": 52,
+        "weekly": 344,
+        "monthly": 1348,
+        "yearly": 17920
+      },
+      "tags": ["learning"],
+      "contributor_count": 113,
+      "pushed_at": "2019-12-06T08:19:46.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 112578,
+      "trends": {
+        "daily": 44,
+        "weekly": 333,
+        "monthly": 1515,
+        "yearly": 19822
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 162,
+      "pushed_at": "2019-12-02T18:32:27.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 140545,
+      "trends": {
+        "daily": 31,
+        "weekly": 333,
+        "monthly": 1472,
+        "yearly": 23383
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1342,
+      "pushed_at": "2019-12-06T18:25:54.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 26442608,
+      "icon": "react.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "InfiniteGrid",
+      "full_name": "naver/egjs-infinitegrid",
+      "description": "Arrange card elements including content infinitely on a grid layout.",
+      "stars": 542,
+      "trends": { "daily": 5, "weekly": 67, "monthly": 100, "yearly": 163 },
+      "tags": ["layout"],
+      "contributor_count": 6,
+      "pushed_at": "2019-11-26T07:52:05.000Z",
+      "owner_id": 6589568,
+      "url": "https://naver.github.io/egjs-infinitegrid/",
+      "npm": "@egjs/infinitegrid",
+      "downloads": 1309
+    },
+    {
+      "name": "roughViz.js",
+      "full_name": "jwilber/roughViz",
+      "description": "Reusable JavaScript library for creating sketchy/hand-drawn styled charts",
+      "stars": 4452,
+      "trends": { "daily": 39, "weekly": 422, "monthly": 2326 },
+      "tags": ["chart", "d3"],
+      "contributor_count": 7,
+      "pushed_at": "2019-12-02T18:42:37.000Z",
+      "owner_id": 8595819,
+      "npm": "rough-viz",
+      "downloads": 600
+    },
+    {
+      "name": "Elastic UI",
+      "full_name": "elastic/eui",
+      "description": "A collection of React UI components for quickly building user interfaces",
+      "stars": 1332,
+      "trends": { "daily": 57, "weekly": 117 },
+      "tags": ["react", "component"],
+      "contributor_count": 105,
+      "pushed_at": "2019-12-06T19:15:07.000Z",
+      "owner_id": 6764390,
+      "url": "https://elastic.github.io/eui/#/",
+      "npm": "@elastic/eui",
+      "downloads": 64870
+    },
+    {
+      "name": "Keystone",
+      "full_name": "keystonejs/keystone",
+      "description": "A scalable platform and CMS to build Node.js applications",
+      "stars": 987,
+      "trends": { "daily": 19, "weekly": 79, "monthly": 239 },
+      "tags": ["nodejs-framework", "cms", "express"],
+      "contributor_count": 65,
+      "pushed_at": "2019-12-06T05:20:16.000Z",
+      "owner_id": 6118534,
+      "url": "https://www.keystonejs.com/",
+      "npm": "keystone",
+      "downloads": 16282,
+      "icon": "keystone.svg"
+    },
+    {
+      "name": "swr",
+      "full_name": "zeit/swr",
+      "description": "React Hooks library for remote data fetching",
+      "stars": 5494,
+      "trends": { "daily": 24, "weekly": 364, "monthly": 1641 },
+      "tags": ["data", "caching", "react"],
+      "contributor_count": 25,
+      "pushed_at": "2019-12-06T09:55:23.000Z",
+      "owner_id": 14985020,
+      "url": "https://swr.now.sh",
+      "npm": "swr",
+      "downloads": 6691
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 5168,
+      "trends": { "daily": 25, "weekly": 251, "monthly": 1189 },
+      "tags": ["react", "form"],
+      "contributor_count": 46,
+      "pushed_at": "2019-12-07T12:34:04.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 111646
+    },
+    {
+      "name": "react-three-fiber",
+      "full_name": "react-spring/react-three-fiber",
+      "description": "React renderer for Threejs (web and react-native)",
+      "stars": 5911,
+      "trends": { "daily": 23, "weekly": 261, "monthly": 570 },
+      "tags": ["react", "3d"],
+      "contributor_count": 43,
+      "pushed_at": "2019-12-07T14:14:09.000Z",
+      "owner_id": 45790596,
+      "url": "https://spectrum.chat/react-three-fiber",
+      "npm": "react-three-fiber",
+      "downloads": 15118
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 3529,
+      "trends": { "daily": 7, "weekly": 153, "monthly": 428 },
+      "tags": ["react", "component", "access"],
+      "contributor_count": 47,
+      "pushed_at": "2019-12-04T16:34:01.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 12106
+    },
+    {
+      "name": "Theme UI",
+      "full_name": "system-ui/theme-ui",
+      "description": "Build consistent, themeable React apps",
+      "stars": 1392,
+      "trends": { "daily": 2, "weekly": 53, "monthly": 226 },
+      "tags": ["css-in-js"],
+      "contributor_count": 38,
+      "pushed_at": "2019-12-04T16:28:41.000Z",
+      "owner_id": 48816045,
+      "url": "https://theme-ui.com",
+      "npm": "theme-ui",
+      "downloads": 90594
+    },
+    {
+      "name": "React Adaptive Loading Hooks",
+      "full_name": "GoogleChromeLabs/react-adaptive-hooks",
+      "description": "Deliver experiences best suited to a user's device and network constraints",
+      "stars": 3553,
+      "trends": { "daily": 8, "weekly": 129 },
+      "tags": ["react", "performance"],
+      "contributor_count": 9,
+      "pushed_at": "2019-12-04T02:01:31.000Z",
+      "owner_id": 31970254,
+      "npm": "react-adaptive-hooks",
+      "downloads": 233
+    }
+  ]
+}
