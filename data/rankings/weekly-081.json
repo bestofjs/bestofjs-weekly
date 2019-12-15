@@ -1,0 +1,318 @@
+{
+  "date": "2019-12-15T02:19:33.101Z",
+  "trending": [
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 58338,
+      "trends": {
+        "daily": 172,
+        "weekly": 1302,
+        "monthly": 2158,
+        "yearly": 18182
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 113241,
+      "trends": {
+        "daily": 34,
+        "weekly": 663,
+        "monthly": 1886,
+        "yearly": 20137
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 164,
+      "pushed_at": "2019-12-12T13:48:56.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The largest Node.js best practices list (November 2019)",
+      "stars": 37293,
+      "trends": {
+        "daily": 68,
+        "weekly": 558,
+        "monthly": 1486,
+        "yearly": 18205
+      },
+      "tags": ["learning"],
+      "contributor_count": 113,
+      "pushed_at": "2019-12-12T08:17:25.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 154002,
+      "trends": {
+        "daily": 43,
+        "weekly": 451,
+        "monthly": 1851,
+        "yearly": 31840
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 285,
+      "pushed_at": "2019-12-13T19:58:40.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 5554583,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 88466,
+      "trends": {
+        "daily": 39,
+        "weekly": 392,
+        "monthly": 1874,
+        "yearly": 22812
+      },
+      "tags": ["ide"],
+      "contributor_count": 1042,
+      "pushed_at": "2019-12-14T02:04:28.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 46608,
+      "trends": {
+        "daily": 20,
+        "weekly": 386,
+        "monthly": 1722,
+        "yearly": 22674
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 96,
+      "pushed_at": "2019-12-12T07:16:03.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Goober",
+      "full_name": "cristianbote/goober",
+      "description": "A less than 1KB css-in-js alternative with a familiar API ",
+      "stars": 864,
+      "trends": { "daily": 2, "weekly": 385, "monthly": 525 },
+      "tags": ["css-in-js"],
+      "contributor_count": 9,
+      "pushed_at": "2019-12-13T08:57:39.000Z",
+      "owner_id": 3405161,
+      "npm": "goober",
+      "downloads": 623
+    },
+    {
+      "name": "Serverless Framework",
+      "full_name": "serverless/serverless",
+      "description": "Build web, mobile and IoT applications with serverless architectures",
+      "stars": 33410,
+      "trends": { "daily": 9, "weekly": 330, "monthly": 610, "yearly": 6427 },
+      "tags": ["microservice", "serverless"],
+      "contributor_count": 663,
+      "pushed_at": "2019-12-13T16:20:12.000Z",
+      "owner_id": 13742415,
+      "url": "https://serverless.com",
+      "npm": "serverless",
+      "downloads": 1406178,
+      "icon": "serverless.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 140875,
+      "trends": {
+        "daily": 40,
+        "weekly": 330,
+        "monthly": 1469,
+        "yearly": 23262
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1342,
+      "pushed_at": "2019-12-14T18:09:25.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 27377050,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 55362,
+      "trends": {
+        "daily": 30,
+        "weekly": 283,
+        "monthly": 1263,
+        "yearly": 11850
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 1065,
+      "pushed_at": "2019-12-13T22:19:57.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "downloads": 5803535,
+      "icon": "angular.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Neo.mjs",
+      "full_name": "neomjs/neo",
+      "description": "The webworkers driven UI framework",
+      "stars": 172,
+      "trends": { "daily": 86, "weekly": 93 },
+      "tags": ["framework", "webworker"],
+      "contributor_count": 4,
+      "pushed_at": "2019-12-13T18:20:27.000Z",
+      "owner_id": 55371235,
+      "url": "https://neomjs.github.io/pages/",
+      "branch": "dev"
+    },
+    {
+      "name": "Goober",
+      "full_name": "cristianbote/goober",
+      "description": "A less than 1KB css-in-js alternative with a familiar API ",
+      "stars": 864,
+      "trends": { "daily": 2, "weekly": 385, "monthly": 525 },
+      "tags": ["css-in-js"],
+      "contributor_count": 9,
+      "pushed_at": "2019-12-13T08:57:39.000Z",
+      "owner_id": 3405161,
+      "npm": "goober",
+      "downloads": 623
+    },
+    {
+      "name": "uniforms",
+      "full_name": "vazco/uniforms",
+      "description": "A React library for building forms from any schema.",
+      "stars": 928,
+      "trends": { "daily": 1, "weekly": 85, "monthly": 102, "yearly": 334 },
+      "tags": ["form", "react"],
+      "contributor_count": 47,
+      "pushed_at": "2019-12-11T14:59:45.000Z",
+      "owner_id": 1339616,
+      "url": "https://uniforms.tools",
+      "npm": "uniforms",
+      "downloads": 11455
+    },
+    {
+      "name": "simpleParallax",
+      "full_name": "geosigno/simpleParallax",
+      "description": "Simple and tiny JavaScript library which adds parallax animations",
+      "stars": 677,
+      "trends": { "daily": 25, "weekly": 54, "monthly": 80 },
+      "tags": ["scrolling"],
+      "contributor_count": 4,
+      "pushed_at": "2019-12-08T07:57:17.000Z",
+      "owner_id": 6083654,
+      "url": "https://simpleparallax.com",
+      "npm": "simple-parallax-js",
+      "downloads": 3929
+    },
+    {
+      "name": "Keystone",
+      "full_name": "keystonejs/keystone",
+      "description": "A scalable platform and CMS to build Node.js applications",
+      "stars": 1063,
+      "trends": { "daily": 5, "weekly": 76, "monthly": 283 },
+      "tags": ["nodejs-framework", "cms", "express"],
+      "contributor_count": 67,
+      "pushed_at": "2019-12-13T04:58:14.000Z",
+      "owner_id": 6118534,
+      "url": "https://www.keystonejs.com/",
+      "npm": "keystone",
+      "downloads": 15085,
+      "icon": "keystone.svg"
+    },
+    {
+      "name": "Elastic UI",
+      "full_name": "elastic/eui",
+      "description": "A collection of React UI components for quickly building user interfaces",
+      "stars": 1394,
+      "trends": { "daily": 1, "weekly": 62, "monthly": 254 },
+      "tags": ["react", "component"],
+      "contributor_count": 109,
+      "pushed_at": "2019-12-13T21:18:28.000Z",
+      "owner_id": 6764390,
+      "url": "https://elastic.github.io/eui/#/",
+      "npm": "@elastic/eui",
+      "downloads": 54615
+    },
+    {
+      "name": "Gluegun",
+      "full_name": "infinitered/gluegun",
+      "description": "A delightful toolkit for building TypeScript-powered command-line apps.",
+      "stars": 1341,
+      "trends": { "daily": 3, "weekly": 52, "monthly": 80 },
+      "tags": ["cli"],
+      "contributor_count": 46,
+      "pushed_at": "2019-12-10T22:37:48.000Z",
+      "owner_id": 3902527,
+      "url": "https://infinitered.github.io/gluegun",
+      "npm": "gluegun",
+      "downloads": 193711
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 3653,
+      "trends": { "daily": 19, "weekly": 124, "monthly": 449 },
+      "tags": ["react", "component", "access"],
+      "contributor_count": 53,
+      "pushed_at": "2019-12-14T16:18:36.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 15950
+    },
+    {
+      "name": "roughViz.js",
+      "full_name": "jwilber/roughViz",
+      "description": "Reusable JavaScript library for creating sketchy/hand-drawn styled charts",
+      "stars": 4602,
+      "trends": { "daily": 4, "weekly": 150, "monthly": 2395 },
+      "tags": ["chart", "d3"],
+      "contributor_count": 8,
+      "pushed_at": "2019-12-09T21:56:12.000Z",
+      "owner_id": 8595819,
+      "npm": "rough-viz",
+      "downloads": 882
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 2543,
+      "trends": { "daily": 1, "weekly": 81, "monthly": 482 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 27,
+      "pushed_at": "2019-12-10T20:50:56.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 9560
+    }
+  ]
+}
