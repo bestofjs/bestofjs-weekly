@@ -1,0 +1,316 @@
+{
+  "date": "2019-12-29T12:20:05.514Z",
+  "trending": [
+    {
+      "name": "Tesseract.js",
+      "full_name": "naptha/tesseract.js",
+      "description": "Pure Javascript OCR for more than 100 Languages",
+      "stars": 20135,
+      "trends": {
+        "daily": 27,
+        "weekly": 1231,
+        "monthly": 2097,
+        "yearly": 5452
+      },
+      "tags": ["image", "ml", "webassembly"],
+      "contributor_count": 43,
+      "pushed_at": "2019-12-27T08:31:31.000Z",
+      "owner_id": 7720173,
+      "url": "http://tesseract.projectnaptha.com/",
+      "npm": "tesseract.js",
+      "downloads": 27390
+    },
+    {
+      "name": "Outline",
+      "full_name": "outline/outline",
+      "description": "The fastest wiki and knowledge base for growing teams.",
+      "stars": 7070,
+      "trends": { "daily": 112, "weekly": 732, "monthly": 882 },
+      "tags": ["doc"],
+      "contributor_count": 23,
+      "pushed_at": "2019-12-24T02:12:16.000Z",
+      "owner_id": 1765001,
+      "url": "https://www.getoutline.com"
+    },
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 28530,
+      "trends": {
+        "daily": 63,
+        "weekly": 434,
+        "monthly": 1574,
+        "yearly": 19841
+      },
+      "tags": ["framework"],
+      "contributor_count": 255,
+      "pushed_at": "2019-12-28T13:38:07.000Z",
+      "owner_id": 23617963,
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 154768,
+      "trends": {
+        "daily": 38,
+        "weekly": 382,
+        "monthly": 1742,
+        "yearly": 31372
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 285,
+      "pushed_at": "2019-12-13T19:58:40.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 5099620,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 89326,
+      "trends": {
+        "daily": 27,
+        "weekly": 366,
+        "monthly": 1771,
+        "yearly": 22944
+      },
+      "tags": ["ide"],
+      "contributor_count": 1049,
+      "pushed_at": "2019-12-27T16:51:42.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 47331,
+      "trends": {
+        "daily": 30,
+        "weekly": 355,
+        "monthly": 1609,
+        "yearly": 22654
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 96,
+      "pushed_at": "2019-12-15T12:17:59.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 59249,
+      "trends": {
+        "daily": 33,
+        "weekly": 326,
+        "monthly": 2723,
+        "yearly": 17835
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 141506,
+      "trends": {
+        "daily": 32,
+        "weekly": 308,
+        "monthly": 1353,
+        "yearly": 22905
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1346,
+      "pushed_at": "2019-12-22T19:49:28.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 25074017,
+      "icon": "react.svg"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 113765,
+      "trends": {
+        "daily": 65,
+        "weekly": 239,
+        "monthly": 1612,
+        "yearly": 20058
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 165,
+      "pushed_at": "2019-12-16T17:16:52.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 28218,
+      "trends": { "daily": 25, "weekly": 230, "monthly": 1029 },
+      "tags": ["learning"],
+      "contributor_count": 92,
+      "pushed_at": "2019-11-22T04:46:37.000Z",
+      "owner_id": 5114666
+    }
+  ],
+  "growing": [
+    {
+      "name": "Sarus",
+      "full_name": "anephenix/sarus",
+      "description": "A WebSocket JavaScript library",
+      "stars": 126,
+      "trends": { "daily": 1, "weekly": 59 },
+      "tags": ["websocket"],
+      "contributor_count": 3,
+      "pushed_at": "2019-11-12T14:03:48.000Z",
+      "owner_id": 2222371,
+      "url": "https://sarus.anephenix.com",
+      "npm": "@anephenix/sarus",
+      "downloads": 22
+    },
+    {
+      "name": "Scully",
+      "full_name": "scullyio/scully",
+      "description": "The Static Site Generator for Angular apps",
+      "stars": 473,
+      "trends": { "daily": 11, "weekly": 111 },
+      "tags": ["ssg", "angular"],
+      "contributor_count": 14,
+      "pushed_at": "2019-12-28T02:56:04.000Z",
+      "owner_id": 58822549
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior in your markup",
+      "stars": 1029,
+      "trends": { "daily": 10, "weekly": 202 },
+      "tags": ["framework"],
+      "contributor_count": 13,
+      "pushed_at": "2019-12-24T13:49:15.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 69
+    },
+    {
+      "name": "Outline",
+      "full_name": "outline/outline",
+      "description": "The fastest wiki and knowledge base for growing teams",
+      "stars": 7070,
+      "trends": { "daily": 112, "weekly": 732, "monthly": 882 },
+      "tags": ["doc"],
+      "contributor_count": 23,
+      "pushed_at": "2019-12-24T02:12:16.000Z",
+      "owner_id": 1765001,
+      "url": "https://www.getoutline.com"
+    },
+    {
+      "name": "Tesseract.js",
+      "full_name": "naptha/tesseract.js",
+      "description": "Pure Javascript OCR for more than 100 Languages",
+      "stars": 20135,
+      "trends": {
+        "daily": 27,
+        "weekly": 1231,
+        "monthly": 2097,
+        "yearly": 5452
+      },
+      "tags": ["image", "ml", "webassembly"],
+      "contributor_count": 43,
+      "pushed_at": "2019-12-27T08:31:31.000Z",
+      "owner_id": 7720173,
+      "url": "http://tesseract.projectnaptha.com/",
+      "npm": "tesseract.js",
+      "downloads": 27390
+    },
+    {
+      "name": "Emoji Mart",
+      "full_name": "missive/emoji-mart",
+      "description": "One component to pick them all",
+      "stars": 2870,
+      "trends": { "daily": 11, "weekly": 86, "monthly": 142, "yearly": 914 },
+      "tags": ["react", "emoji"],
+      "contributor_count": 54,
+      "pushed_at": "2019-12-23T14:40:28.000Z",
+      "owner_id": 6352330,
+      "url": "https://missive.github.io/emoji-mart",
+      "npm": "emoji-mart",
+      "downloads": 179594
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 5629,
+      "trends": { "daily": 35, "weekly": 166, "monthly": 744 },
+      "tags": ["react", "form"],
+      "contributor_count": 53,
+      "pushed_at": "2019-12-28T12:39:22.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 193525
+    },
+    {
+      "name": "react-mosaic",
+      "full_name": "nomcopter/react-mosaic",
+      "description": "A React tiling window manager",
+      "stars": 2054,
+      "trends": { "daily": 8, "weekly": 51, "monthly": 57, "yearly": 470 },
+      "tags": ["react", "layout"],
+      "contributor_count": 10,
+      "pushed_at": "2019-11-25T21:50:18.000Z",
+      "owner_id": 1079273,
+      "url": "https://nomcopter.github.io/react-mosaic/",
+      "npm": "react-mosaic",
+      "downloads": 136
+    },
+    {
+      "name": "Code Surfer ",
+      "full_name": "pomber/code-surfer",
+      "description": "Rad code slides </>",
+      "stars": 4517,
+      "trends": { "daily": 6, "weekly": 92, "monthly": 397, "yearly": 2210 },
+      "tags": ["highlight", "react", "presentation"],
+      "contributor_count": 7,
+      "pushed_at": "2019-12-11T01:55:42.000Z",
+      "owner_id": 1911623,
+      "url": "https://codesurfer.pomb.us/",
+      "npm": "mdx-deck-code-surfer",
+      "downloads": 416
+    },
+    {
+      "name": "discord.js",
+      "full_name": "discordjs/discord.js",
+      "description": "A powerful JavaScript library for interacting with the Discord API",
+      "stars": 4910,
+      "trends": { "daily": 3, "weekly": 98, "monthly": 167, "yearly": 1640 },
+      "tags": ["realtime"],
+      "contributor_count": 194,
+      "pushed_at": "2019-12-27T18:28:04.000Z",
+      "owner_id": 26492485,
+      "url": "https://discord.js.org",
+      "npm": "discord.js",
+      "downloads": 470524
+    }
+  ]
+}
