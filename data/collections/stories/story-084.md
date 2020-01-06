@@ -14,3 +14,6 @@ It hides the underlying mathematical concepts and exposes a simple API:
 It has a low entry barrier but there are a lot of features including several metrics to check how well your models perform.
 
 If you are interested in this fascinating topic, check the [Machine Learning tag](https://bestofjs.org/projects?tags=ml) in _Best of JavaScript_.
+
+Last week we promised that the _JavaScript Rising Stars_ would be back... we ask you to wait one more week.
+I know it's hard to believe but it's just that we had too much work over the last days, thank you for your understanding!
