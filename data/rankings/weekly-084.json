@@ -1,0 +1,302 @@
+{
+  "date": "2020-01-05T12:05:55.867Z",
+  "trending": [
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 28968,
+      "trends": {
+        "daily": 39,
+        "weekly": 438,
+        "monthly": 1729,
+        "yearly": 20231
+      },
+      "tags": ["framework"],
+      "contributor_count": 259,
+      "pushed_at": "2020-01-02T11:40:44.000Z",
+      "owner_id": 23617963,
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
+      "name": "Outline",
+      "full_name": "outline/outline",
+      "description": "The fastest wiki and knowledge base for growing teams.",
+      "stars": 7469,
+      "trends": { "daily": 39, "weekly": 399, "monthly": 1241 },
+      "tags": ["doc"],
+      "contributor_count": 24,
+      "pushed_at": "2020-01-03T06:49:40.000Z",
+      "owner_id": 1765001,
+      "url": "https://www.getoutline.com"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 155106,
+      "trends": {
+        "daily": 40,
+        "weekly": 338,
+        "monthly": 1661,
+        "yearly": 31207
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 285,
+      "pushed_at": "2020-01-03T19:58:19.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 4882332,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Flowy",
+      "full_name": "alyssaxuu/flowy",
+      "description": "The minimal javascript library to create flowcharts",
+      "stars": 5380,
+      "trends": { "daily": 56, "weekly": 312 },
+      "tags": ["chart", "dnd"],
+      "contributor_count": 5,
+      "pushed_at": "2019-12-24T12:06:02.000Z",
+      "owner_id": 7581348
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 141808,
+      "trends": {
+        "daily": 49,
+        "weekly": 302,
+        "monthly": 1341,
+        "yearly": 22839
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1348,
+      "pushed_at": "2020-01-04T13:47:23.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 22889091,
+      "icon": "react.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 89626,
+      "trends": {
+        "daily": 32,
+        "weekly": 300,
+        "monthly": 1649,
+        "yearly": 22929
+      },
+      "tags": ["ide"],
+      "contributor_count": 1051,
+      "pushed_at": "2020-01-03T15:27:14.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 47617,
+      "trends": {
+        "daily": 18,
+        "weekly": 286,
+        "monthly": 1498,
+        "yearly": 22655
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 97,
+      "pushed_at": "2019-12-31T06:14:34.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 114033,
+      "trends": {
+        "daily": 26,
+        "weekly": 268,
+        "monthly": 1544,
+        "yearly": 20021
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 165,
+      "pushed_at": "2019-12-16T17:16:52.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 59502,
+      "trends": {
+        "daily": 30,
+        "weekly": 253,
+        "monthly": 2652,
+        "yearly": 17698
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 5846,
+      "trends": { "daily": 26, "weekly": 217, "monthly": 740 },
+      "tags": ["react", "form"],
+      "contributor_count": 56,
+      "pushed_at": "2020-01-03T21:16:38.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 190862
+    }
+  ],
+  "growing": [
+    {
+      "name": "machinelearn.js",
+      "full_name": "machinelearnjs/machinelearnjs",
+      "description": "Machine Learning library for the web and Node.",
+      "stars": 392,
+      "trends": { "daily": 5, "weekly": 58, "monthly": 65 },
+      "tags": ["ml", "stats"],
+      "contributor_count": 7,
+      "pushed_at": "2019-08-03T02:42:19.000Z",
+      "owner_id": 44385172,
+      "url": "https://www.machinelearnjs.com/",
+      "npm": "machinelearn",
+      "downloads": 211
+    },
+    {
+      "name": "Scully",
+      "full_name": "scullyio/scully",
+      "description": "The Static Site Generator for Angular apps",
+      "stars": 544,
+      "trends": { "daily": 4, "weekly": 71 },
+      "tags": ["ssg", "angular"],
+      "contributor_count": 17,
+      "pushed_at": "2020-01-04T18:33:28.000Z",
+      "owner_id": 58822549
+    },
+    {
+      "name": "Keystone",
+      "full_name": "keystonejs/keystone",
+      "description": "A scalable platform and CMS to build Node.js applications",
+      "stars": 1300,
+      "trends": { "daily": 14, "weekly": 128, "monthly": 359 },
+      "tags": ["nodejs-framework", "cms", "express"],
+      "contributor_count": 70,
+      "pushed_at": "2019-12-30T04:01:32.000Z",
+      "owner_id": 6118534,
+      "url": "https://www.keystonejs.com/",
+      "npm": "keystone",
+      "downloads": 12973,
+      "icon": "keystone.svg"
+    },
+    {
+      "name": "G2Plot",
+      "full_name": "antvis/G2Plot",
+      "description": "An interactive and responsive charting library",
+      "stars": 611,
+      "trends": { "daily": 11, "weekly": 52 },
+      "tags": ["chart"],
+      "contributor_count": 23,
+      "pushed_at": "2020-01-03T09:46:23.000Z",
+      "owner_id": 19199542,
+      "url": "https://g2plot.antv.vision",
+      "npm": "@antv/g2plot",
+      "downloads": 2579
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior in your markup",
+      "stars": 1123,
+      "trends": { "daily": 13, "weekly": 94 },
+      "tags": ["framework"],
+      "contributor_count": 15,
+      "pushed_at": "2020-01-04T08:20:26.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 220
+    },
+    {
+      "name": "Flowy",
+      "full_name": "alyssaxuu/flowy",
+      "description": "The minimal javascript library to create flowcharts",
+      "stars": 5380,
+      "trends": { "daily": 56, "weekly": 312 },
+      "tags": ["chart", "dnd"],
+      "contributor_count": 5,
+      "pushed_at": "2019-12-24T12:06:02.000Z",
+      "owner_id": 7581348
+    },
+    {
+      "name": "Admin Bro",
+      "full_name": "SoftwareBrothers/admin-bro",
+      "description": "An admin panel for apps written in node.js",
+      "stars": 1082,
+      "trends": { "daily": 5, "weekly": 58, "monthly": 111 },
+      "tags": ["dashboard", "express"],
+      "contributor_count": 10,
+      "pushed_at": "2020-01-04T13:15:41.000Z",
+      "owner_id": 42516662,
+      "url": "https://softwarebrothers.github.io/admin-bro-dev/",
+      "npm": "admin-bro",
+      "downloads": 5435
+    },
+    {
+      "name": "Outline",
+      "full_name": "outline/outline",
+      "description": "The fastest wiki and knowledge base for growing teams.",
+      "stars": 7469,
+      "trends": { "daily": 39, "weekly": 399, "monthly": 1241 },
+      "tags": ["doc"],
+      "contributor_count": 24,
+      "pushed_at": "2020-01-03T06:49:40.000Z",
+      "owner_id": 1765001,
+      "url": "https://www.getoutline.com"
+    },
+    {
+      "name": "Blocks",
+      "full_name": "blocks/blocks",
+      "description": "A JSX-based page builder for creating beautiful websites without writing co...",
+      "stars": 2400,
+      "trends": { "daily": 8, "weekly": 124 },
+      "tags": ["react"],
+      "contributor_count": 20,
+      "pushed_at": "2019-12-31T16:41:37.000Z",
+      "owner_id": 6106365,
+      "url": "https://blocks-ui.com"
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 5846,
+      "trends": { "daily": 26, "weekly": 217, "monthly": 740 },
+      "tags": ["react", "form"],
+      "contributor_count": 56,
+      "pushed_at": "2020-01-03T21:16:38.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 190862
+    }
+  ]
+}
