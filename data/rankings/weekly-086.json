@@ -1,1 +1,300 @@
-{"date":"2020-01-19T05:51:14.343Z","trending":[{"name":"You Don't Know JS","full_name":"getify/You-Dont-Know-JS","description":"A book series on JavaScript","stars":115214,"trends":{"daily":43,"weekly":889,"monthly":1747,"yearly":20344},"tags":["learning","book"],"contributor_count":168,"pushed_at":"2020-01-18T20:29:33.000Z","owner_id":150330,"branch":"2nd-ed","icon":"js.svg"},{"name":"Clean Code","full_name":"ryanmcdermott/clean-code-javascript","description":"Clean Code concepts adapted for JavaScript","stars":29596,"trends":{"daily":469,"weekly":832,"monthly":1681},"tags":["learning"],"contributor_count":93,"pushed_at":"2020-01-02T17:47:09.000Z","owner_id":5114666},{"name":"Alpine.js","full_name":"alpinejs/alpine","description":"A rugged, minimal framework for composing JavaScript behavior in your marku...","stars":2253,"trends":{"daily":53,"weekly":714},"tags":["framework"],"contributor_count":22,"pushed_at":"2020-01-17T23:16:12.000Z","owner_id":59030169,"npm":"alpinejs","downloads":875},{"name":"JS Algorithms & Data Structures","full_name":"trekhleb/javascript-algorithms","description":"Algorithms and data structures implemented in JavaScript with explanations ...","stars":60687,"trends":{"daily":32,"weekly":573,"monthly":1852,"yearly":18095},"tags":["learning","data-structure"],"contributor_count":87,"pushed_at":"2019-12-07T21:30:04.000Z","owner_id":3000285},{"name":"Node.js Best Practices","full_name":"goldbergyoni/nodebestpractices","description":"The largest Node.js best practices list (December 2019)","stars":38486,"trends":{"daily":18,"weekly":438,"monthly":968,"yearly":14602},"tags":["learning"],"contributor_count":115,"pushed_at":"2020-01-09T10:55:54.000Z","owner_id":8571500},{"name":"Tech Interview Handbook","full_name":"yangshun/tech-interview-handbook","description":"Materials to help you rock your next coding interview","stars":38948,"trends":{"daily":37,"weekly":410,"monthly":1173,"yearly":13722},"tags":["learning"],"contributor_count":72,"pushed_at":"2019-12-31T11:42:56.000Z","owner_id":1315101,"url":"https://yangshun.github.io/tech-interview-handbook/"},{"name":"Vue Element Admin","full_name":"PanJiaChen/vue-element-admin","description":"A magical vue admin","stars":48366,"trends":{"daily":27,"weekly":400,"monthly":1473,"yearly":22222},"tags":["vue","dashboard"],"contributor_count":102,"pushed_at":"2020-01-11T02:25:59.000Z","owner_id":8121621,"icon":"vueelementadmin.png"},{"name":"React","full_name":"facebook/react","description":"A declarative, efficient, and flexible JavaScript library for building user...","stars":142529,"trends":{"daily":33,"weekly":367,"monthly":1406,"yearly":22399},"tags":["framework","vdom","react"],"contributor_count":1354,"pushed_at":"2020-01-17T21:00:35.000Z","owner_id":69631,"url":"https://reactjs.org","npm":"react","downloads":19647121,"icon":"react.svg"},{"name":"Snowpack","full_name":"pikapkg/snowpack","description":"Build web applications with less tooling and 10x faster iteration. No bundl...","stars":5746,"trends":{"daily":10,"weekly":358,"monthly":943},"tags":["package"],"contributor_count":36,"pushed_at":"2020-01-18T01:24:35.000Z","owner_id":44914786,"url":"https://www.snowpack.dev","npm":"snowpack","downloads":750,"icon":"snowpack.svg"},{"name":"VS Code","full_name":"microsoft/vscode","description":"Visual Studio Code","stars":90288,"trends":{"daily":24,"weekly":342,"monthly":1503,"yearly":22738},"tags":["ide"],"contributor_count":1060,"pushed_at":"2020-01-18T20:11:18.000Z","owner_id":6154722,"url":"https://code.visualstudio.com","icon":"vscode.svg"}],"growing":[{"name":"Alpine.js","full_name":"alpinejs/alpine","description":"A rugged, minimal framework for composing JavaScript behavior in your marku...","stars":2253,"trends":{"daily":53,"weekly":714},"tags":["framework"],"contributor_count":22,"pushed_at":"2020-01-17T23:16:12.000Z","owner_id":59030169,"npm":"alpinejs","downloads":875},{"name":"L7","full_name":"antvis/L7","description":"Large-scale WebGL-powered Geospatial Data Visualization analysis framework ...","stars":1440,"trends":{"daily":5,"weekly":161,"monthly":506},"tags":["webgl","map","3d"],"contributor_count":11,"pushed_at":"2020-01-17T05:45:59.000Z","owner_id":19199542,"url":"https://l7.antv.vision","npm":"@antv/l7","downloads":4225},{"name":"Scully","full_name":"scullyio/scully","description":"The Static Site Generator for Angular apps","stars":668,"trends":{"daily":5,"weekly":51},"tags":["ssg","angular"],"contributor_count":20,"pushed_at":"2020-01-18T13:18:03.000Z","owner_id":58822549},{"name":"Snowpack","full_name":"pikapkg/snowpack","description":"Build web applications with less tooling and 10x faster iteration. No bundl...","stars":5746,"trends":{"daily":10,"weekly":358,"monthly":943},"tags":["package"],"contributor_count":36,"pushed_at":"2020-01-18T01:24:35.000Z","owner_id":44914786,"url":"https://www.snowpack.dev","npm":"snowpack","downloads":750,"icon":"snowpack.svg"},{"name":"n8n","full_name":"n8n-io/n8n","description":"Free and open node based Workflow Automation Tool. Easily automate tasks ac...","stars":5933,"trends":{"daily":5,"weekly":287,"monthly":535},"tags":["workflow"],"contributor_count":34,"pushed_at":"2020-01-18T17:11:14.000Z","owner_id":45487711,"url":"https://n8n.io","npm":"n8n","downloads":2496},{"name":"react-three-fiber","full_name":"react-spring/react-three-fiber","description":"React renderer for Threejs (web and react-native)","stars":6782,"trends":{"daily":11,"weekly":254,"monthly":655},"tags":["react","3d"],"contributor_count":46,"pushed_at":"2020-01-18T09:03:03.000Z","owner_id":45790596,"url":"https://spectrum.chat/react-three-fiber","npm":"react-three-fiber","downloads":18584},{"name":"Theme UI","full_name":"system-ui/theme-ui","description":"Build consistent, themeable React apps based on constraint-based design pri...","stars":1620,"trends":{"daily":5,"weekly":51,"monthly":187},"tags":["css-in-js"],"contributor_count":43,"pushed_at":"2020-01-15T21:35:43.000Z","owner_id":48816045,"url":"https://theme-ui.com","npm":"theme-ui","downloads":87356},{"name":"React Hook Form","full_name":"react-hook-form/react-hook-form","description":"React hooks for forms validation without the hassle.","stars":6266,"trends":{"daily":15,"weekly":197,"monthly":829},"tags":["react","form"],"contributor_count":59,"pushed_at":"2020-01-17T04:28:36.000Z","owner_id":53986236,"url":"https://react-hook-form.com","npm":"react-hook-form","downloads":194002},{"name":"Chakra UI","full_name":"chakra-ui/chakra-ui","description":"️Simple, Modular & Accessible UI Components for your React Applications","stars":4175,"trends":{"daily":6,"weekly":119,"monthly":470},"tags":["react","component","access"],"contributor_count":65,"pushed_at":"2020-01-16T13:16:57.000Z","owner_id":54212428,"url":"https://chakra-ui.com","npm":"@chakra-ui/core","downloads":19717},{"name":"jExcel","full_name":"paulhodel/jexcel","description":"Lightweight vanilla JavaScript plugin to create web-based spreadsheets comp...","stars":3288,"trends":{"daily":2,"weekly":93,"monthly":296},"tags":["table"],"contributor_count":28,"pushed_at":"2020-01-17T18:20:54.000Z","owner_id":6019713,"url":"https://bossanova.uk/jexcel","npm":"jexcel","downloads":3217}]}
+{
+  "date": "2020-01-19T05:51:14.343Z",
+  "trending": [
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 115214,
+      "trends": {
+        "daily": 43,
+        "weekly": 889,
+        "monthly": 1747,
+        "yearly": 20344
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 168,
+      "pushed_at": "2020-01-18T20:29:33.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 29596,
+      "trends": { "daily": 469, "weekly": 832, "monthly": 1681 },
+      "tags": ["learning"],
+      "contributor_count": 93,
+      "pushed_at": "2020-01-02T17:47:09.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 2253,
+      "trends": { "daily": 53, "weekly": 714 },
+      "tags": ["framework"],
+      "contributor_count": 22,
+      "pushed_at": "2020-01-17T23:16:12.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 875
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 60687,
+      "trends": {
+        "daily": 32,
+        "weekly": 573,
+        "monthly": 1852,
+        "yearly": 18095
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The largest Node.js best practices list (December 2019)",
+      "stars": 38486,
+      "trends": { "daily": 18, "weekly": 438, "monthly": 968, "yearly": 14602 },
+      "tags": ["learning"],
+      "contributor_count": 115,
+      "pushed_at": "2020-01-09T10:55:54.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 38948,
+      "trends": {
+        "daily": 37,
+        "weekly": 410,
+        "monthly": 1173,
+        "yearly": 13722
+      },
+      "tags": ["learning"],
+      "contributor_count": 72,
+      "pushed_at": "2019-12-31T11:42:56.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 48366,
+      "trends": {
+        "daily": 27,
+        "weekly": 400,
+        "monthly": 1473,
+        "yearly": 22222
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 102,
+      "pushed_at": "2020-01-11T02:25:59.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 142529,
+      "trends": {
+        "daily": 33,
+        "weekly": 367,
+        "monthly": 1406,
+        "yearly": 22399
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1354,
+      "pushed_at": "2020-01-17T21:00:35.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 19647121,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Snowpack",
+      "full_name": "pikapkg/snowpack",
+      "description": "Build web applications with less tooling and 10x faster iteration",
+      "stars": 5746,
+      "trends": { "daily": 10, "weekly": 358, "monthly": 943 },
+      "tags": ["package"],
+      "contributor_count": 36,
+      "pushed_at": "2020-01-18T01:24:35.000Z",
+      "owner_id": 44914786,
+      "url": "https://www.snowpack.dev",
+      "npm": "snowpack",
+      "downloads": 750,
+      "icon": "snowpack.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 90288,
+      "trends": {
+        "daily": 24,
+        "weekly": 342,
+        "monthly": 1503,
+        "yearly": 22738
+      },
+      "tags": ["ide"],
+      "contributor_count": 1060,
+      "pushed_at": "2020-01-18T20:11:18.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 2253,
+      "trends": { "daily": 53, "weekly": 714 },
+      "tags": ["framework"],
+      "contributor_count": 22,
+      "pushed_at": "2020-01-17T23:16:12.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 875
+    },
+    {
+      "name": "L7",
+      "full_name": "antvis/L7",
+      "description": "Large-scale WebGL-powered Geospatial Data Visualization analysis framework",
+      "stars": 1440,
+      "trends": { "daily": 5, "weekly": 161, "monthly": 506 },
+      "tags": ["webgl", "map", "3d"],
+      "contributor_count": 11,
+      "pushed_at": "2020-01-17T05:45:59.000Z",
+      "owner_id": 19199542,
+      "url": "https://l7.antv.vision",
+      "npm": "@antv/l7",
+      "downloads": 4225
+    },
+    {
+      "name": "Scully",
+      "full_name": "scullyio/scully",
+      "description": "The Static Site Generator for Angular apps",
+      "stars": 668,
+      "trends": { "daily": 5, "weekly": 51 },
+      "tags": ["ssg", "angular"],
+      "contributor_count": 20,
+      "pushed_at": "2020-01-18T13:18:03.000Z",
+      "owner_id": 58822549
+    },
+    {
+      "name": "Snowpack",
+      "full_name": "pikapkg/snowpack",
+      "description": "Build web applications with less tooling and 10x faster iteration.",
+      "stars": 5746,
+      "trends": { "daily": 10, "weekly": 358, "monthly": 943 },
+      "tags": ["package"],
+      "contributor_count": 36,
+      "pushed_at": "2020-01-18T01:24:35.000Z",
+      "owner_id": 44914786,
+      "url": "https://www.snowpack.dev",
+      "npm": "snowpack",
+      "downloads": 750,
+      "icon": "snowpack.svg"
+    },
+    {
+      "name": "n8n",
+      "full_name": "n8n-io/n8n",
+      "description": "Free and open node based Workflow Automation Tool.",
+      "stars": 5933,
+      "trends": { "daily": 5, "weekly": 287, "monthly": 535 },
+      "tags": ["workflow"],
+      "contributor_count": 34,
+      "pushed_at": "2020-01-18T17:11:14.000Z",
+      "owner_id": 45487711,
+      "url": "https://n8n.io",
+      "npm": "n8n",
+      "downloads": 2496
+    },
+    {
+      "name": "react-three-fiber",
+      "full_name": "react-spring/react-three-fiber",
+      "description": "React renderer for Threejs (web and react-native)",
+      "stars": 6782,
+      "trends": { "daily": 11, "weekly": 254, "monthly": 655 },
+      "tags": ["react", "3d"],
+      "contributor_count": 46,
+      "pushed_at": "2020-01-18T09:03:03.000Z",
+      "owner_id": 45790596,
+      "url": "https://spectrum.chat/react-three-fiber",
+      "npm": "react-three-fiber",
+      "downloads": 18584
+    },
+    {
+      "name": "Theme UI",
+      "full_name": "system-ui/theme-ui",
+      "description": "Build consistent, themeable React apps based on constraint-based design",
+      "stars": 1620,
+      "trends": { "daily": 5, "weekly": 51, "monthly": 187 },
+      "tags": ["css-in-js"],
+      "contributor_count": 43,
+      "pushed_at": "2020-01-15T21:35:43.000Z",
+      "owner_id": 48816045,
+      "url": "https://theme-ui.com",
+      "npm": "theme-ui",
+      "downloads": 87356
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 6266,
+      "trends": { "daily": 15, "weekly": 197, "monthly": 829 },
+      "tags": ["react", "form"],
+      "contributor_count": 59,
+      "pushed_at": "2020-01-17T04:28:36.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 194002
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 4175,
+      "trends": { "daily": 6, "weekly": 119, "monthly": 470 },
+      "tags": ["react", "component", "access"],
+      "contributor_count": 65,
+      "pushed_at": "2020-01-16T13:16:57.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 19717
+    },
+    {
+      "name": "jExcel",
+      "full_name": "paulhodel/jexcel",
+      "description": "Lightweight vanilla JavaScript plugin to create web-based spreadsheets",
+      "stars": 3288,
+      "trends": { "daily": 2, "weekly": 93, "monthly": 296 },
+      "tags": ["table"],
+      "contributor_count": 28,
+      "pushed_at": "2020-01-17T18:20:54.000Z",
+      "owner_id": 6019713,
+      "url": "https://bossanova.uk/jexcel",
+      "npm": "jexcel",
+      "downloads": 3217
+    }
+  ]
+}
