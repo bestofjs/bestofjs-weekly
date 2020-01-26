@@ -1,0 +1,309 @@
+{
+  "date": "2020-01-26T09:21:45.907Z",
+  "trending": [
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 31549,
+      "trends": { "daily": 43, "weekly": 1953, "monthly": 3387 },
+      "tags": ["learning"],
+      "contributor_count": 97,
+      "pushed_at": "2020-01-22T16:38:35.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 42580,
+      "trends": {
+        "daily": 263,
+        "weekly": 1646,
+        "monthly": 2150,
+        "yearly": 12371
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 209,
+      "pushed_at": "2020-01-25T17:53:16.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 61062,
+      "trends": {
+        "daily": 25,
+        "weekly": 375,
+        "monthly": 1894,
+        "yearly": 17789
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 90634,
+      "trends": {
+        "daily": 44,
+        "weekly": 346,
+        "monthly": 1382,
+        "yearly": 22673
+      },
+      "tags": ["ide"],
+      "contributor_count": 1063,
+      "pushed_at": "2020-01-25T01:24:03.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 115547,
+      "trends": {
+        "daily": 34,
+        "weekly": 333,
+        "monthly": 1884,
+        "yearly": 20243
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 169,
+      "pushed_at": "2020-01-22T18:07:33.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Rough.js",
+      "full_name": "pshihn/rough",
+      "description": "Create graphics with a hand-drawn, sketchy, appearance",
+      "stars": 12420,
+      "trends": { "daily": 270, "weekly": 330, "monthly": 610, "yearly": 2242 },
+      "tags": ["drawing", "canvas", "svg"],
+      "contributor_count": 9,
+      "pushed_at": "2020-01-16T01:37:27.000Z",
+      "owner_id": 833927,
+      "url": "http://roughjs.com",
+      "npm": "roughjs",
+      "downloads": 5233
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 142856,
+      "trends": {
+        "daily": 24,
+        "weekly": 327,
+        "monthly": 1439,
+        "yearly": 22167
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1353,
+      "pushed_at": "2020-01-25T16:43:02.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 19647121,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 2548,
+      "trends": { "daily": 34, "weekly": 295, "monthly": 1545 },
+      "tags": ["framework"],
+      "contributor_count": 28,
+      "pushed_at": "2020-01-23T17:58:48.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 875
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 156107,
+      "trends": {
+        "daily": 24,
+        "weekly": 288,
+        "monthly": 1458,
+        "yearly": 29914
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 285,
+      "pushed_at": "2020-01-06T20:49:29.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 4394743,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 39218,
+      "trends": {
+        "daily": 21,
+        "weekly": 270,
+        "monthly": 1342,
+        "yearly": 13823
+      },
+      "tags": ["learning"],
+      "contributor_count": 73,
+      "pushed_at": "2020-01-22T22:35:32.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 2548,
+      "trends": { "daily": 34, "weekly": 295, "monthly": 1545 },
+      "tags": ["framework"],
+      "contributor_count": 28,
+      "pushed_at": "2020-01-23T17:58:48.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 875
+    },
+    {
+      "name": "Beautiful React Hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 1534,
+      "trends": { "daily": 7, "weekly": 126 },
+      "tags": ["react"],
+      "contributor_count": 10,
+      "pushed_at": "2020-01-25T12:53:58.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 31549,
+      "trends": { "daily": 43, "weekly": 1953, "monthly": 3387 },
+      "tags": ["learning"],
+      "contributor_count": 97,
+      "pushed_at": "2020-01-22T16:38:35.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Tornis",
+      "full_name": "robb0wen/tornis",
+      "description": "Tornis helps you watch and respond to changes in your browser's viewport",
+      "stars": 1348,
+      "trends": { "daily": 3, "weekly": 74, "monthly": 79 },
+      "tags": ["scrolling"],
+      "contributor_count": 4,
+      "pushed_at": "2019-08-05T10:08:16.000Z",
+      "owner_id": 13797889,
+      "url": "https://tornis.robbowen.digital",
+      "npm": "tornis",
+      "downloads": 3237
+    },
+    {
+      "name": "Solid",
+      "full_name": "ryansolid/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 1599,
+      "trends": { "daily": 2, "weekly": 82, "monthly": 162 },
+      "tags": ["reactive", "framework"],
+      "contributor_count": 16,
+      "pushed_at": "2020-01-25T08:33:38.000Z",
+      "owner_id": 2768267,
+      "npm": "solid-js",
+      "downloads": 4759
+    },
+    {
+      "name": "craft.js",
+      "full_name": "prevwong/craft.js",
+      "description": "A React Framework for building extensible drag and drop page editors",
+      "stars": 2103,
+      "trends": { "daily": 20, "weekly": 105 },
+      "tags": ["dnd", "react", "cms"],
+      "contributor_count": 3,
+      "pushed_at": "2020-01-17T10:49:18.000Z",
+      "owner_id": 16416929,
+      "url": "https://craft.js.org",
+      "npm": "@craftjs/core"
+    },
+    {
+      "name": "React Email Editor",
+      "full_name": "unlayer/react-email-editor",
+      "description": "Drag-n-Drop Email Editor Component for React.js",
+      "stars": 1851,
+      "trends": { "daily": 6, "weekly": 78, "monthly": 136, "yearly": 547 },
+      "tags": ["react", "email", "rich-text-editor"],
+      "contributor_count": 4,
+      "pushed_at": "2020-01-09T13:02:06.000Z",
+      "owner_id": 32661111,
+      "url": "https://unlayer.com",
+      "npm": "react-email-editor",
+      "downloads": 8115
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 42580,
+      "trends": {
+        "daily": 263,
+        "weekly": 1646,
+        "monthly": 2150,
+        "yearly": 12371
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 209,
+      "pushed_at": "2020-01-25T17:53:16.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Airframe",
+      "full_name": "0wczar/airframe-react",
+      "description": "High Quality Dashboard / Admin / Analytics template",
+      "stars": 2141,
+      "trends": { "daily": 6, "weekly": 75 },
+      "tags": ["dashboard", "react"],
+      "contributor_count": 1,
+      "pushed_at": "2019-08-23T15:42:49.000Z",
+      "owner_id": 2330394,
+      "url": "http://dashboards.webkom.co/react/airframe"
+    },
+    {
+      "name": "Snowpack",
+      "full_name": "pikapkg/snowpack",
+      "description": "Build web applications with less tooling and 10x faster iteration.",
+      "stars": 5934,
+      "trends": { "daily": 22, "weekly": 188, "monthly": 1121 },
+      "tags": ["package"],
+      "contributor_count": 39,
+      "pushed_at": "2020-01-25T17:48:30.000Z",
+      "owner_id": 44914786,
+      "url": "https://www.snowpack.dev",
+      "npm": "snowpack",
+      "downloads": 750,
+      "icon": "snowpack.svg"
+    }
+  ]
+}
