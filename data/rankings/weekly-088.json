@@ -1,0 +1,302 @@
+{
+  "date": "2020-02-02T07:19:47.432Z",
+  "trending": [
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 7492,
+      "trends": { "daily": 136, "weekly": 2359 },
+      "tags": ["auto"],
+      "contributor_count": 23,
+      "pushed_at": "2020-02-01T02:46:34.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright"
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 43548,
+      "trends": {
+        "daily": 69,
+        "weekly": 968,
+        "monthly": 2943,
+        "yearly": 12955
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 212,
+      "pushed_at": "2020-02-01T11:02:23.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 31968,
+      "trends": { "daily": 48, "weekly": 419, "monthly": 3658 },
+      "tags": ["learning"],
+      "contributor_count": 97,
+      "pushed_at": "2020-01-22T16:38:35.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Puppeteer",
+      "full_name": "puppeteer/puppeteer",
+      "description": "Headless Chrome Node.js API",
+      "stars": 58178,
+      "trends": { "daily": 38, "weekly": 332, "monthly": 928, "yearly": 13297 },
+      "tags": ["auto"],
+      "contributor_count": 249,
+      "pushed_at": "2020-01-31T07:43:34.000Z",
+      "owner_id": 6906516,
+      "url": "https://pptr.dev/",
+      "npm": "puppeteer",
+      "downloads": 4177839,
+      "icon": "puppeteer.svg"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 115849,
+      "trends": {
+        "daily": 32,
+        "weekly": 302,
+        "monthly": 1890,
+        "yearly": 20138
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 169,
+      "pushed_at": "2020-02-01T19:39:58.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Rough.js",
+      "full_name": "pshihn/rough",
+      "description": "Create graphics with a hand-drawn, sketchy, appearance",
+      "stars": 12690,
+      "trends": { "daily": 41, "weekly": 270, "monthly": 858, "yearly": 2494 },
+      "tags": ["drawing", "canvas", "svg"],
+      "contributor_count": 9,
+      "pushed_at": "2020-01-16T01:37:27.000Z",
+      "owner_id": 833927,
+      "url": "http://roughjs.com",
+      "npm": "roughjs",
+      "downloads": 5233
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 143116,
+      "trends": {
+        "daily": 25,
+        "weekly": 260,
+        "monthly": 1405,
+        "yearly": 21862
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1353,
+      "pushed_at": "2020-01-31T23:17:57.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 19647121,
+      "icon": "react.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 90891,
+      "trends": {
+        "daily": 18,
+        "weekly": 257,
+        "monthly": 1350,
+        "yearly": 22567
+      },
+      "tags": ["ide"],
+      "contributor_count": 1070,
+      "pushed_at": "2020-02-01T00:52:58.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 156360,
+      "trends": {
+        "daily": 36,
+        "weekly": 253,
+        "monthly": 1354,
+        "yearly": 29508
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 286,
+      "pushed_at": "2020-01-26T14:08:17.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 4394743,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 61304,
+      "trends": {
+        "daily": 35,
+        "weekly": 242,
+        "monthly": 1892,
+        "yearly": 17588
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    }
+  ],
+  "growing": [
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 7492,
+      "trends": { "daily": 136, "weekly": 2359 },
+      "tags": ["auto"],
+      "contributor_count": 23,
+      "pushed_at": "2020-02-01T02:46:34.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright"
+    },
+    {
+      "name": "beautiful-react-hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 1693,
+      "trends": { "daily": 10, "weekly": 159 },
+      "tags": ["react"],
+      "contributor_count": 10,
+      "pushed_at": "2020-01-27T21:17:40.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 2756,
+      "trends": { "daily": 24, "weekly": 208, "monthly": 1660 },
+      "tags": ["framework"],
+      "contributor_count": 29,
+      "pushed_at": "2020-01-30T15:28:46.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 875
+    },
+    {
+      "name": "Airframe",
+      "full_name": "0wczar/airframe-react",
+      "description": "High Quality Dashboard / Admin / Analytics template",
+      "stars": 2247,
+      "trends": { "daily": 12, "weekly": 106, "monthly": 265 },
+      "tags": ["dashboard", "react"],
+      "contributor_count": 1,
+      "pushed_at": "2019-08-23T15:42:49.000Z",
+      "owner_id": 2330394,
+      "url": "http://dashboards.webkom.co/react/airframe"
+    },
+    {
+      "name": "material-table",
+      "full_name": "mbrn/material-table",
+      "description": "Datatable for React based on material-ui's table with additional features",
+      "stars": 1464,
+      "trends": { "daily": 4, "weekly": 56, "monthly": 147, "yearly": 1345 },
+      "tags": ["react", "material", "table"],
+      "contributor_count": 92,
+      "pushed_at": "2020-01-25T21:28:13.000Z",
+      "owner_id": 7895451,
+      "url": "https://material-table.com",
+      "npm": "material-table",
+      "downloads": 142875
+    },
+    {
+      "name": "Theme UI",
+      "full_name": "system-ui/theme-ui",
+      "description": "Build consistent, themeable React apps based on constraint-based design",
+      "stars": 1715,
+      "trends": { "daily": 3, "weekly": 60, "monthly": 239 },
+      "tags": ["css-in-js"],
+      "contributor_count": 47,
+      "pushed_at": "2020-01-31T23:07:47.000Z",
+      "owner_id": 48816045,
+      "url": "https://theme-ui.com",
+      "npm": "theme-ui",
+      "downloads": 87356
+    },
+    {
+      "name": "React Email Editor",
+      "full_name": "unlayer/react-email-editor",
+      "description": "Drag-n-Drop Email Editor Component for React.js",
+      "stars": 1911,
+      "trends": { "daily": 2, "weekly": 60, "monthly": 193, "yearly": 599 },
+      "tags": ["react", "email", "rich-text-editor"],
+      "contributor_count": 4,
+      "pushed_at": "2020-01-09T13:02:06.000Z",
+      "owner_id": 32661111,
+      "url": "https://unlayer.com",
+      "npm": "react-email-editor",
+      "downloads": 8115
+    },
+    {
+      "name": "react-use-gesture",
+      "full_name": "react-spring/react-use-gesture",
+      "description": "Bread n butter utility for component-tied mouse/touch gestures in React",
+      "stars": 3069,
+      "trends": { "daily": 9, "weekly": 90, "monthly": 207, "yearly": 1705 },
+      "tags": ["react", "touch"],
+      "contributor_count": 33,
+      "pushed_at": "2020-01-31T09:59:53.000Z",
+      "owner_id": 45790596,
+      "url": "https://use-gesture.netlify.com/",
+      "npm": "react-with-gesture",
+      "downloads": 13525
+    },
+    {
+      "name": "craft.js",
+      "full_name": "prevwong/craft.js",
+      "description": "A React Framework for building extensible drag and drop page editors",
+      "stars": 2162,
+      "trends": { "daily": 5, "weekly": 59 },
+      "tags": ["dnd", "react", "cms"],
+      "contributor_count": 3,
+      "pushed_at": "2020-01-17T10:49:18.000Z",
+      "owner_id": 16416929,
+      "url": "https://craft.js.org",
+      "npm": "@craftjs/core"
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 2832,
+      "trends": { "daily": 44, "weekly": 68, "monthly": 198 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 32,
+      "pushed_at": "2020-01-17T21:50:14.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 12220
+    }
+  ]
+}
