@@ -1,0 +1,308 @@
+{
+  "date": "2020-02-09T11:39:28.452Z",
+  "trending": [
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 116599,
+      "trends": {
+        "daily": 46,
+        "weekly": 750,
+        "monthly": 2377,
+        "yearly": 20558
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 169,
+      "pushed_at": "2020-02-05T03:42:17.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 8194,
+      "trends": { "daily": 56, "weekly": 702 },
+      "tags": ["auto"],
+      "contributor_count": 24,
+      "pushed_at": "2020-02-08T01:39:32.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 4801
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 43962,
+      "trends": {
+        "daily": 28,
+        "weekly": 414,
+        "monthly": 3202,
+        "yearly": 13138
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 218,
+      "pushed_at": "2020-02-08T20:24:09.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 32357,
+      "trends": { "daily": 29, "weekly": 389, "monthly": 3729 },
+      "tags": ["learning"],
+      "contributor_count": 97,
+      "pushed_at": "2020-02-07T04:08:06.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 57411,
+      "trends": {
+        "daily": 58,
+        "weekly": 376,
+        "monthly": 1201,
+        "yearly": 12293
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 1087,
+      "pushed_at": "2020-02-08T01:22:53.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "downloads": 5472256,
+      "icon": "angular.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 49000,
+      "trends": {
+        "daily": 18,
+        "weekly": 369,
+        "monthly": 1147,
+        "yearly": 21987
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 104,
+      "pushed_at": "2020-02-05T01:51:43.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Tailwind CSS",
+      "full_name": "tailwindcss/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "stars": 19402,
+      "trends": {
+        "daily": 40,
+        "weekly": 339,
+        "monthly": 1068,
+        "yearly": 10516
+      },
+      "tags": ["css-lib"],
+      "contributor_count": 103,
+      "pushed_at": "2020-02-06T06:17:05.000Z",
+      "owner_id": 30317862,
+      "url": "https://tailwindcss.com/",
+      "icon": "tailwindcss.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 143449,
+      "trends": {
+        "daily": 51,
+        "weekly": 333,
+        "monthly": 1379,
+        "yearly": 21586
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1359,
+      "pushed_at": "2020-02-07T22:36:51.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 26041251,
+      "icon": "react.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 61609,
+      "trends": {
+        "daily": 45,
+        "weekly": 305,
+        "monthly": 1730,
+        "yearly": 17589
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 91186,
+      "trends": {
+        "daily": 33,
+        "weekly": 295,
+        "monthly": 1324,
+        "yearly": 22417
+      },
+      "tags": ["ide"],
+      "contributor_count": 1085,
+      "pushed_at": "2020-02-08T02:14:38.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "LInQer",
+      "full_name": "Siderite/LInQer",
+      "description": "The C# Language Integrated Queries ported for Javascript",
+      "stars": 432,
+      "trends": { "daily": 1, "weekly": 84 },
+      "tags": ["data-structure"],
+      "contributor_count": 1,
+      "pushed_at": "2020-02-06T22:36:22.000Z",
+      "owner_id": 260529,
+      "url": "https://siderite.dev/blog/linq-in-javascript-linqer/",
+      "npm": "@siderite/linqer",
+      "downloads": 157
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 8194,
+      "trends": { "daily": 56, "weekly": 702 },
+      "tags": ["auto"],
+      "contributor_count": 24,
+      "pushed_at": "2020-02-08T01:39:32.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 4801
+    },
+    {
+      "name": "treat",
+      "full_name": "seek-oss/treat",
+      "description": "Themeable, statically extracted CSS‑in‑JS with near‑zero runtime.",
+      "stars": 732,
+      "trends": { "daily": 2, "weekly": 61, "monthly": 108 },
+      "tags": ["css-in-js"],
+      "contributor_count": 14,
+      "pushed_at": "2020-01-31T00:58:14.000Z",
+      "owner_id": 22927121,
+      "url": "https://seek-oss.github.io/treat",
+      "npm": "treat",
+      "downloads": 5859
+    },
+    {
+      "name": "Scully",
+      "full_name": "scullyio/scully",
+      "description": "The Static Site Generator for Angular apps",
+      "stars": 796,
+      "trends": { "daily": 4, "weekly": 51, "monthly": 195 },
+      "tags": ["ssg", "angular"],
+      "contributor_count": 25,
+      "pushed_at": "2020-02-07T17:30:12.000Z",
+      "owner_id": 58822549
+    },
+    {
+      "name": "TSdx",
+      "full_name": "jaredpalmer/tsdx",
+      "description": "Zero-config CLI for TypeScript package development",
+      "stars": 4083,
+      "trends": { "daily": 25, "weekly": 234, "monthly": 419 },
+      "tags": ["scaffolding"],
+      "contributor_count": 58,
+      "pushed_at": "2020-02-07T19:50:13.000Z",
+      "owner_id": 4060187,
+      "npm": "tsdx",
+      "downloads": 56844
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 2911,
+      "trends": { "daily": 10, "weekly": 155, "monthly": 1592 },
+      "tags": ["framework"],
+      "contributor_count": 29,
+      "pushed_at": "2020-02-07T18:02:38.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 2743
+    },
+    {
+      "name": "React Toast Notifications",
+      "full_name": "jossmac/react-toast-notifications",
+      "description": "A toast notification system for react",
+      "stars": 1095,
+      "trends": { "daily": 3, "weekly": 57, "monthly": 91, "yearly": 589 },
+      "tags": ["notify", "react"],
+      "contributor_count": 13,
+      "pushed_at": "2020-02-02T23:31:30.000Z",
+      "owner_id": 2730833,
+      "url": "https://jossmac.github.io/react-toast-notifications",
+      "npm": "react-toast-notifications",
+      "downloads": 77363
+    },
+    {
+      "name": "beautiful-react-hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 1780,
+      "trends": { "daily": 8, "weekly": 87 },
+      "tags": ["react"],
+      "contributor_count": 10,
+      "pushed_at": "2020-02-07T18:14:45.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks",
+      "downloads": 2322
+    },
+    {
+      "name": "Theme UI",
+      "full_name": "system-ui/theme-ui",
+      "description": "Build consistent, themeable React apps based on constraint-based design",
+      "stars": 1787,
+      "trends": { "daily": 6, "weekly": 72, "monthly": 242 },
+      "tags": ["css-in-js"],
+      "contributor_count": 47,
+      "pushed_at": "2020-01-31T23:07:47.000Z",
+      "owner_id": 48816045,
+      "url": "https://theme-ui.com",
+      "npm": "theme-ui",
+      "downloads": 130263
+    },
+    {
+      "name": "Blocks",
+      "full_name": "blocks/blocks",
+      "description": "A JSX-based page builder for creating beautiful websites",
+      "stars": 2720,
+      "trends": { "daily": 5, "weekly": 107, "monthly": 263 },
+      "tags": ["react"],
+      "contributor_count": 23,
+      "pushed_at": "2020-02-07T22:40:16.000Z",
+      "owner_id": 6106365,
+      "url": "https://blocks-ui.com"
+    }
+  ]
+}
