@@ -1,0 +1,289 @@
+{
+  "date": "2020-02-16T11:53:56.430Z",
+  "trending": [
+    {
+      "name": "Front-End Performance Checklist",
+      "full_name": "thedaviddias/Front-End-Performance-Checklist",
+      "description": "The only Front-End Performance Checklist that runs faster than the others",
+      "stars": 11841,
+      "trends": { "daily": 45, "weekly": 562, "monthly": 617, "yearly": 1538 },
+      "tags": ["learning", "performance"],
+      "contributor_count": 34,
+      "pushed_at": "2019-12-12T20:17:50.000Z",
+      "owner_id": 237229
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 3421,
+      "trends": { "daily": 8, "weekly": 510, "monthly": 1320 },
+      "tags": ["framework"],
+      "contributor_count": 30,
+      "pushed_at": "2020-02-15T06:40:35.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 3317
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 117063,
+      "trends": {
+        "daily": 35,
+        "weekly": 464,
+        "monthly": 1950,
+        "yearly": 20699
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 169,
+      "pushed_at": "2020-02-15T12:51:15.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 4837,
+      "trends": { "daily": 122, "weekly": 444, "monthly": 677 },
+      "tags": ["react", "component", "access"],
+      "contributor_count": 74,
+      "pushed_at": "2020-02-13T17:05:49.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 39641
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 44396,
+      "trends": {
+        "daily": 39,
+        "weekly": 434,
+        "monthly": 3496,
+        "yearly": 13263
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 220,
+      "pushed_at": "2020-02-15T15:37:05.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 8600,
+      "trends": { "daily": 33, "weekly": 406 },
+      "tags": ["auto"],
+      "contributor_count": 26,
+      "pushed_at": "2020-02-15T18:07:41.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 18269
+    },
+    {
+      "name": "StageJS",
+      "full_name": "shakiba/stage.js",
+      "description": "2D HTML5 rendering and layout engine for game development",
+      "stars": 1803,
+      "trends": { "daily": 18, "weekly": 380, "monthly": 388, "yearly": 476 },
+      "tags": ["game"],
+      "contributor_count": 5,
+      "pushed_at": "2020-02-08T10:56:30.000Z",
+      "owner_id": 1061095,
+      "url": "http://piqnt.com/stage.js/",
+      "npm": "stage-js",
+      "downloads": 151
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 57756,
+      "trends": {
+        "daily": 23,
+        "weekly": 345,
+        "monthly": 1280,
+        "yearly": 12457
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 1089,
+      "pushed_at": "2020-02-14T23:34:00.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "downloads": 5987338,
+      "icon": "angular.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 91522,
+      "trends": {
+        "daily": 33,
+        "weekly": 336,
+        "monthly": 1315,
+        "yearly": 22250
+      },
+      "tags": ["ide"],
+      "contributor_count": 1091,
+      "pushed_at": "2020-02-15T20:49:11.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 61928,
+      "trends": {
+        "daily": 22,
+        "weekly": 319,
+        "monthly": 1345,
+        "yearly": 17204
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    }
+  ],
+  "growing": [
+    {
+      "name": "Baretest",
+      "full_name": "volument/baretest",
+      "description": "An extremely fast and simple JavaScript test runner.",
+      "stars": 200,
+      "trends": { "daily": 5, "weekly": 128 },
+      "tags": ["test-framework"],
+      "contributor_count": 1,
+      "pushed_at": "2020-02-08T10:46:41.000Z",
+      "owner_id": 24326511,
+      "npm": "baretest",
+      "downloads": 75
+    },
+    {
+      "name": "StageJS",
+      "full_name": "shakiba/stage.js",
+      "description": "2D HTML5 rendering and layout engine for game development",
+      "stars": 1803,
+      "trends": { "daily": 18, "weekly": 380, "monthly": 388, "yearly": 476 },
+      "tags": ["game"],
+      "contributor_count": 5,
+      "pushed_at": "2020-02-08T10:56:30.000Z",
+      "owner_id": 1061095,
+      "url": "http://piqnt.com/stage.js/",
+      "npm": "stage-js",
+      "downloads": 151
+    },
+    {
+      "name": "Vendure",
+      "full_name": "vendure-ecommerce/vendure",
+      "description": "A headless GraphQL ecommerce framework for the modern web",
+      "stars": 702,
+      "trends": { "daily": 7, "weekly": 136 },
+      "tags": ["graphql", "ecommerce"],
+      "contributor_count": 7,
+      "pushed_at": "2020-02-13T19:36:58.000Z",
+      "owner_id": 39629390,
+      "url": "https://www.vendure.io/"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 3421,
+      "trends": { "daily": 8, "weekly": 510, "monthly": 1320 },
+      "tags": ["framework"],
+      "contributor_count": 30,
+      "pushed_at": "2020-02-15T06:40:35.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 3317
+    },
+    {
+      "name": "Bent",
+      "full_name": "mikeal/bent",
+      "description": "Functional JS HTTP client (Node.js & Fetch) w/ async await",
+      "stars": 933,
+      "trends": { "daily": 14, "weekly": 132, "monthly": 131 },
+      "tags": ["http"],
+      "contributor_count": 7,
+      "pushed_at": "2020-02-11T19:11:16.000Z",
+      "owner_id": 579,
+      "npm": "bent",
+      "downloads": 19443
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 4837,
+      "trends": { "daily": 122, "weekly": 444, "monthly": 677 },
+      "tags": ["react", "component", "access"],
+      "contributor_count": 74,
+      "pushed_at": "2020-02-13T17:05:49.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 39641
+    },
+    {
+      "name": "NodeTube",
+      "full_name": "mayeaux/nodetube",
+      "description": "Open-source YouTube alternative that offers video, audio and image uploads",
+      "stars": 1511,
+      "trends": { "daily": 32, "weekly": 120, "monthly": 194 },
+      "tags": ["video"],
+      "contributor_count": 16,
+      "pushed_at": "2020-02-15T05:23:11.000Z",
+      "owner_id": 7200471
+    },
+    {
+      "name": "fast-check",
+      "full_name": "dubzzz/fast-check",
+      "description": "Property based testing framework for JavaScript (like QuickCheck)",
+      "stars": 1088,
+      "trends": { "daily": 4, "weekly": 68, "monthly": 120, "yearly": 760 },
+      "tags": ["test"],
+      "contributor_count": 19,
+      "pushed_at": "2020-02-11T23:49:43.000Z",
+      "owner_id": 5300235,
+      "npm": "fast-check",
+      "downloads": 96596
+    },
+    {
+      "name": "Front-End Performance Checklist",
+      "full_name": "thedaviddias/Front-End-Performance-Checklist",
+      "description": "The only Front-End Performance Checklist that runs faster than the others",
+      "stars": 11841,
+      "trends": { "daily": 45, "weekly": 562, "monthly": 617, "yearly": 1538 },
+      "tags": ["learning", "performance"],
+      "contributor_count": 34,
+      "pushed_at": "2019-12-12T20:17:50.000Z",
+      "owner_id": 237229
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 8600,
+      "trends": { "daily": 33, "weekly": 406 },
+      "tags": ["auto"],
+      "contributor_count": 26,
+      "pushed_at": "2020-02-15T18:07:41.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 18269
+    }
+  ]
+}
