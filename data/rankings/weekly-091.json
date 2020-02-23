@@ -1,0 +1,312 @@
+{
+  "date": "2020-02-22T23:09:45.858Z",
+  "trending": [
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 9476,
+      "trends": { "daily": 47, "weekly": 876 },
+      "tags": ["auto"],
+      "contributor_count": 27,
+      "pushed_at": "2020-02-22T14:16:28.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 29396
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 117677,
+      "trends": {
+        "daily": 79,
+        "weekly": 614,
+        "monthly": 2196,
+        "yearly": 20929
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 169,
+      "pushed_at": "2020-02-22T20:37:35.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 44826,
+      "trends": {
+        "daily": 40,
+        "weekly": 430,
+        "monthly": 2811,
+        "yearly": 13463
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 225,
+      "pushed_at": "2020-02-21T18:21:51.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The largest Node.js best practices list",
+      "stars": 39515,
+      "trends": {
+        "daily": 133,
+        "weekly": 405,
+        "monthly": 910,
+        "yearly": 13919
+      },
+      "tags": ["learning"],
+      "contributor_count": 116,
+      "pushed_at": "2020-02-02T19:57:19.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 144158,
+      "trends": {
+        "daily": 45,
+        "weekly": 402,
+        "monthly": 1365,
+        "yearly": 21189
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1362,
+      "pushed_at": "2020-02-22T07:20:17.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 27310211,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 157322,
+      "trends": {
+        "daily": 43,
+        "weekly": 360,
+        "monthly": 1262,
+        "yearly": 28709
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 289,
+      "pushed_at": "2020-02-11T14:50:22.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 5687227,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Angular",
+      "full_name": "angular/angular",
+      "description": "One framework. Mobile & desktop.",
+      "stars": 58091,
+      "trends": {
+        "daily": 47,
+        "weekly": 335,
+        "monthly": 1364,
+        "yearly": 12540
+      },
+      "tags": ["framework", "angular"],
+      "contributor_count": 1089,
+      "pushed_at": "2020-02-21T22:16:34.000Z",
+      "owner_id": 139426,
+      "url": "https://angular.io",
+      "npm": "@angular/core",
+      "downloads": 5923125,
+      "icon": "angular.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 91855,
+      "trends": {
+        "daily": 70,
+        "weekly": 333,
+        "monthly": 1346,
+        "yearly": 22187
+      },
+      "tags": ["ide"],
+      "contributor_count": 1098,
+      "pushed_at": "2020-02-22T18:21:32.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 3704,
+      "trends": { "daily": 28, "weekly": 283, "monthly": 1219 },
+      "tags": ["framework"],
+      "contributor_count": 30,
+      "pushed_at": "2020-02-21T22:20:30.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 3824
+    },
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 30749,
+      "trends": {
+        "daily": 37,
+        "weekly": 276,
+        "monthly": 1033,
+        "yearly": 21569
+      },
+      "tags": ["framework"],
+      "contributor_count": 270,
+      "pushed_at": "2020-02-21T13:55:38.000Z",
+      "owner_id": 23617963,
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Beluga",
+      "full_name": "binx/beluga",
+      "description": "Build your own e-commerce site!",
+      "stars": 164,
+      "trends": { "daily": 7, "weekly": 53 },
+      "tags": ["ecommerce"],
+      "contributor_count": 0,
+      "pushed_at": "2020-02-21T17:05:42.000Z",
+      "owner_id": 589151
+    },
+    {
+      "name": "Baretest",
+      "full_name": "volument/baretest",
+      "description": "An extremely fast and simple JavaScript test runner.",
+      "stars": 259,
+      "trends": { "daily": 2, "weekly": 59 },
+      "tags": ["test-framework"],
+      "contributor_count": 1,
+      "pushed_at": "2020-02-08T10:46:41.000Z",
+      "owner_id": 24326511,
+      "npm": "baretest",
+      "downloads": 156
+    },
+    {
+      "name": "BullMQ",
+      "full_name": "taskforcesh/bullmq",
+      "description": "Premium Message Queue for NodeJS based on Redis",
+      "stars": 401,
+      "trends": { "daily": 5, "weekly": 54, "monthly": 111 },
+      "tags": ["queue"],
+      "contributor_count": 14,
+      "pushed_at": "2020-02-22T13:44:49.000Z",
+      "owner_id": 29824808,
+      "url": "https://docs.bullmq.io/",
+      "npm": "bullmq",
+      "downloads": 7905
+    },
+    {
+      "name": "Scully",
+      "full_name": "scullyio/scully",
+      "description": "The Static Site Generator for Angular apps",
+      "stars": 952,
+      "trends": { "daily": 14, "weekly": 118, "monthly": 252 },
+      "tags": ["ssg", "angular"],
+      "contributor_count": 27,
+      "pushed_at": "2020-02-20T12:55:12.000Z",
+      "owner_id": 58822549
+    },
+    {
+      "name": "Taiko",
+      "full_name": "getgauge/taiko",
+      "description": "A node.js library for testing modern web applications",
+      "stars": 1998,
+      "trends": { "daily": 22, "weekly": 202, "monthly": 234, "yearly": 1190 },
+      "tags": ["auto", "test"],
+      "contributor_count": 54,
+      "pushed_at": "2020-02-20T07:50:57.000Z",
+      "owner_id": 7044589,
+      "url": "https://taiko.dev",
+      "npm": "taiko",
+      "downloads": 11912
+    },
+    {
+      "name": "Bent",
+      "full_name": "mikeal/bent",
+      "description": "Functional JS HTTP client (Node.js & Fetch) w/ async await",
+      "stars": 1034,
+      "trends": { "daily": 5, "weekly": 101, "monthly": 232 },
+      "tags": ["http"],
+      "contributor_count": 8,
+      "pushed_at": "2020-02-19T19:13:11.000Z",
+      "owner_id": 579,
+      "npm": "bent",
+      "downloads": 20720
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 9476,
+      "trends": { "daily": 47, "weekly": 876 },
+      "tags": ["auto"],
+      "contributor_count": 27,
+      "pushed_at": "2020-02-22T14:16:28.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 29396
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 3704,
+      "trends": { "daily": 28, "weekly": 283, "monthly": 1219 },
+      "tags": ["framework"],
+      "contributor_count": 30,
+      "pushed_at": "2020-02-21T22:20:30.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 3824
+    },
+    {
+      "name": "beautiful-react-hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 1957,
+      "trends": { "daily": 17, "weekly": 122, "monthly": 445 },
+      "tags": ["react"],
+      "contributor_count": 12,
+      "pushed_at": "2020-02-21T17:18:12.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks",
+      "downloads": 3924
+    },
+    {
+      "name": "Unform",
+      "full_name": "Rocketseat/unform",
+      "description": "Easy peasy high scalable ReactJS & React Native forms!",
+      "stars": 2941,
+      "trends": { "daily": 42, "weekly": 183, "monthly": 243 },
+      "tags": ["form"],
+      "contributor_count": 33,
+      "pushed_at": "2020-02-21T00:43:39.000Z",
+      "owner_id": 28929274,
+      "url": "https://unform.dev",
+      "npm": "@rocketseat/unform",
+      "downloads": 8786
+    }
+  ]
+}
