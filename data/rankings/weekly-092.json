@@ -1,0 +1,290 @@
+{
+  "date": "2020-03-01T12:02:39.276Z",
+  "trending": [
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 4067,
+      "trends": { "daily": 76, "weekly": 890, "monthly": 1285 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 36,
+      "pushed_at": "2020-02-29T15:15:10.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 24309
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 158151,
+      "trends": {
+        "daily": 106,
+        "weekly": 829,
+        "monthly": 1863,
+        "yearly": 28853
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 289,
+      "pushed_at": "2020-02-27T16:41:28.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 5687227,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list",
+      "stars": 40145,
+      "trends": {
+        "daily": 30,
+        "weekly": 630,
+        "monthly": 1397,
+        "yearly": 14322
+      },
+      "tags": ["learning"],
+      "contributor_count": 116,
+      "pushed_at": "2020-02-29T20:03:10.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 4325,
+      "trends": { "daily": 56, "weekly": 621, "monthly": 1643 },
+      "tags": ["framework"],
+      "contributor_count": 32,
+      "pushed_at": "2020-02-29T13:50:55.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 3824
+    },
+    {
+      "name": "Ant Design",
+      "full_name": "ant-design/ant-design",
+      "description": "A UI Design Language and React UI library",
+      "stars": 57068,
+      "trends": {
+        "daily": 81,
+        "weekly": 532,
+        "monthly": 1159,
+        "yearly": 13975
+      },
+      "tags": ["react", "component"],
+      "contributor_count": 1015,
+      "pushed_at": "2020-02-29T16:21:37.000Z",
+      "owner_id": 12101536,
+      "url": "https://ant.design",
+      "npm": "antd",
+      "downloads": 1363513,
+      "icon": "ant.svg"
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 9998,
+      "trends": { "daily": 25, "weekly": 522, "monthly": 2858 },
+      "tags": ["auto"],
+      "contributor_count": 28,
+      "pushed_at": "2020-02-29T01:37:05.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 29396
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 33323,
+      "trends": { "daily": 31, "weekly": 510, "monthly": 1480 },
+      "tags": ["learning"],
+      "contributor_count": 98,
+      "pushed_at": "2020-02-12T04:01:46.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 118186,
+      "trends": {
+        "daily": 51,
+        "weekly": 509,
+        "monthly": 2403,
+        "yearly": 21029
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 170,
+      "pushed_at": "2020-02-29T12:49:06.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Destiny",
+      "full_name": "benawad/destiny",
+      "description": "Prettier for File Structures",
+      "stars": 1199,
+      "trends": { "daily": 19, "weekly": 464 },
+      "tags": ["filesystem"],
+      "contributor_count": 11,
+      "pushed_at": "2020-02-29T08:57:00.000Z",
+      "owner_id": 7872329,
+      "branch": "develop",
+      "npm": "destiny"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 62545,
+      "trends": {
+        "daily": 55,
+        "weekly": 424,
+        "monthly": 1310,
+        "yearly": 17119
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    }
+  ],
+  "growing": [
+    {
+      "name": "Destiny",
+      "full_name": "benawad/destiny",
+      "description": "Prettier for File Structures",
+      "stars": 1199,
+      "trends": { "daily": 19, "weekly": 464 },
+      "tags": ["filesystem"],
+      "contributor_count": 11,
+      "pushed_at": "2020-02-29T08:57:00.000Z",
+      "owner_id": 7872329,
+      "branch": "develop",
+      "npm": "destiny"
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 4067,
+      "trends": { "daily": 76, "weekly": 890, "monthly": 1285 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 36,
+      "pushed_at": "2020-02-29T15:15:10.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 24309
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 4325,
+      "trends": { "daily": 56, "weekly": 621, "monthly": 1643 },
+      "tags": ["framework"],
+      "contributor_count": 32,
+      "pushed_at": "2020-02-29T13:50:55.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 3824
+    },
+    {
+      "name": "Panolens.js",
+      "full_name": "pchen66/panolens.js",
+      "description": "Javascript panorama viewer based on Three.js",
+      "stars": 878,
+      "trends": { "daily": 25, "weekly": 102 },
+      "tags": ["viewer"],
+      "contributor_count": 5,
+      "pushed_at": "2019-06-25T16:30:49.000Z",
+      "owner_id": 2421225,
+      "url": "https://pchen66.github.io/Panolens/",
+      "npm": "panolens"
+    },
+    {
+      "name": "Bent",
+      "full_name": "mikeal/bent",
+      "description": "Functional JS HTTP client (Node.js & Fetch) w/ async await",
+      "stars": 1104,
+      "trends": { "daily": 8, "weekly": 70, "monthly": 303 },
+      "tags": ["http"],
+      "contributor_count": 8,
+      "pushed_at": "2020-02-19T19:13:11.000Z",
+      "owner_id": 579,
+      "npm": "bent",
+      "downloads": 20720
+    },
+    {
+      "name": "Scully",
+      "full_name": "scullyio/scully",
+      "description": "The Static Site Generator for Angular apps",
+      "stars": 1015,
+      "trends": { "daily": 6, "weekly": 63, "monthly": 282 },
+      "tags": ["ssg", "angular"],
+      "contributor_count": 28,
+      "pushed_at": "2020-02-28T12:40:06.000Z",
+      "owner_id": 58822549
+    },
+    {
+      "name": "Craft.js",
+      "full_name": "prevwong/craft.js",
+      "description": "A React Framework for building extensible drag and drop page editors",
+      "stars": 2413,
+      "trends": { "daily": 26, "weekly": 127, "monthly": 259 },
+      "tags": ["dnd", "react", "cms"],
+      "contributor_count": 7,
+      "pushed_at": "2020-02-28T19:34:15.000Z",
+      "owner_id": 16416929,
+      "url": "https://craft.js.org",
+      "npm": "@craftjs/core",
+      "downloads": 243
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 9998,
+      "trends": { "daily": 25, "weekly": 522, "monthly": 2858 },
+      "tags": ["auto"],
+      "contributor_count": 28,
+      "pushed_at": "2020-02-29T01:37:05.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 29396
+    },
+    {
+      "name": "Serialize JavaScript",
+      "full_name": "yahoo/serialize-javascript",
+      "description": "Serialize JavaScript to a superset of JSON that includes regular expression...",
+      "stars": 1916,
+      "trends": { "daily": 7, "weekly": 95 },
+      "tags": ["json"],
+      "contributor_count": 17,
+      "pushed_at": "2020-02-27T12:00:27.000Z",
+      "owner_id": 16574,
+      "npm": "serialize-javascript"
+    },
+    {
+      "name": "Elastic UI",
+      "full_name": "elastic/eui",
+      "description": "A collection of React UI components for quickly building user interfaces",
+      "stars": 1652,
+      "trends": { "daily": 9, "weekly": 79, "monthly": 126 },
+      "tags": ["react", "component"],
+      "contributor_count": 118,
+      "pushed_at": "2020-02-28T21:10:45.000Z",
+      "owner_id": 6764390,
+      "url": "https://elastic.github.io/eui/#/",
+      "npm": "@elastic/eui",
+      "downloads": 51794
+    }
+  ]
+}
