@@ -1,0 +1,310 @@
+{
+  "date": "2020-03-08T00:39:11.688Z",
+  "trending": [
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list",
+      "stars": 40941,
+      "trends": {
+        "daily": 173,
+        "weekly": 796,
+        "monthly": 2027,
+        "yearly": 14958
+      },
+      "tags": ["learning"],
+      "contributor_count": 118,
+      "pushed_at": "2020-03-05T19:25:52.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 158797,
+      "trends": {
+        "daily": 64,
+        "weekly": 646,
+        "monthly": 2232,
+        "yearly": 28725
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 290,
+      "pushed_at": "2020-03-06T15:09:02.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6370348,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 4959,
+      "trends": { "daily": 78, "weekly": 634, "monthly": 2074 },
+      "tags": ["framework"],
+      "contributor_count": 35,
+      "pushed_at": "2020-03-07T06:07:52.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 7280
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 7855,
+      "trends": { "daily": 82, "weekly": 529, "monthly": 1145 },
+      "tags": ["react", "form"],
+      "contributor_count": 71,
+      "pushed_at": "2020-03-07T13:05:14.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 502858
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 4577,
+      "trends": { "daily": 22, "weekly": 510, "monthly": 1665 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 45,
+      "pushed_at": "2020-03-06T19:49:05.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 40554
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 118620,
+      "trends": {
+        "daily": 45,
+        "weekly": 434,
+        "monthly": 2120,
+        "yearly": 21071
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 170,
+      "pushed_at": "2020-03-05T02:33:35.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 62946,
+      "trends": {
+        "daily": 44,
+        "weekly": 401,
+        "monthly": 1440,
+        "yearly": 17239
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 50248,
+      "trends": {
+        "daily": 44,
+        "weekly": 399,
+        "monthly": 1288,
+        "yearly": 21746
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 104,
+      "pushed_at": "2020-02-12T02:01:27.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Ant Design",
+      "full_name": "ant-design/ant-design",
+      "description": "A UI Design Language and React UI library",
+      "stars": 57431,
+      "trends": {
+        "daily": 27,
+        "weekly": 363,
+        "monthly": 1343,
+        "yearly": 14046
+      },
+      "tags": ["react", "component"],
+      "contributor_count": 1021,
+      "pushed_at": "2020-03-07T16:54:45.000Z",
+      "owner_id": 12101536,
+      "url": "https://ant.design",
+      "npm": "antd",
+      "downloads": 1509139,
+      "icon": "ant.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 92500,
+      "trends": {
+        "daily": 39,
+        "weekly": 346,
+        "monthly": 1410,
+        "yearly": 21808
+      },
+      "tags": ["ide"],
+      "contributor_count": 1102,
+      "pushed_at": "2020-03-07T18:26:05.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Panolens.js",
+      "full_name": "pchen66/panolens.js",
+      "description": "Javascript panorama viewer based on Three.js",
+      "stars": 1029,
+      "trends": { "daily": 3, "weekly": 151 },
+      "tags": ["viewer"],
+      "contributor_count": 5,
+      "pushed_at": "2019-06-25T16:30:49.000Z",
+      "owner_id": 2421225,
+      "url": "https://pchen66.github.io/Panolens/",
+      "npm": "panolens",
+      "downloads": 323
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 4959,
+      "trends": { "daily": 78, "weekly": 634, "monthly": 2074 },
+      "tags": ["framework"],
+      "contributor_count": 35,
+      "pushed_at": "2020-03-07T06:07:52.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 7280
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 4577,
+      "trends": { "daily": 22, "weekly": 510, "monthly": 1665 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 45,
+      "pushed_at": "2020-03-06T19:49:05.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 40554
+    },
+    {
+      "name": "Destiny",
+      "full_name": "benawad/destiny",
+      "description": "Prettier for File Structures",
+      "stars": 1339,
+      "trends": { "daily": 5, "weekly": 140 },
+      "tags": ["filesystem"],
+      "contributor_count": 11,
+      "pushed_at": "2020-03-04T18:48:27.000Z",
+      "owner_id": 7872329,
+      "branch": "develop",
+      "npm": "destiny",
+      "downloads": 1232
+    },
+    {
+      "name": "beautiful-react-hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 2194,
+      "trends": { "daily": 12, "weekly": 196, "monthly": 440 },
+      "tags": ["react"],
+      "contributor_count": 13,
+      "pushed_at": "2020-03-01T13:39:22.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks",
+      "downloads": 5521
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 7855,
+      "trends": { "daily": 82, "weekly": 529, "monthly": 1145 },
+      "tags": ["react", "form"],
+      "contributor_count": 71,
+      "pushed_at": "2020-03-07T13:05:14.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 502858
+    },
+    {
+      "name": "craft.js",
+      "full_name": "prevwong/craft.js",
+      "description": "A React Framework for building extensible drag and drop page editors",
+      "stars": 2539,
+      "trends": { "daily": 0, "weekly": 126, "monthly": 355 },
+      "tags": ["dnd", "react", "cms"],
+      "contributor_count": 7,
+      "pushed_at": "2020-03-04T16:40:33.000Z",
+      "owner_id": 16416929,
+      "url": "https://craft.js.org",
+      "npm": "@craftjs/core",
+      "downloads": 263
+    },
+    {
+      "name": "react-mosaic",
+      "full_name": "nomcopter/react-mosaic",
+      "description": "A React tiling window manager",
+      "stars": 2223,
+      "trends": { "daily": 5, "weekly": 76, "monthly": 101, "yearly": 555 },
+      "tags": ["react", "layout"],
+      "contributor_count": 12,
+      "pushed_at": "2020-02-27T23:39:38.000Z",
+      "owner_id": 1079273,
+      "url": "https://nomcopter.github.io/react-mosaic/",
+      "npm": "react-mosaic",
+      "downloads": 57
+    },
+    {
+      "name": "Elastic UI",
+      "full_name": "elastic/eui",
+      "description": "A collection of React UI components for quickly building user interfaces",
+      "stars": 1707,
+      "trends": { "daily": 3, "weekly": 55, "monthly": 167 },
+      "tags": ["react", "component"],
+      "contributor_count": 119,
+      "pushed_at": "2020-03-06T21:52:40.000Z",
+      "owner_id": 6764390,
+      "url": "https://elastic.github.io/eui/#/",
+      "npm": "@elastic/eui",
+      "downloads": 52532
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 10311,
+      "trends": { "daily": 37, "weekly": 313, "monthly": 2259 },
+      "tags": ["auto"],
+      "contributor_count": 30,
+      "pushed_at": "2020-03-07T16:42:33.000Z",
+      "owner_id": 6154722,
+      "npm": "playwright",
+      "downloads": 71294
+    }
+  ]
+}
