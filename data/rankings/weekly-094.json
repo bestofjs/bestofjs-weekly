@@ -1,0 +1,301 @@
+{
+  "date": "2020-03-15T07:17:32.044Z",
+  "trending": [
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 63849,
+      "trends": {
+        "daily": 129,
+        "weekly": 903,
+        "monthly": 1972,
+        "yearly": 17683
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list",
+      "stars": 41627,
+      "trends": {
+        "daily": 26,
+        "weekly": 686,
+        "monthly": 2553,
+        "yearly": 15484
+      },
+      "tags": ["learning"],
+      "contributor_count": 119,
+      "pushed_at": "2020-03-08T15:47:38.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "React Table",
+      "full_name": "tannerlinsley/react-table",
+      "description": "Hooks for building fast and extendable tables and datagrids for React",
+      "stars": 10197,
+      "trends": { "daily": 13, "weekly": 524, "monthly": 829, "yearly": 4772 },
+      "tags": ["table", "react"],
+      "contributor_count": 177,
+      "pushed_at": "2020-03-14T18:44:06.000Z",
+      "owner_id": 5580297,
+      "npm": "react-table",
+      "downloads": 1483881
+    },
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 40684,
+      "trends": {
+        "daily": 109,
+        "weekly": 517,
+        "monthly": 937,
+        "yearly": 14349
+      },
+      "tags": ["learning"],
+      "contributor_count": 74,
+      "pushed_at": "2020-03-06T16:41:48.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 159294,
+      "trends": {
+        "daily": 60,
+        "weekly": 497,
+        "monthly": 2411,
+        "yearly": 28442
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 290,
+      "pushed_at": "2020-03-11T21:26:53.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6217912,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 34090,
+      "trends": { "daily": 87, "weekly": 484, "monthly": 1553 },
+      "tags": ["learning"],
+      "contributor_count": 98,
+      "pushed_at": "2020-02-12T04:01:46.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 50637,
+      "trends": {
+        "daily": 47,
+        "weekly": 389,
+        "monthly": 1429,
+        "yearly": 21731
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 104,
+      "pushed_at": "2020-02-12T02:01:27.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 145253,
+      "trends": {
+        "daily": 32,
+        "weekly": 388,
+        "monthly": 1572,
+        "yearly": 20764
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1366,
+      "pushed_at": "2020-03-13T22:33:50.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 30329035,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 5313,
+      "trends": { "daily": 25, "weekly": 354, "monthly": 1921 },
+      "tags": ["framework"],
+      "contributor_count": 35,
+      "pushed_at": "2020-03-08T15:55:33.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 8393
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 92854,
+      "trends": {
+        "daily": 31,
+        "weekly": 354,
+        "monthly": 1438,
+        "yearly": 21441
+      },
+      "tags": ["ide"],
+      "contributor_count": 1103,
+      "pushed_at": "2020-03-14T01:18:41.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Edtr.io",
+      "full_name": "edtr-io/edtr-io",
+      "description": "Edtr.io is an open source WYSIWYG in-line web editor written in React.",
+      "stars": 494,
+      "trends": { "daily": 3, "weekly": 55 },
+      "tags": ["react", "rich-text-editor"],
+      "contributor_count": 13,
+      "pushed_at": "2020-03-10T17:47:40.000Z",
+      "owner_id": 47135502,
+      "url": "https://edtr.io",
+      "npm": "@edtr-io/core",
+      "downloads": 1514
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 5313,
+      "trends": { "daily": 25, "weekly": 354, "monthly": 1921 },
+      "tags": ["framework"],
+      "contributor_count": 35,
+      "pushed_at": "2020-03-08T15:55:33.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 8393
+    },
+    {
+      "name": "React Calendar",
+      "full_name": "wojtekmaj/react-calendar",
+      "description": "Ultimate calendar for your React app.",
+      "stars": 1142,
+      "trends": { "daily": 6, "weekly": 67, "monthly": 99, "yearly": 509 },
+      "tags": ["date", "react"],
+      "contributor_count": 24,
+      "pushed_at": "2020-03-12T13:54:48.000Z",
+      "owner_id": 5426427,
+      "url": "http://projects.wojtekmaj.pl/react-calendar",
+      "npm": "react-calendar",
+      "downloads": 355497
+    },
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
+      "stars": 1561,
+      "trends": { "daily": 59, "weekly": 83, "monthly": 106 },
+      "tags": ["chart"],
+      "contributor_count": 7,
+      "pushed_at": "2020-03-12T18:40:19.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "beautiful-react-hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 2313,
+      "trends": { "daily": 14, "weekly": 119, "monthly": 480 },
+      "tags": ["react"],
+      "contributor_count": 16,
+      "pushed_at": "2020-03-14T17:29:04.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks",
+      "downloads": 5549
+    },
+    {
+      "name": "React Table",
+      "full_name": "tannerlinsley/react-table",
+      "description": "Hooks for building fast and extendable tables and datagrids for React",
+      "stars": 10197,
+      "trends": { "daily": 13, "weekly": 524, "monthly": 829, "yearly": 4772 },
+      "tags": ["table", "react"],
+      "contributor_count": 177,
+      "pushed_at": "2020-03-14T18:44:06.000Z",
+      "owner_id": 5580297,
+      "npm": "react-table",
+      "downloads": 1483881
+    },
+    {
+      "name": "Rome",
+      "full_name": "facebookexperimental/rome",
+      "description": "An experimental JavaScript toolchain",
+      "stars": 6709,
+      "trends": { "daily": 18, "weekly": 344 },
+      "tags": ["build", "lint"],
+      "contributor_count": 37,
+      "pushed_at": "2020-03-14T01:11:04.000Z",
+      "owner_id": 12853545,
+      "url": "https://romejs.dev"
+    },
+    {
+      "name": "Destiny",
+      "full_name": "benawad/destiny",
+      "description": "Prettier for File Structures",
+      "stars": 1409,
+      "trends": { "daily": 1, "weekly": 70 },
+      "tags": ["filesystem"],
+      "contributor_count": 11,
+      "pushed_at": "2020-03-12T18:40:58.000Z",
+      "owner_id": 7872329,
+      "branch": "develop",
+      "npm": "destiny",
+      "downloads": 1330
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 4808,
+      "trends": { "daily": 13, "weekly": 231, "monthly": 1858 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 54,
+      "pushed_at": "2020-03-13T19:55:38.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 44117
+    },
+    {
+      "name": "OpenJSCAD.org",
+      "full_name": "jscad/OpenJSCAD.org",
+      "description": "2d/3d code based parametric CAD in Javascript",
+      "stars": 1330,
+      "trends": { "daily": 1, "weekly": 53, "monthly": 67, "yearly": 313 },
+      "tags": ["3d", "webgl", "cad"],
+      "contributor_count": 29,
+      "pushed_at": "2019-04-08T08:57:59.000Z",
+      "owner_id": 24420885,
+      "url": "https://openjscad.org/",
+      "npm": "@jscad/openjscad",
+      "downloads": 111
+    }
+  ]
+}
