@@ -2,10 +2,18 @@
 number: 94
 ---
 
-Number one this week, _Edtr.io_ is a rich text editor (also called "WYSIWYG" editor) written with React.
+Number one this week, _Edtr.io_ is a rich text editor written with React.
 
-It's built on top of [Slate](http://slatejs.org/) a framework to build WYSIWYG editors and it can be enhanced by a system of plugins.
+It's built on top of [Slate](http://slatejs.org/) (a framework to build WYSIWYG editors) and it can be enhanced by a system of plugins.
 
-It aims to "make creating content online as simple as editing a Word document - or simpler", with a focus on great UX.
+The homepage is a live example that lets you edit the content on the screen, re-ordering the paragraphs by drag and drop.
 
-The homepage is a live example that lets you edit the content on the screen. For example it's possible to re-order the paragraphs by drag and drop, in a nice and intuitive way.
+Also we'd like to introduce the latest changes about _Best of JavaScript_.
+
+Three elements have been added to to the homepage to make it more attractive:
+
+- **Newest projects**: the latest projects added to Best of JavaScript
+- **Featured Projects**: a selection of important projects, showing randomly on the screen... could you recognize all the logos?
+- **Weekly Newsletter**: the latest issue of our newsletter including the rankings by relative growth.
+
+Let us know what you think, thank you for your feedback!
