@@ -1,0 +1,305 @@
+{
+  "date": "2020-03-21T23:28:58.548Z",
+  "trending": [
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 159837,
+      "trends": {
+        "daily": 74,
+        "weekly": 543,
+        "monthly": 2610,
+        "yearly": 27707
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 289,
+      "pushed_at": "2020-03-11T21:26:53.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6217912,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 64281,
+      "trends": {
+        "daily": 35,
+        "weekly": 432,
+        "monthly": 2210,
+        "yearly": 17739
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Redwood",
+      "full_name": "redwoodjs/redwood",
+      "description": "Bringing full-stack to the JAMstack.",
+      "stars": 2708,
+      "trends": { "daily": 37, "weekly": 428 },
+      "tags": ["fullstack", "graphql"],
+      "contributor_count": 23,
+      "pushed_at": "2020-03-21T14:05:11.000Z",
+      "owner_id": 45050444,
+      "url": "https://redwoodjs.com"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 51060,
+      "trends": {
+        "daily": 40,
+        "weekly": 423,
+        "monthly": 1606,
+        "yearly": 21731
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 106,
+      "pushed_at": "2020-03-20T13:24:31.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 41059,
+      "trends": {
+        "daily": 26,
+        "weekly": 375,
+        "monthly": 1144,
+        "yearly": 14591
+      },
+      "tags": ["learning"],
+      "contributor_count": 77,
+      "pushed_at": "2020-03-19T09:38:02.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 93201,
+      "trends": {
+        "daily": 38,
+        "weekly": 347,
+        "monthly": 1461,
+        "yearly": 21276
+      },
+      "tags": ["ide"],
+      "contributor_count": 1107,
+      "pushed_at": "2020-03-21T13:12:08.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 145595,
+      "trends": {
+        "daily": 40,
+        "weekly": 342,
+        "monthly": 1516,
+        "yearly": 20545
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1369,
+      "pushed_at": "2020-03-20T18:31:47.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 30329035,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 45857,
+      "trends": {
+        "daily": 21,
+        "weekly": 286,
+        "monthly": 1128,
+        "yearly": 13640
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 238,
+      "pushed_at": "2020-03-21T13:53:47.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Clean Code",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "stars": 34363,
+      "trends": { "daily": 17, "weekly": 273, "monthly": 1585 },
+      "tags": ["learning"],
+      "contributor_count": 98,
+      "pushed_at": "2020-02-12T04:01:46.000Z",
+      "owner_id": 5114666
+    },
+    {
+      "name": "Axios",
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stars": 70866,
+      "trends": {
+        "daily": 46,
+        "weekly": 269,
+        "monthly": 1038,
+        "yearly": 14107
+      },
+      "tags": ["http"],
+      "contributor_count": 212,
+      "pushed_at": "2020-03-07T06:45:25.000Z",
+      "owner_id": 32372333,
+      "npm": "axios",
+      "downloads": 35017991
+    }
+  ],
+  "growing": [
+    {
+      "name": "Zod",
+      "full_name": "vriad/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "stars": 565,
+      "trends": { "daily": 18, "weekly": 223 },
+      "tags": ["validation"],
+      "contributor_count": 4,
+      "pushed_at": "2020-03-16T05:44:37.000Z",
+      "owner_id": 3084745,
+      "npm": "zod"
+    },
+    {
+      "name": "Redwood",
+      "full_name": "redwoodjs/redwood",
+      "description": "Bringing full-stack to the JAMstack.",
+      "stars": 2708,
+      "trends": { "daily": 37, "weekly": 428 },
+      "tags": ["fullstack", "graphql"],
+      "contributor_count": 23,
+      "pushed_at": "2020-03-21T14:05:11.000Z",
+      "owner_id": 45050444,
+      "url": "https://redwoodjs.com"
+    },
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
+      "stars": 1827,
+      "trends": { "daily": 149, "weekly": 266, "monthly": 366 },
+      "tags": ["chart"],
+      "contributor_count": 8,
+      "pushed_at": "2020-03-21T18:10:34.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "G2Plot",
+      "full_name": "antvis/G2Plot",
+      "description": "An interactive and responsive charting library",
+      "stars": 976,
+      "trends": { "daily": 9, "weekly": 80, "monthly": 205 },
+      "tags": ["chart"],
+      "contributor_count": 27,
+      "pushed_at": "2020-03-20T09:23:42.000Z",
+      "owner_id": 19199542,
+      "url": "https://g2plot.antv.vision",
+      "npm": "@antv/g2plot",
+      "downloads": 6480
+    },
+    {
+      "name": "discord.js",
+      "full_name": "discordjs/discord.js",
+      "description": "A powerful JavaScript library for interacting with the Discord API",
+      "stars": 5375,
+      "trends": { "daily": 9, "weekly": 169, "monthly": 279, "yearly": 1792 },
+      "tags": ["realtime"],
+      "contributor_count": 219,
+      "pushed_at": "2020-03-21T11:31:34.000Z",
+      "owner_id": 26492485,
+      "url": "https://discord.js.org",
+      "npm": "discord.js",
+      "downloads": 194388
+    },
+    {
+      "name": "beautiful-react-hooks",
+      "full_name": "beautifulinteractions/beautiful-react-hooks",
+      "description": "A collection of beautiful and (hopefully) useful React hooks",
+      "stars": 2388,
+      "trends": { "daily": 6, "weekly": 75, "monthly": 474 },
+      "tags": ["react"],
+      "contributor_count": 17,
+      "pushed_at": "2020-03-17T23:05:18.000Z",
+      "owner_id": 6831821,
+      "url": "https://beautifulinteractions.github.io/beautiful-react-hooks/",
+      "npm": "beautiful-react-hooks",
+      "downloads": 5549
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 5476,
+      "trends": { "daily": 22, "weekly": 163, "monthly": 1923 },
+      "tags": ["framework"],
+      "contributor_count": 37,
+      "pushed_at": "2020-03-19T18:39:01.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 8393
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 8406,
+      "trends": { "daily": 38, "weekly": 248, "monthly": 1279 },
+      "tags": ["form", "react"],
+      "contributor_count": 78,
+      "pushed_at": "2020-03-21T03:10:24.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 500518,
+      "icon": "react-hook-form.svg"
+    },
+    {
+      "name": "asm-dom",
+      "full_name": "mbasso/asm-dom",
+      "description": "A minimal WebAssembly virtual DOM to build C++ SPA",
+      "stars": 2299,
+      "trends": { "daily": 2, "weekly": 66, "monthly": 84, "yearly": 269 },
+      "tags": ["webassembly"],
+      "contributor_count": 4,
+      "pushed_at": "2019-08-06T21:41:56.000Z",
+      "owner_id": 5837614,
+      "url": "https://mbasso.github.io/asm-dom"
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 4937,
+      "trends": { "daily": 18, "weekly": 129, "monthly": 1783 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 57,
+      "pushed_at": "2020-03-21T00:16:58.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 44117
+    }
+  ]
+}
