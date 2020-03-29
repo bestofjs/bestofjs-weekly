@@ -1,0 +1,300 @@
+{
+  "date": "2020-03-29T00:15:52.132Z",
+  "trending": [
+    {
+      "name": "Papers we love",
+      "full_name": "papers-we-love/papers-we-love",
+      "description": "Papers from the computer science community to read and discuss.",
+      "stars": 39243,
+      "trends": { "daily": 64, "weekly": 884, "monthly": 1154, "yearly": 5294 },
+      "tags": ["learning"],
+      "contributor_count": 218,
+      "pushed_at": "2020-03-28T04:45:44.000Z",
+      "owner_id": 6187757,
+      "url": "http://paperswelove.org/"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 160297,
+      "trends": {
+        "daily": 47,
+        "weekly": 460,
+        "monthly": 2381,
+        "yearly": 26767
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 289,
+      "pushed_at": "2020-03-11T21:26:53.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6786891,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 51474,
+      "trends": {
+        "daily": 39,
+        "weekly": 414,
+        "monthly": 1702,
+        "yearly": 21652
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 106,
+      "pushed_at": "2020-03-28T03:16:41.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 5310,
+      "trends": { "daily": 46, "weekly": 373, "monthly": 1499 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 64,
+      "pushed_at": "2020-03-28T15:25:29.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 69360
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 93564,
+      "trends": {
+        "daily": 48,
+        "weekly": 363,
+        "monthly": 1488,
+        "yearly": 21146
+      },
+      "tags": ["ide"],
+      "contributor_count": 1109,
+      "pushed_at": "2020-03-28T20:46:27.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 145942,
+      "trends": {
+        "daily": 44,
+        "weekly": 347,
+        "monthly": 1526,
+        "yearly": 20209
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1369,
+      "pushed_at": "2020-03-28T17:18:14.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 33857908,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Rome",
+      "full_name": "facebookexperimental/rome",
+      "description": "An experimental JavaScript toolchain",
+      "stars": 7180,
+      "trends": { "daily": 106, "weekly": 335 },
+      "tags": ["build", "lint"],
+      "contributor_count": 45,
+      "pushed_at": "2020-03-28T02:38:18.000Z",
+      "owner_id": 12853545,
+      "url": "https://romejs.dev"
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list",
+      "stars": 42188,
+      "trends": {
+        "daily": 30,
+        "weekly": 312,
+        "monthly": 2112,
+        "yearly": 15696
+      },
+      "tags": ["learning"],
+      "contributor_count": 122,
+      "pushed_at": "2020-03-24T17:19:58.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations",
+      "stars": 64582,
+      "trends": {
+        "daily": 27,
+        "weekly": 301,
+        "monthly": 2176,
+        "yearly": 17722
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Axios",
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stars": 71128,
+      "trends": {
+        "daily": 37,
+        "weekly": 262,
+        "monthly": 1066,
+        "yearly": 13981
+      },
+      "tags": ["http"],
+      "contributor_count": 213,
+      "pushed_at": "2020-03-28T09:51:42.000Z",
+      "owner_id": 32372333,
+      "npm": "axios",
+      "downloads": 38607961
+    }
+  ],
+  "growing": [
+    {
+      "name": "gretchen",
+      "full_name": "truework/gretchen",
+      "description": "Making fetch happen in TypeScript.",
+      "stars": 204,
+      "trends": { "daily": 7, "weekly": 90 },
+      "tags": ["http"],
+      "contributor_count": 1,
+      "pushed_at": "2020-03-11T19:11:25.000Z",
+      "owner_id": 31940585,
+      "npm": "gretchen",
+      "downloads": 619
+    },
+    {
+      "name": "Seafox",
+      "full_name": "KFlash/seafox",
+      "description": "A blazing fast 100% spec compliant, self-hosted javascript parser",
+      "stars": 235,
+      "trends": { "daily": 3, "weekly": 80 },
+      "tags": ["code-parser"],
+      "contributor_count": 3,
+      "pushed_at": "2020-03-27T01:46:23.000Z",
+      "owner_id": 31855118,
+      "npm": "seafox",
+      "downloads": 900
+    },
+    {
+      "name": "heapify",
+      "full_name": "luciopaiva/heapify",
+      "description": "The fastest JavaScript priority queue out there. Zero dependencies.",
+      "stars": 349,
+      "trends": { "daily": 4, "weekly": 110 },
+      "tags": [],
+      "contributor_count": 3,
+      "pushed_at": "2020-03-28T12:53:13.000Z",
+      "owner_id": 6631859,
+      "npm": "heapify",
+      "downloads": 120
+    },
+    {
+      "name": "Uppload",
+      "full_name": "elninotech/uppload",
+      "description": "Uppload is a better JavaScript image uploader with 30+ plugins",
+      "stars": 1096,
+      "trends": { "daily": 10, "weekly": 180 },
+      "tags": ["upload"],
+      "contributor_count": 26,
+      "pushed_at": "2020-03-27T08:02:26.000Z",
+      "owner_id": 2952546,
+      "url": "https://uppload.js.org",
+      "npm": "uppload",
+      "downloads": 3403
+    },
+    {
+      "name": "TestCheck.js",
+      "full_name": "leebyron/testcheck-js",
+      "description": "Generative testing for JavaScript",
+      "stars": 1097,
+      "trends": { "daily": 2, "weekly": 126, "monthly": 126, "yearly": 199 },
+      "tags": ["test"],
+      "contributor_count": 11,
+      "pushed_at": "2018-03-26T19:24:39.000Z",
+      "owner_id": 50130,
+      "url": "http://leebyron.com/testcheck-js",
+      "npm": "testcheck",
+      "downloads": 58406
+    },
+    {
+      "name": "Zod",
+      "full_name": "vriad/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "stars": 622,
+      "trends": { "daily": 3, "weekly": 57 },
+      "tags": ["validation"],
+      "contributor_count": 4,
+      "pushed_at": "2020-03-27T23:21:38.000Z",
+      "owner_id": 3084745,
+      "npm": "zod",
+      "downloads": 1026
+    },
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
+      "stars": 2003,
+      "trends": { "daily": 5, "weekly": 176, "monthly": 532 },
+      "tags": ["chart"],
+      "contributor_count": 8,
+      "pushed_at": "2020-03-28T20:15:40.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 5310,
+      "trends": { "daily": 46, "weekly": 373, "monthly": 1499 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 64,
+      "pushed_at": "2020-03-28T15:25:29.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 69360
+    },
+    {
+      "name": "Redwood",
+      "full_name": "redwoodjs/redwood",
+      "description": "Bringing full-stack to the JAMstack.",
+      "stars": 2896,
+      "trends": { "daily": 21, "weekly": 188 },
+      "tags": ["fullstack", "graphql"],
+      "contributor_count": 26,
+      "pushed_at": "2020-03-26T20:14:39.000Z",
+      "owner_id": 45050444,
+      "url": "https://redwoodjs.com"
+    },
+    {
+      "name": "G2Plot",
+      "full_name": "antvis/G2Plot",
+      "description": "An interactive and responsive charting library",
+      "stars": 1040,
+      "trends": { "daily": 3, "weekly": 64, "monthly": 227 },
+      "tags": ["chart"],
+      "contributor_count": 27,
+      "pushed_at": "2020-03-27T09:22:37.000Z",
+      "owner_id": 19199542,
+      "url": "https://g2plot.antv.vision",
+      "npm": "@antv/g2plot",
+      "downloads": 7752
+    }
+  ]
+}
