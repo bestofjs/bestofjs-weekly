@@ -1,0 +1,317 @@
+{
+  "date": "2020-04-05T05:44:29.302Z",
+  "trending": [
+    {
+      "name": "Theia",
+      "full_name": "eclipse-theia/theia",
+      "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
+      "stars": 8695,
+      "trends": {
+        "daily": 123,
+        "weekly": 1415,
+        "monthly": 1630,
+        "yearly": 5062
+      },
+      "tags": ["ide"],
+      "contributor_count": 143,
+      "pushed_at": "2020-04-04T15:51:17.000Z",
+      "owner_id": 54183333,
+      "url": "http://theia-ide.org"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations ...",
+      "stars": 65954,
+      "trends": {
+        "daily": 190,
+        "weekly": 1372,
+        "monthly": 3109,
+        "yearly": 18777
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 46583,
+      "trends": {
+        "daily": 22,
+        "weekly": 538,
+        "monthly": 1275,
+        "yearly": 13911
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 246,
+      "pushed_at": "2020-04-04T18:46:09.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 160811,
+      "trends": {
+        "daily": 63,
+        "weekly": 514,
+        "monthly": 2178,
+        "yearly": 26219
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 291,
+      "pushed_at": "2020-03-31T15:54:03.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6786891,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 51868,
+      "trends": {
+        "daily": 39,
+        "weekly": 394,
+        "monthly": 1727,
+        "yearly": 21565
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 107,
+      "pushed_at": "2020-04-04T07:53:26.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 146320,
+      "trends": {
+        "daily": 50,
+        "weekly": 378,
+        "monthly": 1560,
+        "yearly": 19734
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 0,
+      "pushed_at": "2020-04-04T13:26:39.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 33857908,
+      "icon": "react.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 93913,
+      "trends": {
+        "daily": 35,
+        "weekly": 349,
+        "monthly": 1519,
+        "yearly": 21038
+      },
+      "tags": ["ide"],
+      "contributor_count": 1110,
+      "pushed_at": "2020-04-04T02:09:44.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Papers we love",
+      "full_name": "papers-we-love/papers-we-love",
+      "description": "Papers from the computer science community to read and discuss.",
+      "stars": 39549,
+      "trends": { "daily": 23, "weekly": 306, "monthly": 1378, "yearly": 5485 },
+      "tags": ["learning"],
+      "contributor_count": 221,
+      "pushed_at": "2020-03-29T19:49:06.000Z",
+      "owner_id": 6187757,
+      "url": "http://paperswelove.org/"
+    },
+    {
+      "name": "Axios",
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stars": 71419,
+      "trends": {
+        "daily": 27,
+        "weekly": 291,
+        "monthly": 1136,
+        "yearly": 13896
+      },
+      "tags": ["http"],
+      "contributor_count": 213,
+      "pushed_at": "2020-03-28T09:51:42.000Z",
+      "owner_id": 32372333,
+      "npm": "axios",
+      "downloads": 38607961
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list",
+      "stars": 42471,
+      "trends": {
+        "daily": 26,
+        "weekly": 283,
+        "monthly": 1983,
+        "yearly": 15754
+      },
+      "tags": ["learning"],
+      "contributor_count": 125,
+      "pushed_at": "2020-03-30T07:16:19.000Z",
+      "owner_id": 8571500
+    }
+  ],
+  "growing": [
+    {
+      "name": "Rsup Progress",
+      "full_name": "skt-t1-byungi/rsup-progress",
+      "description": "A simple progress bar with promises support",
+      "stars": 178,
+      "trends": { "daily": 6, "weekly": 60 },
+      "tags": ["progress-bar"],
+      "contributor_count": 2,
+      "pushed_at": "2020-04-04T08:51:51.000Z",
+      "owner_id": 16894698,
+      "url": "https://skt-t1-byungi.github.io/rsup-progress/",
+      "npm": "rsup-progress",
+      "downloads": 226
+    },
+    {
+      "name": "Neo.mjs",
+      "full_name": "neomjs/neo",
+      "description": "The webworkers driven UI framework",
+      "stars": 505,
+      "trends": { "daily": 2, "weekly": 107, "monthly": 202 },
+      "tags": ["framework", "webworker"],
+      "contributor_count": 4,
+      "pushed_at": "2020-04-04T20:52:08.000Z",
+      "owner_id": 55371235,
+      "url": "https://neomjs.github.io/pages/",
+      "branch": "dev"
+    },
+    {
+      "name": "Theia",
+      "full_name": "eclipse-theia/theia",
+      "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
+      "stars": 8695,
+      "trends": {
+        "daily": 123,
+        "weekly": 1415,
+        "monthly": 1630,
+        "yearly": 5062
+      },
+      "tags": ["ide"],
+      "contributor_count": 143,
+      "pushed_at": "2020-04-04T15:51:17.000Z",
+      "owner_id": 54183333,
+      "url": "http://theia-ide.org"
+    },
+    {
+      "name": "Redwood",
+      "full_name": "redwoodjs/redwood",
+      "description": "Bringing full-stack to the JAMstack.",
+      "stars": 3028,
+      "trends": { "daily": 15, "weekly": 132 },
+      "tags": ["fullstack", "graphql"],
+      "contributor_count": 30,
+      "pushed_at": "2020-04-01T22:01:58.000Z",
+      "owner_id": 45050444,
+      "url": "https://redwoodjs.com"
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 5500,
+      "trends": { "daily": 24, "weekly": 190, "monthly": 1004 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 66,
+      "pushed_at": "2020-04-04T01:36:07.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 69360
+    },
+    {
+      "name": "Rome",
+      "full_name": "facebookexperimental/rome",
+      "description": "An experimental JavaScript toolchain",
+      "stars": 7426,
+      "trends": { "daily": 3, "weekly": 246 },
+      "tags": ["build", "lint"],
+      "contributor_count": 46,
+      "pushed_at": "2020-04-03T19:49:07.000Z",
+      "owner_id": 12853545,
+      "url": "https://romejs.dev"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior.",
+      "stars": 5818,
+      "trends": { "daily": 31, "weekly": 174, "monthly": 1121 },
+      "tags": ["framework"],
+      "contributor_count": 38,
+      "pushed_at": "2020-04-02T04:59:12.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 12857
+    },
+    {
+      "name": "Theme UI",
+      "full_name": "system-ui/theme-ui",
+      "description": "Build consistent, themeable React apps based on constraint-based design",
+      "stars": 2134,
+      "trends": { "daily": 12, "weekly": 59, "monthly": 187 },
+      "tags": ["css-in-js"],
+      "contributor_count": 58,
+      "pushed_at": "2020-04-03T14:51:02.000Z",
+      "owner_id": 48816045,
+      "url": "https://theme-ui.com",
+      "npm": "theme-ui",
+      "downloads": 199794
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 5726,
+      "trends": { "daily": 11, "weekly": 131, "monthly": 469 },
+      "tags": ["component", "react", "access"],
+      "contributor_count": 99,
+      "pushed_at": "2020-04-04T00:43:17.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 63196,
+      "icon": "chakra-ui.svg"
+    },
+    {
+      "name": "swr",
+      "full_name": "zeit/swr",
+      "description": "React Hooks library for remote data fetching",
+      "stars": 8013,
+      "trends": { "daily": 15, "weekly": 182, "monthly": 595 },
+      "tags": ["data", "caching", "react"],
+      "contributor_count": 53,
+      "pushed_at": "2020-04-02T12:26:45.000Z",
+      "owner_id": 14985020,
+      "url": "https://swr.now.sh",
+      "npm": "swr",
+      "downloads": 174394
+    }
+  ]
+}
