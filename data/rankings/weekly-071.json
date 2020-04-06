@@ -115,9 +115,9 @@
       "icon": "svelte.svg"
     },
     {
-      "name": "Theia",
+      "name": "Eclipse Theia",
       "full_name": "eclipse-theia/theia",
-      "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
+      "description": "A cloud & desktop IDE framework implemented in TypeScript.",
       "stars": 5729,
       "trends": {
         "daily": 15,

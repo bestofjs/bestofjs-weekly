@@ -2,9 +2,9 @@
   "date": "2020-04-05T05:44:29.302Z",
   "trending": [
     {
-      "name": "Theia",
+      "name": "Eclipse Theia",
       "full_name": "eclipse-theia/theia",
-      "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
+      "description": "A cloud & desktop IDE framework implemented in TypeScript.",
       "stars": 8695,
       "trends": {
         "daily": 123,
@@ -204,9 +204,9 @@
       "branch": "dev"
     },
     {
-      "name": "Theia",
+      "name": "Eclipse Theia",
       "full_name": "eclipse-theia/theia",
-      "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
+      "description": "A cloud & desktop IDE framework implemented in TypeScript.",
       "stars": 8695,
       "trends": {
         "daily": 123,
