@@ -20,7 +20,7 @@ const Header = () => (
   <Div>
     <Grid className="content">
       <a href="https://bestofjs.org">
-        <Logo width={160} alt="Best of JavaScript" />
+        <Logo width={130} alt="Best of JavaScript" />
       </a>
       <Menu />
     </Grid>
