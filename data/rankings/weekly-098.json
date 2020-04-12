@@ -1,0 +1,320 @@
+{
+  "date": "2020-04-12T09:40:05.428Z",
+  "trending": [
+    {
+      "name": "Eclipse Theia",
+      "full_name": "eclipse-theia/theia",
+      "description": "A cloud & desktop IDE framework implemented in TypeScript.",
+      "stars": 9807,
+      "trends": {
+        "daily": 37,
+        "weekly": 1112,
+        "monthly": 2674,
+        "yearly": 6049
+      },
+      "tags": ["ide"],
+      "contributor_count": 144,
+      "pushed_at": "2020-04-09T07:40:08.000Z",
+      "owner_id": 54183333,
+      "url": "http://theia-ide.org"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations",
+      "stars": 66899,
+      "trends": {
+        "daily": 182,
+        "weekly": 945,
+        "monthly": 3478,
+        "yearly": 19330
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 161361,
+      "trends": {
+        "daily": 61,
+        "weekly": 550,
+        "monthly": 2216,
+        "yearly": 25936
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 292,
+      "pushed_at": "2020-04-07T21:45:06.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6511924,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 52305,
+      "trends": {
+        "daily": 44,
+        "weekly": 437,
+        "monthly": 1776,
+        "yearly": 21442
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 107,
+      "pushed_at": "2020-04-04T07:53:26.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 146730,
+      "trends": {
+        "daily": 39,
+        "weekly": 410,
+        "monthly": 1564,
+        "yearly": 19808
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1375,
+      "pushed_at": "2020-04-11T02:39:02.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 32730018,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Svelte",
+      "full_name": "sveltejs/svelte",
+      "description": "Cybernetically enhanced web apps",
+      "stars": 32511,
+      "trends": {
+        "daily": 19,
+        "weekly": 400,
+        "monthly": 1074,
+        "yearly": 22878
+      },
+      "tags": ["framework"],
+      "contributor_count": 281,
+      "pushed_at": "2020-04-11T11:40:35.000Z",
+      "owner_id": 23617963,
+      "url": "https://svelte.dev",
+      "icon": "svelte.svg"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 94286,
+      "trends": {
+        "daily": 44,
+        "weekly": 373,
+        "monthly": 1510,
+        "yearly": 20876
+      },
+      "tags": ["ide"],
+      "contributor_count": 1119,
+      "pushed_at": "2020-04-11T20:27:24.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 46938,
+      "trends": {
+        "daily": 36,
+        "weekly": 355,
+        "monthly": 1421,
+        "yearly": 13874
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 252,
+      "pushed_at": "2020-04-11T20:25:31.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Axios",
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stars": 71735,
+      "trends": {
+        "daily": 23,
+        "weekly": 316,
+        "monthly": 1219,
+        "yearly": 13854
+      },
+      "tags": ["http"],
+      "contributor_count": 214,
+      "pushed_at": "2020-04-05T10:01:38.000Z",
+      "owner_id": 32372333,
+      "npm": "axios",
+      "downloads": 37441075
+    },
+    {
+      "name": "Hasura GraphQL Engine",
+      "full_name": "hasura/graphql-engine",
+      "description": "Blazing fast, instant realtime GraphQL APIs on Postgres",
+      "stars": 15983,
+      "trends": { "daily": 10, "weekly": 306, "monthly": 706, "yearly": 7530 },
+      "tags": ["graphql"],
+      "contributor_count": 239,
+      "pushed_at": "2020-04-10T13:55:59.000Z",
+      "owner_id": 13966722,
+      "url": "https://hasura.io",
+      "icon": "hasura.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Notyf",
+      "full_name": "caroso1222/notyf",
+      "description": "A minimalistic, responsive, vanilla JavaScript library to show toast notifications",
+      "stars": 1253,
+      "trends": { "daily": 6, "weekly": 266 },
+      "tags": ["notify"],
+      "contributor_count": 9,
+      "pushed_at": "2020-04-06T21:12:52.000Z",
+      "owner_id": 3689856,
+      "url": "https://carlosroso.com/notyf/",
+      "npm": "notyf",
+      "downloads": 4969
+    },
+    {
+      "name": "Eclipse Theia",
+      "full_name": "eclipse-theia/theia",
+      "description": "A cloud & desktop IDE framework implemented in TypeScript.",
+      "stars": 9807,
+      "trends": {
+        "daily": 37,
+        "weekly": 1112,
+        "monthly": 2674,
+        "yearly": 6049
+      },
+      "tags": ["ide"],
+      "contributor_count": 144,
+      "pushed_at": "2020-04-09T07:40:08.000Z",
+      "owner_id": 54183333,
+      "url": "http://theia-ide.org"
+    },
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
+      "stars": 2134,
+      "trends": { "daily": 9, "weekly": 96, "monthly": 651 },
+      "tags": ["chart"],
+      "contributor_count": 10,
+      "pushed_at": "2020-04-11T18:25:26.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "Storeon",
+      "full_name": "storeon/storeon",
+      "description": "A tiny (167 bytes) event-based Redux-like state manager",
+      "stars": 1313,
+      "trends": { "daily": 2, "weekly": 58, "monthly": 117 },
+      "tags": ["state"],
+      "contributor_count": 28,
+      "pushed_at": "2020-03-27T14:24:54.000Z",
+      "owner_id": 50117058,
+      "url": "https://evilmartians.com/chronicles/storeon-redux-in-173-bytes",
+      "npm": "storeon",
+      "downloads": 6136
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 6030,
+      "trends": { "daily": 25, "weekly": 212, "monthly": 778 },
+      "tags": ["framework"],
+      "contributor_count": 38,
+      "pushed_at": "2020-04-10T22:42:05.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 14221
+    },
+    {
+      "name": "Rome",
+      "full_name": "facebookexperimental/rome",
+      "description": "An experimental JavaScript toolchain",
+      "stars": 7663,
+      "trends": { "daily": 30, "weekly": 237, "monthly": 1012 },
+      "tags": ["build", "lint"],
+      "contributor_count": 46,
+      "pushed_at": "2020-04-11T20:55:16.000Z",
+      "owner_id": 12853545,
+      "url": "https://romejs.dev"
+    },
+    {
+      "name": "React Hook Form",
+      "full_name": "react-hook-form/react-hook-form",
+      "description": "React hooks for forms validation without the hassle.",
+      "stars": 9082,
+      "trends": { "daily": 39, "weekly": 253, "monthly": 971 },
+      "tags": ["form", "react"],
+      "contributor_count": 83,
+      "pushed_at": "2020-04-11T10:44:33.000Z",
+      "owner_id": 53986236,
+      "url": "https://react-hook-form.com",
+      "npm": "react-hook-form",
+      "downloads": 626101,
+      "icon": "react-hook-form.svg"
+    },
+    {
+      "name": "Redwood",
+      "full_name": "redwoodjs/redwood",
+      "description": "Bringing full-stack to the JAMstack.",
+      "stars": 3110,
+      "trends": { "daily": 5, "weekly": 82 },
+      "tags": ["fullstack", "graphql"],
+      "contributor_count": 36,
+      "pushed_at": "2020-04-10T23:41:01.000Z",
+      "owner_id": 45050444,
+      "url": "https://redwoodjs.com"
+    },
+    {
+      "name": "Chakra UI",
+      "full_name": "chakra-ui/chakra-ui",
+      "description": "️Simple, Modular & Accessible UI Components for your React Applications",
+      "stars": 5880,
+      "trends": { "daily": 15, "weekly": 154, "monthly": 513 },
+      "tags": ["component", "react", "access"],
+      "contributor_count": 100,
+      "pushed_at": "2020-04-09T13:44:44.000Z",
+      "owner_id": 54212428,
+      "url": "https://chakra-ui.com",
+      "npm": "@chakra-ui/core",
+      "downloads": 67493,
+      "icon": "chakra-ui.svg"
+    },
+    {
+      "name": "Themer",
+      "full_name": "mjswensen/themer",
+      "description": "themer takes a set of colors and generates themes for your apps",
+      "stars": 2406,
+      "trends": { "daily": 48, "weekly": 60, "monthly": 89, "yearly": 559 },
+      "tags": ["color"],
+      "contributor_count": 8,
+      "pushed_at": "2020-04-02T13:21:34.000Z",
+      "owner_id": 1591879,
+      "url": "https://themer.dev",
+      "npm": "themer",
+      "downloads": 359
+    }
+  ]
+}
