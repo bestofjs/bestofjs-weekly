@@ -1,0 +1,303 @@
+{
+  "date": "2020-04-19T00:10:46.272Z",
+  "trending": [
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations",
+      "stars": 68210,
+      "trends": {
+        "daily": 183,
+        "weekly": 1311,
+        "monthly": 4008,
+        "yearly": 20324
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Themer",
+      "full_name": "mjswensen/themer",
+      "description": "Takes a set of colors and generates themes for your apps",
+      "stars": 3064,
+      "trends": { "daily": 85, "weekly": 658, "monthly": 740, "yearly": 1153 },
+      "tags": ["color"],
+      "contributor_count": 10,
+      "pushed_at": "2020-04-18T17:41:10.000Z",
+      "owner_id": 1591879,
+      "url": "https://themer.dev",
+      "npm": "themer",
+      "downloads": 409
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 161985,
+      "trends": {
+        "daily": 71,
+        "weekly": 624,
+        "monthly": 2294,
+        "yearly": 25804
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 292,
+      "pushed_at": "2020-04-07T21:45:06.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6847662,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Project Guidelines",
+      "full_name": "elsewhencode/project-guidelines",
+      "description": "A set of best practices for JavaScript projects",
+      "stars": 20944,
+      "trends": { "daily": 100, "weekly": 575, "monthly": 635, "yearly": 1407 },
+      "tags": ["learning"],
+      "contributor_count": 63,
+      "pushed_at": "2020-04-15T21:43:40.000Z",
+      "owner_id": 7815827
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 94790,
+      "trends": {
+        "daily": 59,
+        "weekly": 504,
+        "monthly": 1693,
+        "yearly": 20892
+      },
+      "tags": ["ide"],
+      "contributor_count": 1128,
+      "pushed_at": "2020-04-18T16:42:09.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 52722,
+      "trends": {
+        "daily": 34,
+        "weekly": 417,
+        "monthly": 1778,
+        "yearly": 21340
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 107,
+      "pushed_at": "2020-04-04T07:53:26.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 6018,
+      "trends": { "daily": 47, "weekly": 402, "monthly": 1111 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 73,
+      "pushed_at": "2020-04-18T16:29:56.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 83480
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 147124,
+      "trends": {
+        "daily": 53,
+        "weekly": 394,
+        "monthly": 1630,
+        "yearly": 19740
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1378,
+      "pushed_at": "2020-04-18T19:18:19.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 35658071,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Axios",
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stars": 72061,
+      "trends": {
+        "daily": 44,
+        "weekly": 326,
+        "monthly": 1288,
+        "yearly": 13857
+      },
+      "tags": ["http"],
+      "contributor_count": 214,
+      "pushed_at": "2020-04-05T10:01:38.000Z",
+      "owner_id": 32372333,
+      "npm": "axios",
+      "downloads": 40024277
+    },
+    {
+      "name": "Rome",
+      "full_name": "facebookexperimental/rome",
+      "description": "An experimental JavaScript toolchain",
+      "stars": 7965,
+      "trends": { "daily": 25, "weekly": 302, "monthly": 1148 },
+      "tags": ["build", "lint"],
+      "contributor_count": 47,
+      "pushed_at": "2020-04-17T01:38:44.000Z",
+      "owner_id": 12853545,
+      "url": "https://romejs.dev"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Themer",
+      "full_name": "mjswensen/themer",
+      "description": "themer takes a set of colors and generates themes for your apps",
+      "stars": 3064,
+      "trends": { "daily": 85, "weekly": 658, "monthly": 740, "yearly": 1153 },
+      "tags": ["color"],
+      "contributor_count": 10,
+      "pushed_at": "2020-04-18T17:41:10.000Z",
+      "owner_id": 1591879,
+      "url": "https://themer.dev",
+      "npm": "themer",
+      "downloads": 409
+    },
+    {
+      "name": "@compiled/css-in-js",
+      "full_name": "atlassian-labs/compiled-css-in-js",
+      "description": "‍The CSS in JS authoring experience we love without the runtime cost.",
+      "stars": 413,
+      "trends": { "daily": 15, "weekly": 73, "monthly": 103 },
+      "tags": ["css-in-js"],
+      "contributor_count": 8,
+      "pushed_at": "2020-04-18T00:32:49.000Z",
+      "owner_id": 59180319,
+      "url": "https://compiledcssinjs.com",
+      "npm": "@compiled/css-in-js",
+      "downloads": 2218
+    },
+    {
+      "name": "PDF-LIB",
+      "full_name": "Hopding/pdf-lib",
+      "description": "Create and modify PDF documents in any JavaScript environment",
+      "stars": 857,
+      "trends": { "daily": 2, "weekly": 65 },
+      "tags": ["pdf"],
+      "contributor_count": 10,
+      "pushed_at": "2020-04-18T16:17:09.000Z",
+      "owner_id": 10351828,
+      "url": "https://pdf-lib.js.org",
+      "npm": "pdf-lib",
+      "downloads": 96694
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 6018,
+      "trends": { "daily": 47, "weekly": 402, "monthly": 1111 },
+      "tags": ["react", "data", "graphql"],
+      "contributor_count": 73,
+      "pushed_at": "2020-04-18T16:29:56.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 83480
+    },
+    {
+      "name": "Notyf",
+      "full_name": "caroso1222/notyf",
+      "description": "A minimalistic, responsive, vanilla JavaScript library to show toast",
+      "stars": 1314,
+      "trends": { "daily": 3, "weekly": 61 },
+      "tags": ["notify"],
+      "contributor_count": 9,
+      "pushed_at": "2020-04-06T21:12:52.000Z",
+      "owner_id": 3689856,
+      "url": "https://carlosroso.com/notyf/",
+      "npm": "notyf",
+      "downloads": 7372
+    },
+    {
+      "name": "Chocolat",
+      "full_name": "nicolas-t/Chocolat",
+      "description": "A responsive lightbox",
+      "stars": 1517,
+      "trends": { "daily": 2, "weekly": 60 },
+      "tags": ["viewer"],
+      "contributor_count": 9,
+      "pushed_at": "2020-04-08T09:47:40.000Z",
+      "owner_id": 1765930,
+      "url": "http://chocolat.insipi.de",
+      "npm": "chocolat",
+      "downloads": 1569
+    },
+    {
+      "name": "Rome",
+      "full_name": "facebookexperimental/rome",
+      "description": "An experimental JavaScript toolchain",
+      "stars": 7965,
+      "trends": { "daily": 25, "weekly": 302, "monthly": 1148 },
+      "tags": ["build", "lint"],
+      "contributor_count": 47,
+      "pushed_at": "2020-04-17T01:38:44.000Z",
+      "owner_id": 12853545,
+      "url": "https://romejs.dev"
+    },
+    {
+      "name": "Sucrase",
+      "full_name": "alangpierce/sucrase",
+      "description": "Super-fast alternative to Babel for when you can target modern JS runtimes",
+      "stars": 2444,
+      "trends": { "daily": 15, "weekly": 88, "monthly": 119, "yearly": 807 },
+      "tags": ["compiler", "code-parser"],
+      "contributor_count": 17,
+      "pushed_at": "2020-04-13T00:35:02.000Z",
+      "owner_id": 211605,
+      "url": "https://sucrase.io",
+      "npm": "sucrase",
+      "downloads": 58114
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 6240,
+      "trends": { "daily": 33, "weekly": 210, "monthly": 806 },
+      "tags": ["framework"],
+      "contributor_count": 46,
+      "pushed_at": "2020-04-18T02:16:12.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 16670
+    },
+    {
+      "name": "CSS-Doodle",
+      "full_name": "css-doodle/css-doodle",
+      "description": "A web component for drawing patterns with CSS.",
+      "stars": 2871,
+      "trends": { "daily": 4, "weekly": 96, "monthly": 115, "yearly": 776 },
+      "tags": ["webcomponent"],
+      "contributor_count": 4,
+      "pushed_at": "2020-04-12T09:24:55.000Z",
+      "owner_id": 39110515,
+      "url": "https://css-doodle.com",
+      "npm": "css-doodle",
+      "downloads": 5231
+    }
+  ]
+}
