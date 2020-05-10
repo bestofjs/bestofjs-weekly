@@ -1,0 +1,302 @@
+{
+  "date": "2020-05-09T23:20:00.540Z",
+  "trending": [
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 49133,
+      "trends": {
+        "daily": 341,
+        "weekly": 1376,
+        "monthly": 2270,
+        "yearly": 14766
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 275,
+      "pushed_at": "2020-05-09T19:37:22.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
+      "stars": 3998,
+      "trends": { "daily": 73, "weekly": 637, "monthly": 1886 },
+      "tags": ["chart"],
+      "contributor_count": 13,
+      "pushed_at": "2020-05-09T01:23:47.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "Tech Interview Handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Materials to help you rock your next coding interview",
+      "stars": 42522,
+      "trends": { "daily": 21, "weekly": 617, "monthly": 981, "yearly": 15072 },
+      "tags": ["learning"],
+      "contributor_count": 76,
+      "pushed_at": "2020-04-27T13:11:58.000Z",
+      "owner_id": 1315101,
+      "url": "https://yangshun.github.io/tech-interview-handbook/",
+      "icon": "tech-interview.svg"
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 12220,
+      "trends": { "daily": 104, "weekly": 544, "monthly": 1175 },
+      "tags": ["auto"],
+      "contributor_count": 49,
+      "pushed_at": "2020-05-09T01:39:00.000Z",
+      "owner_id": 6154722,
+      "url": "https://playwright.dev",
+      "npm": "playwright",
+      "downloads": 129624
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 95981,
+      "trends": {
+        "daily": 65,
+        "weekly": 451,
+        "monthly": 1795,
+        "yearly": 20345
+      },
+      "tags": ["ide"],
+      "contributor_count": 1142,
+      "pushed_at": "2020-05-09T00:02:38.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 163600,
+      "trends": {
+        "daily": 64,
+        "weekly": 447,
+        "monthly": 2381,
+        "yearly": 25462
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 293,
+      "pushed_at": "2020-05-01T13:29:46.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6683594,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 53961,
+      "trends": {
+        "daily": 111,
+        "weekly": 427,
+        "monthly": 1776,
+        "yearly": 21124
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 112,
+      "pushed_at": "2020-05-08T03:43:39.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 148317,
+      "trends": {
+        "daily": 57,
+        "weekly": 395,
+        "monthly": 1697,
+        "yearly": 19535
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1382,
+      "pushed_at": "2020-05-09T04:26:51.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 35026429,
+      "icon": "react.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 69696,
+      "trends": {
+        "daily": 56,
+        "weekly": 388,
+        "monthly": 3195,
+        "yearly": 21010
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "LearnGitBranching",
+      "full_name": "pcottle/learnGitBranching",
+      "description": "An interactive git visualization to challenge and educate!",
+      "stars": 17358,
+      "trends": { "daily": 99, "weekly": 379, "monthly": 2212, "yearly": 4549 },
+      "tags": ["learning"],
+      "contributor_count": 159,
+      "pushed_at": "2020-05-05T20:54:49.000Z",
+      "owner_id": 1135007,
+      "url": "https://pcottle.github.com/learnGitBranching/?demo"
+    }
+  ],
+  "growing": [
+    {
+      "name": "uPlot",
+      "full_name": "leeoniya/uPlot",
+      "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
+      "stars": 3998,
+      "trends": { "daily": 73, "weekly": 637, "monthly": 1886 },
+      "tags": ["chart"],
+      "contributor_count": 13,
+      "pushed_at": "2020-05-09T01:23:47.000Z",
+      "owner_id": 43234
+    },
+    {
+      "name": "css.gg",
+      "full_name": "astrit/css.gg",
+      "description": "700+ Pure CSS, SVG & Figma UI Icons Available in SVG Sprite, styled-components",
+      "stars": 4270,
+      "trends": { "daily": 18, "weekly": 317, "monthly": 1022 },
+      "tags": ["icon"],
+      "contributor_count": 5,
+      "pushed_at": "2020-04-23T11:06:05.000Z",
+      "owner_id": 2398447,
+      "url": "https://css.gg",
+      "npm": "css.gg",
+      "downloads": 4034
+    },
+    {
+      "name": "Crank.js",
+      "full_name": "bikeshaving/crank",
+      "description": "Write JSX-driven components with functions, promises and generators.",
+      "stars": 1713,
+      "trends": { "daily": 11, "weekly": 90 },
+      "tags": ["framework"],
+      "contributor_count": 12,
+      "pushed_at": "2020-05-06T04:10:57.000Z",
+      "owner_id": 51215678,
+      "url": "https://crank.js.org",
+      "npm": "@bikeshaving/crank",
+      "downloads": 1562
+    },
+    {
+      "name": "Phelia",
+      "full_name": "maxchehab/phelia",
+      "description": "A reactive Slack application framework.",
+      "stars": 1756,
+      "trends": { "daily": 1, "weekly": 92 },
+      "tags": ["bot", "react"],
+      "contributor_count": 6,
+      "pushed_at": "2020-05-09T01:59:52.000Z",
+      "owner_id": 13038919,
+      "npm": "phelia",
+      "downloads": 575
+    },
+    {
+      "name": "Panolens.js",
+      "full_name": "pchen66/panolens.js",
+      "description": "Javascript panorama viewer based on Three.js",
+      "stars": 1330,
+      "trends": { "daily": 4, "weekly": 68, "monthly": 169 },
+      "tags": ["viewer"],
+      "contributor_count": 5,
+      "pushed_at": "2019-06-25T16:30:49.000Z",
+      "owner_id": 2421225,
+      "url": "https://pchen66.github.io/Panolens/",
+      "npm": "panolens",
+      "downloads": 826
+    },
+    {
+      "name": "jExcel",
+      "full_name": "paulhodel/jexcel",
+      "description": "Lightweight vanilla JavaScript plugin to create web-based spreadsheets",
+      "stars": 3828,
+      "trends": { "daily": 18, "weekly": 188, "monthly": 330 },
+      "tags": ["table"],
+      "contributor_count": 29,
+      "pushed_at": "2020-05-06T22:10:20.000Z",
+      "owner_id": 6019713,
+      "url": "https://bossanova.uk/jexcel",
+      "npm": "jexcel",
+      "downloads": 8551
+    },
+    {
+      "name": "Snowpack",
+      "full_name": "pikapkg/snowpack",
+      "description": "The fast, simple dev environment for modern web apps.",
+      "stars": 7394,
+      "trends": { "daily": 39, "weekly": 346, "monthly": 622, "yearly": 3538 },
+      "tags": ["package"],
+      "contributor_count": 62,
+      "pushed_at": "2020-05-09T18:20:41.000Z",
+      "owner_id": 44914786,
+      "url": "https://www.snowpack.dev",
+      "npm": "snowpack",
+      "downloads": 8258,
+      "icon": "snowpack.svg"
+    },
+    {
+      "name": "Playwright",
+      "full_name": "microsoft/playwright",
+      "description": "Node library to automate Chromium, Firefox and WebKit with a single API",
+      "stars": 12220,
+      "trends": { "daily": 104, "weekly": 544, "monthly": 1175 },
+      "tags": ["auto"],
+      "contributor_count": 49,
+      "pushed_at": "2020-05-09T01:39:00.000Z",
+      "owner_id": 6154722,
+      "url": "https://playwright.dev",
+      "npm": "playwright",
+      "downloads": 129624
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior in your markup",
+      "stars": 7399,
+      "trends": { "daily": 25, "weekly": 321, "monthly": 1429 },
+      "tags": ["framework"],
+      "contributor_count": 50,
+      "pushed_at": "2020-05-08T15:21:32.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 21312
+    },
+    {
+      "name": "Solid",
+      "full_name": "ryansolid/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 1970,
+      "trends": { "daily": 7, "weekly": 75, "monthly": 159 },
+      "tags": ["reactive", "framework"],
+      "contributor_count": 20,
+      "pushed_at": "2020-05-02T06:15:29.000Z",
+      "owner_id": 2768267,
+      "npm": "solid-js",
+      "downloads": 3189
+    }
+  ]
+}
