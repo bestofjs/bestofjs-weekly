@@ -4,13 +4,13 @@ const { orderBy } = require('lodash')
 const excluded = ['sindresorhus/awesome']
 
 function fetchAllProjects() {
-  const url = 'https://bestofjs-api-v3.firebaseapp.com/projects.json'
+  const url = 'https://bestofjs-static-api.now.sh/projects.json'
   return got(url, { json: true })
-    .then(r => r.body)
-    .then(json =>
+    .then((r) => r.body)
+    .then((json) =>
       json.projects
-        .filter(project => project.trends.weekly !== undefined)
-        .filter(project => !excluded.includes(project.full_name))
+        .filter((project) => project.trends.weekly !== undefined)
+        .filter((project) => !excluded.includes(project.full_name))
     )
 }
 
@@ -25,7 +25,7 @@ export default async function fetchTrendingProjects({ count } = { count: 10 }) {
 
   return {
     trending: byStarsAdded,
-    growing: byRelativeGrowth
+    growing: byRelativeGrowth,
   }
 }
 
@@ -35,7 +35,7 @@ function getProjectsByStarAdded(projects) {
 
 function getProjectsByRelativeGrowth(projects) {
   return orderBy(
-    projects.filter(project => project.trends.weekly > 50),
+    projects.filter((project) => project.trends.weekly > 50),
     getWeeklyRelativeGrowth,
     'desc'
   )
