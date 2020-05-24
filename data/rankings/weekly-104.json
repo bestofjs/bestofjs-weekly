@@ -1,0 +1,315 @@
+{
+  "date": "2020-05-24T03:21:42.223Z",
+  "trending": [
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 59708,
+      "trends": {
+        "daily": 241,
+        "weekly": 3795,
+        "monthly": 12240,
+        "yearly": 24831
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 328,
+      "pushed_at": "2020-05-23T17:04:29.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Recoil",
+      "full_name": "facebookexperimental/Recoil",
+      "description": "An experimental state management library for React apps",
+      "stars": 5263,
+      "trends": { "daily": 74, "weekly": 2679 },
+      "tags": ["state", "react"],
+      "contributor_count": 16,
+      "pushed_at": "2020-05-23T20:18:45.000Z",
+      "owner_id": 12853545,
+      "url": "http://recoiljs.org/",
+      "npm": "recoil"
+    },
+    {
+      "name": "VS Code",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 96859,
+      "trends": {
+        "daily": 54,
+        "weekly": 453,
+        "monthly": 1794,
+        "yearly": 20157
+      },
+      "tags": ["ide"],
+      "contributor_count": 1150,
+      "pushed_at": "2020-05-22T21:27:07.000Z",
+      "owner_id": 6154722,
+      "url": "https://code.visualstudio.com",
+      "icon": "vscode.svg"
+    },
+    {
+      "name": "Algorithm Visualizer",
+      "full_name": "algorithm-visualizer/algorithm-visualizer",
+      "description": "Interactive Online Platform that Visualizes Algorithms from Code",
+      "stars": 29636,
+      "trends": { "daily": 13, "weekly": 434, "monthly": 597 },
+      "tags": ["learning"],
+      "contributor_count": 23,
+      "pushed_at": "2019-11-24T18:31:39.000Z",
+      "owner_id": 38487505,
+      "url": "https://algorithm-visualizer.org/"
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 164523,
+      "trends": {
+        "daily": 41,
+        "weekly": 429,
+        "monthly": 2050,
+        "yearly": 25137
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 293,
+      "pushed_at": "2020-05-01T13:29:46.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6756989,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 149150,
+      "trends": {
+        "daily": 48,
+        "weekly": 403,
+        "monthly": 1724,
+        "yearly": 19400
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1385,
+      "pushed_at": "2020-05-23T13:26:26.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 34994609,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 8053,
+      "trends": { "daily": 19, "weekly": 399, "monthly": 1676 },
+      "tags": ["framework"],
+      "contributor_count": 51,
+      "pushed_at": "2020-05-22T17:06:35.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 22047
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations",
+      "stars": 70574,
+      "trends": {
+        "daily": 35,
+        "weekly": 363,
+        "monthly": 1865,
+        "yearly": 21457
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 87,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Vue Element Admin",
+      "full_name": "PanJiaChen/vue-element-admin",
+      "description": "A magical vue admin",
+      "stars": 54737,
+      "trends": {
+        "daily": 40,
+        "weekly": 361,
+        "monthly": 1692,
+        "yearly": 20908
+      },
+      "tags": ["vue", "dashboard"],
+      "contributor_count": 112,
+      "pushed_at": "2020-05-08T03:43:39.000Z",
+      "owner_id": 8121621,
+      "icon": "vueelementadmin.png"
+    },
+    {
+      "name": "Next.js",
+      "full_name": "zeit/next.js",
+      "description": "The React Framework",
+      "stars": 48647,
+      "trends": {
+        "daily": 40,
+        "weekly": 327,
+        "monthly": 1388,
+        "yearly": 11028
+      },
+      "tags": ["nodejs-framework", "ssg", "prefetch", "react", "universal"],
+      "contributor_count": 1081,
+      "pushed_at": "2020-05-23T20:58:33.000Z",
+      "owner_id": 14985020,
+      "url": "https://nextjs.org",
+      "branch": "canary",
+      "npm": "next",
+      "downloads": 2290597,
+      "icon": "nextjs.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "color2k",
+      "full_name": "ricokahler/color2k",
+      "description": "a color parsing and manipulation lib served in 2kB or less",
+      "stars": 224,
+      "trends": { "daily": 6, "weekly": 115 },
+      "tags": ["color"],
+      "contributor_count": 3,
+      "pushed_at": "2020-05-23T14:31:31.000Z",
+      "owner_id": 10551026,
+      "url": "https://color2k.com/",
+      "npm": "color2k"
+    },
+    {
+      "name": "Recoil",
+      "full_name": "facebookexperimental/Recoil",
+      "description": "An experimental state management library for React apps",
+      "stars": 5263,
+      "trends": { "daily": 74, "weekly": 2679 },
+      "tags": ["state", "react"],
+      "contributor_count": 16,
+      "pushed_at": "2020-05-23T20:18:45.000Z",
+      "owner_id": 12853545,
+      "url": "http://recoiljs.org/",
+      "npm": "recoil"
+    },
+    {
+      "name": "Perfume.js",
+      "full_name": "Zizzamia/perfume.js",
+      "description": "Web performance library for measuring all User-centric performance metrics",
+      "stars": 1266,
+      "trends": { "daily": 7, "weekly": 224 },
+      "tags": ["performance"],
+      "contributor_count": 22,
+      "pushed_at": "2020-05-22T17:16:17.000Z",
+      "owner_id": 829214,
+      "url": "http://perfumejs.com",
+      "npm": "perfume.js"
+    },
+    {
+      "name": "Vue Formulate",
+      "full_name": "wearebraid/vue-formulate",
+      "description": "The easiest way to build forms with Vue.",
+      "stars": 826,
+      "trends": { "daily": 12, "weekly": 82, "monthly": 130 },
+      "tags": ["form", "vue"],
+      "contributor_count": 9,
+      "pushed_at": "2020-05-21T01:30:50.000Z",
+      "owner_id": 32938353,
+      "url": "https://vueformulate.com",
+      "npm": "@braid/vue-formulate",
+      "downloads": 2451
+    },
+    {
+      "name": "Web Vitals",
+      "full_name": "GoogleChrome/web-vitals",
+      "description": "Essential metrics for a healthy site.",
+      "stars": 976,
+      "trends": { "daily": 6, "weekly": 82 },
+      "tags": ["performance"],
+      "contributor_count": 5,
+      "pushed_at": "2020-05-19T23:30:57.000Z",
+      "owner_id": 1778935,
+      "url": "https://web.dev/vitals",
+      "npm": "web-vitals",
+      "downloads": 36502,
+      "icon": "webdev.svg"
+    },
+    {
+      "name": "React Flow",
+      "full_name": "wbkd/react-flow",
+      "description": "React library for rendering interactive node-based graphs",
+      "stars": 725,
+      "trends": { "daily": 6, "weekly": 51 },
+      "tags": ["diagram", "react"],
+      "contributor_count": 6,
+      "pushed_at": "2020-05-21T09:14:25.000Z",
+      "owner_id": 7106853,
+      "url": "https://react-flow.netlify.app/",
+      "npm": "react-flow-renderer",
+      "downloads": 374
+    },
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 59708,
+      "trends": {
+        "daily": 241,
+        "weekly": 3795,
+        "monthly": 12240,
+        "yearly": 24831
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 328,
+      "pushed_at": "2020-05-23T17:04:29.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "React Virtual",
+      "full_name": "tannerlinsley/react-virtual",
+      "description": "Hooks for virtualizing scrollable elements in React",
+      "stars": 1005,
+      "trends": { "daily": 5, "weekly": 61 },
+      "tags": ["scrolling", "react", "performance"],
+      "contributor_count": 9,
+      "pushed_at": "2020-05-18T04:26:51.000Z",
+      "owner_id": 5580297,
+      "npm": "react-virtual",
+      "downloads": 717
+    },
+    {
+      "name": "Alpine.js",
+      "full_name": "alpinejs/alpine",
+      "description": "A rugged, minimal framework for composing JavaScript behavior",
+      "stars": 8053,
+      "trends": { "daily": 19, "weekly": 399, "monthly": 1676 },
+      "tags": ["framework"],
+      "contributor_count": 51,
+      "pushed_at": "2020-05-22T17:06:35.000Z",
+      "owner_id": 59030169,
+      "npm": "alpinejs",
+      "downloads": 22047
+    },
+    {
+      "name": "Prisma",
+      "full_name": "prisma/prisma",
+      "description": "Modern DB toolkit to query, migrate and model your database",
+      "stars": 3314,
+      "trends": { "daily": 13, "weekly": 159 },
+      "tags": ["graphql", "db", "data"],
+      "contributor_count": 97,
+      "pushed_at": "2020-05-22T12:47:46.000Z",
+      "owner_id": 17219288,
+      "url": "https://www.prisma.io",
+      "npm": "@prisma/client"
+    }
+  ]
+}
