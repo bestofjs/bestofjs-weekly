@@ -26,32 +26,36 @@ const ProjectTable = ({ projects, ...otherProps }) => {
   )
 }
 ProjectTable.propTypes = {
-  projects: PropTypes.array.isRequired
+  projects: PropTypes.array.isRequired,
 }
 
 const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
   const url = getUrl(project)
+  const buttonLabel = url.startsWith('https://github.com/')
+    ? 'GitHub'
+    : 'Homepage'
 
   return (
     <Row>
-      <Cell>
+      <RankingCell>
         <ProjectRankingNumber>{index + 1}</ProjectRankingNumber>
-      </Cell>
+      </RankingCell>
 
-      <Cell>
+      <IconCell>
         <Avatar project={project} size={50} />
-      </Cell>
+      </IconCell>
 
       <MainCell>
         <ProjectName>{project.name}</ProjectName>
         <ProjectDescription>{project.description}</ProjectDescription>
+        <ProjectLink>
+          <Link href={url}>{buttonLabel}</Link>
+        </ProjectLink>
       </MainCell>
 
-      <Cell>
-        <Link href={url}>
-          {url.startsWith('https://github.com/') ? 'GitHub' : 'Homepage'}
-        </Link>
-      </Cell>
+      <ButtonCell>
+        <Link href={url}>{buttonLabel}</Link>
+      </ButtonCell>
 
       <LastCell>
         {showDelta && (
@@ -62,6 +66,8 @@ const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
     </Row>
   )
 }
+
+const breakPoint = 500
 
 const Table = styled.table`
   border-spacing: 0;
@@ -90,12 +96,40 @@ const ProjectRankingNumber = styled.div`
   color: #788080;
 `
 
+const RankingCell = styled(Cell)`
+  @media (max-width: ${breakPoint - 1}px) {
+    display: none;
+  }
+`
+
+const IconCell = styled(Cell)`
+  width: 50px;
+`
+
 const MainCell = styled(Cell)`
-  padding: 8px;
+  padding: 1rem;
+`
+
+const ProjectLink = styled.div`
+  margin-top: 0.5rem;
+  @media (min-width: ${breakPoint}px) {
+    display: none;
+  }
+  a {
+    width: 100%;
+    display: block;
+  }
+`
+
+const ButtonCell = styled(Cell)`
+  @media (max-width: ${breakPoint}px) {
+    display: none;
+  }
 `
 
 const LastCell = styled(Cell)`
   padding: 8px;
+  width: 80px;
 `
 
 const ProjectName = styled.div`
@@ -113,7 +147,7 @@ const Link = styled.a`
   color: #cc4700;
   text-align: center;
   border-radius: 3px;
-  padding: 6px 8px;
+  padding: 8px;
   font-size: 14px;
   &:hover {
     color: #ff5900;

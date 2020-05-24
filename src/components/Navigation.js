@@ -4,13 +4,14 @@ import { Link } from '@reach/router'
 import styled from 'styled-components'
 
 import IssueDate from './IssueDate'
+import { ChevronLeftIcon, ChevronRightIcon } from './icons'
 
 const breakPoint = 600
 
 const Container = styled.div`
   display: flex;
   align-items: center;
-  margin: 1rem 0 2rem;
+  margin: 1.5rem 0 2rem;
 `
 Container.Main = styled.div`
   flex-grow: 1;
@@ -22,11 +23,12 @@ const Title = styled.h2`
 const Button = styled(Link)`
   display: flex;
   align-items: center;
-`
-const Arrow = styled.div`
-  @media (max-width: ${breakPoint - 1}px) {
-    font-size: 3rem;
-  }
+  border: 1px solid #cecece;
+  color: #cc4700;
+  background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px 12px;
 `
 const Text = styled.div`
   @media (max-width: ${breakPoint - 1}px) {
@@ -42,8 +44,7 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
     <Container>
       {currentNumber > firstIssueNumber && (
         <Button to={`/issues/${previousNumber}`} className="link">
-          <Arrow>&laquo;&nbsp;</Arrow>
-          <Text>Previous</Text>
+          <ChevronLeftIcon />
         </Button>
       )}
       <Container.Main>
@@ -56,8 +57,7 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
       </Container.Main>
       {!isLatest && (
         <Button to={`/issues/${nextNumber}`} className="link">
-          <Text>Next </Text>
-          <Arrow>&nbsp;&raquo;</Arrow>
+          <ChevronRightIcon />
         </Button>
       )}
     </Container>
@@ -66,7 +66,7 @@ const Navigation = ({ issue, currentNumber, isLatest }) => {
 
 Navigation.propTypes = {
   currentNumber: PropTypes.number.isRequired,
-  isLatest: PropTypes.bool.isRequired
+  isLatest: PropTypes.bool.isRequired,
 }
 
 export default Navigation
