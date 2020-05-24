@@ -4,8 +4,6 @@ import styled from 'styled-components'
 
 import Avatar from './Avatar'
 import StarDelta from './StarDelta'
-import TagLabel from './TagLabel'
-import Description from './Description'
 import GrowthScore from './GrowthScore'
 import { getUrl } from '../utils/project-helpers'
 
@@ -104,6 +102,11 @@ const RankingCell = styled(Cell)`
 
 const IconCell = styled(Cell)`
   width: 50px;
+
+  @media (max-width: ${breakPoint - 1}px) {
+    width: 60px;
+    padding-left: 10px;
+  }
 `
 
 const MainCell = styled(Cell)`
