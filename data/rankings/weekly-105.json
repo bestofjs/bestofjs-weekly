@@ -1,0 +1,314 @@
+{
+  "date": "2020-05-31T06:46:17.500Z",
+  "trending": [
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 61418,
+      "trends": {
+        "daily": 172,
+        "weekly": 1710,
+        "monthly": 13701,
+        "yearly": 26365
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 341,
+      "pushed_at": "2020-05-30T18:48:26.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript with explanations ...",
+      "stars": 72170,
+      "trends": {
+        "daily": 105,
+        "weekly": 1596,
+        "monthly": 2949,
+        "yearly": 22868
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 86,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list (May 2020)",
+      "stars": 45397,
+      "trends": {
+        "daily": 150,
+        "weekly": 1333,
+        "monthly": 2105,
+        "yearly": 15606
+      },
+      "tags": ["learning"],
+      "contributor_count": 133,
+      "pushed_at": "2020-05-17T10:35:35.000Z",
+      "owner_id": 8571500
+    },
+    {
+      "name": "Front-End Checklist",
+      "full_name": "thedaviddias/Front-End-Checklist",
+      "description": "The perfect Front-End Checklist for modern websites",
+      "stars": 40514,
+      "trends": {
+        "daily": 113,
+        "weekly": 1090,
+        "monthly": 1427,
+        "yearly": 5985
+      },
+      "tags": ["learning"],
+      "contributor_count": 90,
+      "pushed_at": "2020-05-19T12:49:24.000Z",
+      "owner_id": 237229,
+      "url": "https://frontendchecklist.io",
+      "icon": "frontendchecklist.jpg"
+    },
+    {
+      "name": "Snowpack",
+      "full_name": "pikapkg/snowpack",
+      "description": "A faster dev environment for modern web apps.",
+      "stars": 8662,
+      "trends": {
+        "daily": 200,
+        "weekly": 1020,
+        "monthly": 1622,
+        "yearly": 4764
+      },
+      "tags": ["package"],
+      "contributor_count": 62,
+      "pushed_at": "2020-05-30T20:50:05.000Z",
+      "owner_id": 44914786,
+      "url": "https://www.snowpack.dev",
+      "npm": "snowpack",
+      "downloads": 12649,
+      "icon": "snowpack.svg"
+    },
+    {
+      "name": "You Don't Know JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series on JavaScript",
+      "stars": 122328,
+      "trends": {
+        "daily": 81,
+        "weekly": 787,
+        "monthly": 1738,
+        "yearly": 19782
+      },
+      "tags": ["learning", "book"],
+      "contributor_count": 173,
+      "pushed_at": "2020-05-01T15:01:45.000Z",
+      "owner_id": 150330,
+      "branch": "2nd-ed",
+      "icon": "js.svg"
+    },
+    {
+      "name": "Recoil",
+      "full_name": "facebookexperimental/Recoil",
+      "description": "An experimental state management library for React apps",
+      "stars": 5999,
+      "trends": { "daily": 64, "weekly": 736 },
+      "tags": ["state", "react"],
+      "contributor_count": 20,
+      "pushed_at": "2020-05-29T18:35:26.000Z",
+      "owner_id": 12853545,
+      "url": "http://recoiljs.org/",
+      "npm": "recoil",
+      "downloads": 7241
+    },
+    {
+      "name": "Airbnb Style Guide",
+      "full_name": "airbnb/javascript",
+      "description": "JavaScript Style Guide",
+      "stars": 96306,
+      "trends": {
+        "daily": 75,
+        "weekly": 660,
+        "monthly": 1379,
+        "yearly": 10502
+      },
+      "tags": ["learning"],
+      "contributor_count": 435,
+      "pushed_at": "2020-02-20T06:56:52.000Z",
+      "owner_id": 698437
+    },
+    {
+      "name": "Vite",
+      "full_name": "vitejs/vite",
+      "description": "An opinionated web dev build tool",
+      "stars": 5599,
+      "trends": { "daily": 69, "weekly": 545 },
+      "tags": ["build"],
+      "contributor_count": 39,
+      "pushed_at": "2020-05-30T17:43:25.000Z",
+      "owner_id": 65625612
+    },
+    {
+      "name": "Storybook",
+      "full_name": "storybookjs/storybook",
+      "description": "UI component dev & test: React, Vue, Angular, React Native, Ember...",
+      "stars": 48757,
+      "trends": {
+        "daily": 53,
+        "weekly": 495,
+        "monthly": 1198,
+        "yearly": 10439
+      },
+      "tags": ["playground", "test", "react", "vue", "angular"],
+      "contributor_count": 983,
+      "pushed_at": "2020-05-29T19:44:16.000Z",
+      "owner_id": 22632046,
+      "url": "https://storybook.js.org",
+      "branch": "next",
+      "npm": "storybook",
+      "downloads": 205570,
+      "icon": "storybook.svg"
+    }
+  ],
+  "growing": [
+    {
+      "name": "Nanopop",
+      "full_name": "Simonwep/nanopop",
+      "description": "Ultra Tiny, Opinionated Positioning Engine",
+      "stars": 390,
+      "trends": { "daily": 2, "weekly": 245 },
+      "tags": ["tooltip"],
+      "contributor_count": 2,
+      "pushed_at": "2020-05-30T20:40:53.000Z",
+      "owner_id": 30767528,
+      "url": "https://simonwep.github.io/nanopop",
+      "npm": "nanopop",
+      "downloads": 709
+    },
+    {
+      "name": "new.css",
+      "full_name": "xz/new.css",
+      "description": "A classless CSS framework to write modern websites using only HTML.",
+      "stars": 2493,
+      "trends": { "daily": 20, "weekly": 308 },
+      "tags": ["css-lib"],
+      "contributor_count": 9,
+      "pushed_at": "2020-05-26T02:15:03.000Z",
+      "owner_id": 58664567,
+      "url": "https://newcss.net"
+    },
+    {
+      "name": "Recoil",
+      "full_name": "facebookexperimental/Recoil",
+      "description": "An experimental state management library for React apps",
+      "stars": 5999,
+      "trends": { "daily": 64, "weekly": 736 },
+      "tags": ["state", "react"],
+      "contributor_count": 20,
+      "pushed_at": "2020-05-29T18:35:26.000Z",
+      "owner_id": 12853545,
+      "url": "http://recoiljs.org/",
+      "npm": "recoil",
+      "downloads": 7241
+    },
+    {
+      "name": "Snowpack",
+      "full_name": "pikapkg/snowpack",
+      "description": "A faster dev environment for modern web apps.",
+      "stars": 8662,
+      "trends": {
+        "daily": 200,
+        "weekly": 1020,
+        "monthly": 1622,
+        "yearly": 4764
+      },
+      "tags": ["package"],
+      "contributor_count": 62,
+      "pushed_at": "2020-05-30T20:50:05.000Z",
+      "owner_id": 44914786,
+      "url": "https://www.snowpack.dev",
+      "npm": "snowpack",
+      "downloads": 12649,
+      "icon": "snowpack.svg"
+    },
+    {
+      "name": "Vite",
+      "full_name": "vitejs/vite",
+      "description": "An opinionated web dev build tool",
+      "stars": 5599,
+      "trends": { "daily": 69, "weekly": 545 },
+      "tags": ["build"],
+      "contributor_count": 39,
+      "pushed_at": "2020-05-30T17:43:25.000Z",
+      "owner_id": 65625612
+    },
+    {
+      "name": "Web Vitals",
+      "full_name": "GoogleChrome/web-vitals",
+      "description": "Essential metrics for a healthy site.",
+      "stars": 1054,
+      "trends": { "daily": 9, "weekly": 78 },
+      "tags": ["performance"],
+      "contributor_count": 5,
+      "pushed_at": "2020-05-19T23:30:57.000Z",
+      "owner_id": 1778935,
+      "url": "https://web.dev/vitals",
+      "npm": "web-vitals",
+      "downloads": 474847,
+      "icon": "webdev.svg"
+    },
+    {
+      "name": "Vue Formulate",
+      "full_name": "wearebraid/vue-formulate",
+      "description": "The easiest way to build forms with Vue.",
+      "stars": 881,
+      "trends": { "daily": 1, "weekly": 55, "monthly": 167 },
+      "tags": ["form", "vue"],
+      "contributor_count": 9,
+      "pushed_at": "2020-05-29T14:19:01.000Z",
+      "owner_id": 32938353,
+      "url": "https://vueformulate.com",
+      "npm": "@braid/vue-formulate",
+      "downloads": 3159
+    },
+    {
+      "name": "React Query",
+      "full_name": "tannerlinsley/react-query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React",
+      "stars": 7481,
+      "trends": { "daily": 41, "weekly": 271, "monthly": 837 },
+      "tags": ["react", "data", "graphql", "caching"],
+      "contributor_count": 100,
+      "pushed_at": "2020-05-30T03:30:07.000Z",
+      "owner_id": 5580297,
+      "npm": "react-query",
+      "downloads": 147424
+    },
+    {
+      "name": "Prisma",
+      "full_name": "prisma/prisma",
+      "description": "Modern DB toolkit to query, migrate and model your database",
+      "stars": 3426,
+      "trends": { "daily": 13, "weekly": 112 },
+      "tags": ["graphql", "db", "data"],
+      "contributor_count": 99,
+      "pushed_at": "2020-05-29T16:38:58.000Z",
+      "owner_id": 17219288,
+      "url": "https://www.prisma.io",
+      "npm": "@prisma/client",
+      "downloads": 163015
+    },
+    {
+      "name": "Redwood",
+      "full_name": "redwoodjs/redwood",
+      "description": "Bringing full-stack to the Jamstack",
+      "stars": 3764,
+      "trends": { "daily": 5, "weekly": 120, "monthly": 436 },
+      "tags": ["fullstack", "graphql"],
+      "contributor_count": 52,
+      "pushed_at": "2020-05-30T08:43:56.000Z",
+      "owner_id": 45050444,
+      "url": "https://redwoodjs.com"
+    }
+  ]
+}
