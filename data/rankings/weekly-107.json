@@ -1,0 +1,303 @@
+{
+  "date": "2020-06-14T00:31:51.021Z",
+  "trending": [
+    {
+      "name": "Deno",
+      "full_name": "denoland/deno",
+      "description": "A secure JavaScript and TypeScript runtime",
+      "stars": 63302,
+      "trends": {
+        "daily": 99,
+        "weekly": 862,
+        "monthly": 9926,
+        "yearly": 27850
+      },
+      "tags": ["runtime", "types"],
+      "contributor_count": 376,
+      "pushed_at": "2020-06-13T17:09:39.000Z",
+      "owner_id": 42048915,
+      "url": "https://deno.land/",
+      "icon": "deno.svg"
+    },
+    {
+      "name": "Grid.js",
+      "full_name": "grid-js/gridjs",
+      "description": "Advanced table plugin",
+      "stars": 1730,
+      "trends": { "daily": 57, "weekly": 742 },
+      "tags": ["table"],
+      "contributor_count": 4,
+      "pushed_at": "2020-06-12T18:09:24.000Z",
+      "owner_id": 39904809,
+      "url": "https://gridjs.io",
+      "npm": "gridjs",
+      "downloads": 1906
+    },
+    {
+      "name": "Vue.js",
+      "full_name": "vuejs/vue",
+      "description": "A progressive, incrementally-adoptable framework for building UI on the web",
+      "stars": 165923,
+      "trends": {
+        "daily": 58,
+        "weekly": 460,
+        "monthly": 1960,
+        "yearly": 24607
+      },
+      "tags": ["framework", "vdom", "vue"],
+      "contributor_count": 293,
+      "pushed_at": "2020-06-03T20:26:10.000Z",
+      "owner_id": 6128107,
+      "url": "http://vuejs.org",
+      "branch": "dev",
+      "npm": "vue",
+      "downloads": 6758607,
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Vite",
+      "full_name": "vitejs/vite",
+      "description": "Native-ESM powered web dev build tool. It's fast.",
+      "stars": 6678,
+      "trends": { "daily": 28, "weekly": 453 },
+      "tags": ["build"],
+      "contributor_count": 44,
+      "pushed_at": "2020-06-11T14:40:12.000Z",
+      "owner_id": 65625612
+    },
+    {
+      "name": "JS Algorithms & Data Structures",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "stars": 73172,
+      "trends": {
+        "daily": 38,
+        "weekly": 444,
+        "monthly": 3095,
+        "yearly": 23441
+      },
+      "tags": ["learning", "data-structure"],
+      "contributor_count": 86,
+      "pushed_at": "2019-12-07T21:30:04.000Z",
+      "owner_id": 3000285
+    },
+    {
+      "name": "Rough Notation",
+      "full_name": "pshihn/rough-notation",
+      "description": "Create and animate hand-drawn annotations on a web page",
+      "stars": 3845,
+      "trends": { "daily": 26, "weekly": 435 },
+      "tags": ["animation"],
+      "contributor_count": 10,
+      "pushed_at": "2020-06-13T07:36:04.000Z",
+      "owner_id": 833927,
+      "url": "https://roughnotation.com/",
+      "npm": "rough-notation",
+      "downloads": 3587
+    },
+    {
+      "name": "Strapi",
+      "full_name": "strapi/strapi",
+      "description": "Open source Node.js Headless CMS to easily build customisable APIs",
+      "stars": 26281,
+      "trends": {
+        "daily": 29,
+        "weekly": 434,
+        "monthly": 1551,
+        "yearly": 11220
+      },
+      "tags": ["nodejs-framework", "cms"],
+      "contributor_count": 452,
+      "pushed_at": "2020-06-11T10:13:39.000Z",
+      "owner_id": 19872173,
+      "url": "https://strapi.io",
+      "npm": "strapi",
+      "downloads": 384346,
+      "icon": "strapi.svg"
+    },
+    {
+      "name": "Recoil",
+      "full_name": "facebookexperimental/Recoil",
+      "description": "An experimental state management library for React apps",
+      "stars": 6922,
+      "trends": { "daily": 43, "weekly": 431 },
+      "tags": ["state", "react"],
+      "contributor_count": 26,
+      "pushed_at": "2020-06-13T02:27:25.000Z",
+      "owner_id": 12853545,
+      "url": "http://recoiljs.org/",
+      "npm": "recoil",
+      "downloads": 15005
+    },
+    {
+      "name": "React",
+      "full_name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building UI",
+      "stars": 150418,
+      "trends": {
+        "daily": 50,
+        "weekly": 423,
+        "monthly": 1787,
+        "yearly": 19378
+      },
+      "tags": ["framework", "vdom", "react"],
+      "contributor_count": 1388,
+      "pushed_at": "2020-06-13T01:09:29.000Z",
+      "owner_id": 69631,
+      "url": "https://reactjs.org",
+      "npm": "react",
+      "downloads": 33207091,
+      "icon": "react.svg"
+    },
+    {
+      "name": "Node.js Best Practices",
+      "full_name": "goldbergyoni/nodebestpractices",
+      "description": "The Node.js best practices list",
+      "stars": 46809,
+      "trends": {
+        "daily": 31,
+        "weekly": 396,
+        "monthly": 3047,
+        "yearly": 16504
+      },
+      "tags": ["learning"],
+      "contributor_count": 133,
+      "pushed_at": "2020-06-06T03:33:18.000Z",
+      "owner_id": 8571500
+    }
+  ],
+  "growing": [
+    {
+      "name": "Grid.js",
+      "full_name": "grid-js/gridjs",
+      "description": "Advanced table plugin",
+      "stars": 1730,
+      "trends": { "daily": 57, "weekly": 742 },
+      "tags": ["table"],
+      "contributor_count": 4,
+      "pushed_at": "2020-06-12T18:09:24.000Z",
+      "owner_id": 39904809,
+      "url": "https://gridjs.io",
+      "npm": "gridjs",
+      "downloads": 1906
+    },
+    {
+      "name": "Huncwot",
+      "full_name": "kreteshq/kretes",
+      "description": "A Programming Environment for TypeScript & Node.js built on top of VS Code",
+      "stars": 360,
+      "trends": { "daily": 3, "weekly": 67, "monthly": 87, "yearly": 210 },
+      "tags": ["nodejs-framework"],
+      "contributor_count": 5,
+      "pushed_at": "2020-06-06T14:46:08.000Z",
+      "owner_id": 28100723,
+      "url": "https://kretes.dev/",
+      "npm": "huncwot",
+      "downloads": 363
+    },
+    {
+      "name": "Rough Notation",
+      "full_name": "pshihn/rough-notation",
+      "description": "Create and animate hand-drawn annotations on a web page",
+      "stars": 3845,
+      "trends": { "daily": 26, "weekly": 435 },
+      "tags": ["animation"],
+      "contributor_count": 10,
+      "pushed_at": "2020-06-13T07:36:04.000Z",
+      "owner_id": 833927,
+      "url": "https://roughnotation.com/",
+      "npm": "rough-notation",
+      "downloads": 3587
+    },
+    {
+      "name": "htmx",
+      "full_name": "bigskysoftware/htmx",
+      "description": "Access AJAX, WebSockets and Server Sent Events directly in HTML",
+      "stars": 1551,
+      "trends": { "daily": 30, "weekly": 132 },
+      "tags": ["framework"],
+      "contributor_count": 16,
+      "pushed_at": "2020-06-11T20:02:41.000Z",
+      "owner_id": 48798027,
+      "url": "https://htmx.org",
+      "npm": "htmx.org",
+      "downloads": 1336
+    },
+    {
+      "name": "Crank.js",
+      "full_name": "bikeshaving/crank",
+      "description": "Write JSX-driven components with functions, promises and generators.",
+      "stars": 1972,
+      "trends": { "daily": 8, "weekly": 164, "monthly": 226 },
+      "tags": ["framework"],
+      "contributor_count": 13,
+      "pushed_at": "2020-05-25T17:58:47.000Z",
+      "owner_id": 51215678,
+      "url": "https://crank.js.org",
+      "npm": "@bikeshaving/crank",
+      "downloads": 1047
+    },
+    {
+      "name": "Audiomass",
+      "full_name": "pkalogiros/AudioMass",
+      "description": "Free full-featured web-based audio & waveform editing tool",
+      "stars": 870,
+      "trends": { "daily": 4, "weekly": 63 },
+      "tags": ["audio"],
+      "contributor_count": 1,
+      "pushed_at": "2020-06-12T10:54:33.000Z",
+      "owner_id": 1465079,
+      "url": "https://audiomass.co/"
+    },
+    {
+      "name": "Webiny",
+      "full_name": "webiny/webiny-js",
+      "description": "Platform for building serverless applications and API",
+      "stars": 2684,
+      "trends": { "daily": 8, "weekly": 194, "monthly": 398, "yearly": 1481 },
+      "tags": ["graphql", "cms"],
+      "contributor_count": 19,
+      "pushed_at": "2020-06-13T13:55:08.000Z",
+      "owner_id": 3808429,
+      "url": "https://www.webiny.com/",
+      "branch": "develop"
+    },
+    {
+      "name": "Vite",
+      "full_name": "vitejs/vite",
+      "description": "Native-ESM powered web dev build tool. It's fast.",
+      "stars": 6678,
+      "trends": { "daily": 28, "weekly": 453 },
+      "tags": ["build"],
+      "contributor_count": 44,
+      "pushed_at": "2020-06-11T14:40:12.000Z",
+      "owner_id": 65625612
+    },
+    {
+      "name": "tailblocks",
+      "full_name": "mertJF/tailblocks",
+      "description": "Ready-to-use Tailwind CSS blocks.",
+      "stars": 2677,
+      "trends": { "daily": 10, "weekly": 180 },
+      "tags": ["html"],
+      "contributor_count": 5,
+      "pushed_at": "2020-05-30T12:54:02.000Z",
+      "owner_id": 34642289,
+      "url": "https://mertjf.github.io/tailblocks/"
+    },
+    {
+      "name": "Recoil",
+      "full_name": "facebookexperimental/Recoil",
+      "description": "An experimental state management library for React apps",
+      "stars": 6922,
+      "trends": { "daily": 43, "weekly": 431 },
+      "tags": ["state", "react"],
+      "contributor_count": 26,
+      "pushed_at": "2020-06-13T02:27:25.000Z",
+      "owner_id": 12853545,
+      "url": "http://recoiljs.org/",
+      "npm": "recoil",
+      "downloads": 15005
+    }
+  ]
+}
