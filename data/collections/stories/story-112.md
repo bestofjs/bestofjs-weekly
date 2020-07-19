@@ -13,4 +13,4 @@ The features include:
 - copy-paste of range of cells
 - formatting options
 
-If you need a spreadsheet in your web page, check the other contenders on _Best of JS_ like [SheetJS](https://github.com/SheetJS/sheetjs) or [jExcel](https://github.com/paulhodel/jexcel) that we mentioned one year ago in a [previous issue](https://github.com/paulhodel/jexcel).
+If you need a spreadsheet in your web page, check the other contenders on _Best of JS_ like [SheetJS](https://github.com/SheetJS/sheetjs) or [jExcel](https://github.com/paulhodel/jexcel) that we mentioned one year ago in a [previous issue](https://weekly.bestofjs.org/issues/56/).
