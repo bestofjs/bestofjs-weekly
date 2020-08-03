@@ -14,6 +14,6 @@ It's built on top of [PlayWright](https://playwright.dev/) a Node.js library to 
 
 Tests can be run in CI server, a "workflow" file for _GitHub Actions_ can be automatically created. Also TypeScript is automatically detected.
 
-I gave it a try, creating basic tests for _Best of JS_ application, and I got tests running on GitHub without efforts, including videos of the tests stored as .mp4 files, which can be very useful to debug a failing test. See here for details: https://github.com/bestofjs/bestofjs-webui/actions.
+I gave it a try, creating basic tests for _Best of JS_ application, and I got tests running on [GitHub](https://github.com/bestofjs/bestofjs-webui/actions) without efforts, including videos of the tests stored as .mp4 files, which can be very useful to debug a failing test.
 
 Overall _QA Wolf_ does a great job of setting up all the things related to browser testing.
