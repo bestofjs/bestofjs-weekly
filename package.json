@@ -37,6 +37,6 @@
     "eslint-config-react-tools": "1.x.x",
     "lodash": "^4.17.15",
     "mjml": "^4.0.5",
-    "serve": "9.3.0"
+    "serve": "11.3.2"
   }
 }
