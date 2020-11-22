@@ -26,6 +26,7 @@ const Issue = ({ issue, isLatest }) => {
       <IssueStory>
         <Story html={issue.story} />
       </IssueStory>
+      {issue.latest && <LatestAdditions issue={issue} />}
       {issue.growing ? (
         <RankingsV2 issue={issue} />
       ) : (
@@ -36,7 +37,7 @@ const Issue = ({ issue, isLatest }) => {
 }
 
 const RankingsV1 = ({ issue }) => {
-  return <ProjectList projects={issue.projects} />
+  return <ProjectList showIndex projects={issue.projects} />
 }
 
 const RankingsV2 = ({ issue }) => {
@@ -48,6 +49,7 @@ const RankingsV2 = ({ issue }) => {
       </SubTitle>
       <ProjectTable
         projects={issue.growing}
+        showIndex
         showGrowth={true}
         showDelta={false}
       />
@@ -55,8 +57,27 @@ const RankingsV2 = ({ issue }) => {
       <SubTitle>By number of GitHub stars added this week</SubTitle>
       <ProjectTable
         projects={issue.trending}
+        showIndex
         showGrowth={false}
         showDelta={true}
+      />
+    </>
+  )
+}
+
+const LatestAdditions = ({ issue }) => {
+  return (
+    <>
+      <Title>
+        New Faces on <i>Best of JS</i>
+      </Title>
+      <SubTitle>Projects recently added on Best of JS</SubTitle>
+      <ProjectTable
+        projects={issue.latest}
+        showIndex={false}
+        showGrowth={false}
+        showDelta={false}
+        showTotal={true}
       />
     </>
   )
@@ -73,7 +94,7 @@ const SubTitle = styled.div`
 `
 
 Issue.propTypes = {
-  issue: PropTypes.object.isRequired
+  issue: PropTypes.object.isRequired,
 }
 
 export default Issue

@@ -8,9 +8,7 @@ function fetchAllProjects() {
   return got(url, { json: true })
     .then((r) => r.body)
     .then((json) =>
-      json.projects
-        .filter((project) => project.trends.weekly !== undefined)
-        .filter((project) => !excluded.includes(project.full_name))
+      json.projects.filter((project) => !excluded.includes(project.full_name))
     )
 }
 
@@ -26,16 +24,25 @@ export default async function fetchTrendingProjects({ count } = { count: 10 }) {
   return {
     trending: byStarsAdded,
     growing: byRelativeGrowth,
+    latest: allProjects.filter(
+      (project) => project.trends.weekly === undefined
+    ),
   }
 }
 
 function getProjectsByStarAdded(projects) {
-  return orderBy(projects.slice(0), 'trends.weekly', 'desc')
+  return orderBy(
+    projects.filter((project) => project.trends.weekly !== undefined),
+    'trends.weekly',
+    'desc'
+  )
 }
 
 function getProjectsByRelativeGrowth(projects) {
   return orderBy(
-    projects.filter((project) => project.trends.weekly > 50),
+    projects
+      .filter((project) => project.trends.weekly !== undefined)
+      .filter((project) => project.trends.weekly > 50),
     getWeeklyRelativeGrowth,
     'desc'
   )

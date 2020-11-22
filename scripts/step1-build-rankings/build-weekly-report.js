@@ -8,11 +8,12 @@ import fetchTrendingProjects from './fetch-trending-projects'
 export default async function buildWeeklyReport({ number }) {
   const today = new Date()
   debug('Fetching projects')
-  const { trending, growing } = await fetchTrendingProjects()
+  const { trending, growing, latest } = await fetchTrendingProjects()
   const report = {
     date: today,
+    latest,
+    growing,
     trending,
-    growing
   }
   const numberAsString = `00${number}`.slice(number.toString().length - 1) // format using 3 digits
   const filepath = path.join(

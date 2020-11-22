@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import Avatar from './Avatar'
+import StarTotal from './StarTotal'
 import StarDelta from './StarDelta'
 import GrowthScore from './GrowthScore'
 import { getUrl } from '../utils/project-helpers'
@@ -27,7 +28,14 @@ ProjectTable.propTypes = {
   projects: PropTypes.array.isRequired,
 }
 
-const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
+const ProjectTableRow = ({
+  project,
+  index,
+  showIndex,
+  showDelta,
+  showGrowth,
+  showTotal,
+}) => {
   const url = getUrl(project)
   const buttonLabel = url.startsWith('https://github.com/')
     ? 'GitHub'
@@ -35,9 +43,11 @@ const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
 
   return (
     <Row>
-      <RankingCell>
-        <ProjectRankingNumber>{index + 1}</ProjectRankingNumber>
-      </RankingCell>
+      {showIndex && (
+        <RankingCell>
+          <ProjectRankingNumber>{index + 1}</ProjectRankingNumber>
+        </RankingCell>
+      )}
 
       <IconCell>
         <Avatar project={project} size={50} />
@@ -60,6 +70,7 @@ const ProjectTableRow = ({ project, index, showDelta, showGrowth }) => {
           <StarDelta value={project.weekly || project.trends.weekly} />
         )}
         {showGrowth && <GrowthScore project={project} />}
+        {showTotal && <StarTotal value={project.stars} />}
       </LastCell>
     </Row>
   )
