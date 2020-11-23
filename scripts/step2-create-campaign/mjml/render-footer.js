@@ -1,12 +1,12 @@
 const providers = {
   mailjet: {
     email: '[[EMAIL_TO]]',
-    unsubscribe: '[[UNSUB_LINK_EN]]'
+    unsubscribe: '[[UNSUB_LINK_EN]]',
   },
   elasticemail: {
     email: '{accountaddress}',
-    unsubscribe: '{unsubscribe}'
-  }
+    unsubscribe: '{unsubscribe}',
+  },
 }
 
 function renderFooter({ provider }) {
@@ -16,13 +16,13 @@ function renderFooter({ provider }) {
   return ` 
 <mj-section border-top="3px solid #e65100">
   <mj-column>
-    <mj-text>
-      Thank you for your attention, visit <a href="https://bestofjs.org">Best of JavaScript</a> 
+    <mj-text line-height="18px">
+      Thank you for your attention, visit <a href="https://bestofjs.org">Best of JS</a> 
       to check out the most popular open-source projects and the latest trends about the web platform and node.js.
     </mj-text>
-    <mj-text>You received this email because you subscribed from <a href="https://risingstars.js.org">JavaScript Rising Stars</a> site.</mj-text>
-    <mj-text>
-      If you no longer wish to receive email from Best of JavaScript, 
+    <mj-text line-height="18px">You received this email because you subscribed from <a href="https://bestofjs.org">Best of JS</a> or <a href="https://risingstars.js.org">JavaScript Rising Stars</a> site.</mj-text>
+    <mj-text line-height="18px">
+      If you no longer wish to receive email from Best of JS 
       <a href="${unsubscribe}">click here to unsubscribe</a>.
     </mj-text>
   </mj-column>

@@ -24,8 +24,10 @@ export default async function fetchTrendingProjects({ count } = { count: 10 }) {
   return {
     trending: byStarsAdded,
     growing: byRelativeGrowth,
-    latest: allProjects.filter(
-      (project) => project.trends.weekly === undefined
+    latest: orderBy(
+      allProjects.filter((project) => project.trends.weekly === undefined),
+      'stars',
+      'desc'
     ),
   }
 }

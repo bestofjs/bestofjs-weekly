@@ -2,7 +2,7 @@ const numeral = require('numeral')
 
 import { getWeeklyRelativeGrowth } from '../../../src/utils/project-helpers'
 
-const renderProject = ({ showGrowth = false }) => (project, index) => {
+const renderProject = (options) => (project, index) => {
   const size = 50
   const iconUrl = getProjectAvatarUrl(project, size)
   const url = getUrl(project)
@@ -18,30 +18,40 @@ const renderProject = ({ showGrowth = false }) => (project, index) => {
         <a href="${url}">${project.name}</a><br />
         <div style="color: #788080;">${project.description}</div>
       </td>
-      <td width="50">
-        ${showGrowth ? renderGrowthScore(project) : renderDelta(project)}
-      </td>
+      <td width="50">${renderScore(project, options)}</td>
     </tr>
   `
 }
 
+const renderScore = (project, { showStars, showDelta, showGrowth }) => {
+  if (showGrowth) return renderGrowthScore(project)
+  if (showDelta) return renderDelta(project)
+  return renderStars(project)
+}
+
 // <td style="width: 30px; font-size: 24px; color: #788080">${index + 1}</td>
 
-const renderGrowthScore = project => {
+const renderGrowthScore = (project) => {
   const score = getWeeklyRelativeGrowth(project) * 100
   const decimals = score >= 10 ? 0 : 1
   return `+${score.toFixed(decimals)}%`
 }
 
-const renderDelta = project => {
+const renderDelta = (project) => {
   const value = project.trends.weekly
   const digits = value > 1000 && value < 10000 ? '0.0' : '0'
   return `+${numeral(value).format(`${digits}a`)}★`
 }
 
-const isUrl = input => input.startsWith('http')
+const renderStars = (project) => {
+  const value = project.stars
+  const digits = value > 1000 && value < 10000 ? '0.0' : '0'
+  return `${numeral(value).format(`${digits}a`)}★`
+}
 
-const formatIconUrl = input =>
+const isUrl = (input) => input.startsWith('http')
+
+const formatIconUrl = (input) =>
   isUrl(input) ? input : `https://bestofjs.org/logos/${input}`
 
 const formatOwnerAvatar = (owner_id, size) =>

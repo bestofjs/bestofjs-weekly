@@ -48,26 +48,8 @@ const RankingsV1 = ({ issue }) => {
 const RankingsV2 = ({ issue }) => {
   return (
     <>
-      <Title>Growing Fast This Week</Title>
-      <SubTitle>
-        By % of GitHub stars added (relative growth) this week
-      </SubTitle>
-      <ProjectTable
-        projects={issue.growing}
-        showIndex
-        showGrowth={true}
-        showDelta={false}
-      />
-      <>
-        <Title>Trending This Week</Title>
-        <SubTitle>By number of GitHub stars added this week</SubTitle>
-        <ProjectTable
-          projects={issue.trending}
-          showIndex
-          showGrowth={false}
-          showDelta={true}
-        />
-      </>
+      <ByRelativeGrowth issue={issue} />
+      <ByStarsAdded issue={issue} />
     </>
   )
 }
@@ -75,7 +57,31 @@ const RankingsV2 = ({ issue }) => {
 const RankingsV3 = ({ issue }) => {
   return (
     <>
+      <ByRelativeGrowth issue={issue} />
       <LatestAdditions issue={issue} />
+      <ByStarsAdded issue={issue} />
+    </>
+  )
+}
+
+const ByStarsAdded = ({ issue }) => {
+  return (
+    <>
+      <Title>Trending This Week</Title>
+      <SubTitle>By number of GitHub stars added this week</SubTitle>
+      <ProjectTable
+        projects={issue.trending}
+        showIndex
+        showGrowth={false}
+        showDelta={true}
+      />
+    </>
+  )
+}
+
+const ByRelativeGrowth = ({ issue }) => {
+  return (
+    <>
       <Title>Growing Fast This Week</Title>
       <SubTitle>
         By % of GitHub stars added (relative growth) this week

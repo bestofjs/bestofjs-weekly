@@ -17,15 +17,17 @@ async function preview() {
   const story = await getLatestStory({ number })
   debug(`This week story: ${story.slice(0, 50)}...`)
   const rankings = await getLatestRankings({ number })
-  const { growing, trending } = rankings
-  debug('Growing', growing.map(project => project.name))
-  debug('Trending', trending.map(project => project.name))
+  const { growing, trending, latest } = rankings
+  const byName = (project) => project.name
+  debug('Growing', growing.map(byName))
+  debug('Trending', trending.map(byName))
+  debug('Latest', latest.map(byName))
 
   const mjml = renderNewsletter({
     rankings,
     provider: 'elasticemail',
     number,
-    story
+    story,
   })
   console.log(mjml)
 }

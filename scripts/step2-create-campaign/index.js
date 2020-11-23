@@ -11,7 +11,7 @@ const createCampaign = require('./api/create-campaign')
 
 const listIds = {
   test: '528',
-  weekly: '529'
+  weekly: '529',
 }
 
 async function main() {
@@ -22,7 +22,7 @@ async function main() {
   const rankings = await getLatestRankings({ number })
   debug(
     `This week rankings: ${rankings.trending
-      .map(project => project.name)
+      .map((project) => project.name)
       .slice(0, 3)
       .join(', ')}`
   )
@@ -31,7 +31,7 @@ async function main() {
     rankings,
     story,
     provider: 'elasticemail',
-    number
+    number,
   })
   // if (errors.length > 0) {
   //   throw new Error(`Error when generating the email content ${errors}`)
@@ -51,10 +51,10 @@ async function main() {
   debug(`Creating a campaign from the template #${templateId}...`)
   const step2Result = await createCampaign({
     fromEmail: 'hello@bestofjs.org',
-    fromName: 'Best of JavaScript',
+    fromName: 'Best of JS',
     subject,
     listId: listIds.weekly,
-    templateId
+    templateId,
   })
   debug(`Campaign #${step2Result.data} created!`)
 }
