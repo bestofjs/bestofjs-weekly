@@ -18,7 +18,7 @@ function renderFooter({ provider }) {
   <mj-column>
     <mj-text line-height="18px">
       Thank you for your attention, visit <a href="https://bestofjs.org">Best of JS</a> 
-      to check out the most popular open-source projects and the latest trends about the web platform and node.js.
+      to check out the most popular open-source projects and the latest trends about the web platform and Node.js.
     </mj-text>
     <mj-text line-height="18px">You received this email because you subscribed from <a href="https://bestofjs.org">Best of JS</a> or <a href="https://risingstars.js.org">JavaScript Rising Stars</a> site.</mj-text>
     <mj-text line-height="18px">
