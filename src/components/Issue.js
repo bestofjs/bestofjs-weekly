@@ -26,14 +26,19 @@ const Issue = ({ issue, isLatest }) => {
       <IssueStory>
         <Story html={issue.story} />
       </IssueStory>
-      {issue.latest && <LatestAdditions issue={issue} />}
-      {issue.growing ? (
-        <RankingsV2 issue={issue} />
-      ) : (
-        <RankingsV1 issue={issue} />
-      )}
+      <IssueRankings issue={issue} />
     </Fragment>
   )
+}
+
+const IssueRankings = ({ issue }) => {
+  if (issue.latest) {
+    return <RankingsV3 issue={issue} />
+  }
+  if (issue.growing) {
+    return <RankingsV2 issue={issue} />
+  }
+  return <RankingsV1 issue={issue} />
 }
 
 const RankingsV1 = ({ issue }) => {
@@ -53,13 +58,33 @@ const RankingsV2 = ({ issue }) => {
         showGrowth={true}
         showDelta={false}
       />
-      <Title>Trending This Week</Title>
-      <SubTitle>By number of GitHub stars added this week</SubTitle>
+      <>
+        <Title>Trending This Week</Title>
+        <SubTitle>By number of GitHub stars added this week</SubTitle>
+        <ProjectTable
+          projects={issue.trending}
+          showIndex
+          showGrowth={false}
+          showDelta={true}
+        />
+      </>
+    </>
+  )
+}
+
+const RankingsV3 = ({ issue }) => {
+  return (
+    <>
+      <LatestAdditions issue={issue} />
+      <Title>Growing Fast This Week</Title>
+      <SubTitle>
+        By % of GitHub stars added (relative growth) this week
+      </SubTitle>
       <ProjectTable
-        projects={issue.trending}
+        projects={issue.growing}
         showIndex
-        showGrowth={false}
-        showDelta={true}
+        showGrowth={true}
+        showDelta={false}
       />
     </>
   )
