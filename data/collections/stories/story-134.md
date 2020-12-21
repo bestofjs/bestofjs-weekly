@@ -13,5 +13,3 @@ The core is lightweight (around 4 KB gzipped) as some extra features are availab
 - Mouse wheel handling
 
 Interestingly, it does not provide CSS, “you have to define style yourself" which allows a maximum of flexibility.
-
-One more thing: don’t forget to fill out the [State of JS](https://survey.stateofjs.com/survey/state-of-js/2020) survey before it’s too late!
