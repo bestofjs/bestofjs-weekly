@@ -15,7 +15,7 @@ const Footer = () => {
         <a className="link" href="https://bestofjs.org">
           Best of JavaScript
         </a>{' '}
-        is a project created by Michael Rambeau, in Osaka, Japan.
+        is a project created by Michael Rambeau, made in Osaka, Japan.
       </p>
     </Container>
   )

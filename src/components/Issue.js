@@ -97,6 +97,9 @@ const ByRelativeGrowth = ({ issue }) => {
 }
 
 const LatestAdditions = ({ issue }) => {
+  const latestProjects = issue.latest
+  if (latestProjects.length === 0) return null
+
   return (
     <>
       <Title>
