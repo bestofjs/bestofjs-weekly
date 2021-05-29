@@ -4,7 +4,6 @@ import styled from 'styled-components'
 
 import IssueList from '../components/IssueList'
 import Issue from '../components/Issue'
-import Subscribe from '../components/Subscribe'
 import Divider from '../components/Divider'
 
 const Title1 = styled.h1`
@@ -20,7 +19,6 @@ const HomePage = ({ issues }) => {
   return (
     <div>
       <Title1>Best of JavaScript Weekly Rankings</Title1>
-      <Subscribe />
       <Divider />
       <Issue issue={latestIssue} isLatest={true} />
       <Divider />
